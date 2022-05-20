@@ -9,13 +9,14 @@
 Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
 
 
-<img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 
 - 🔭 I’m currently working on **something cool 😉**
 
 - 🌱 I’m currently learning **React , Web3 , Blockchain**
 
 - ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
+
+<span><img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" /></span>
    
 ---
 
