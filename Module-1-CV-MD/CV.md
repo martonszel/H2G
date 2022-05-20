@@ -37,5 +37,7 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" /></p>
 
+#spotify
+
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
