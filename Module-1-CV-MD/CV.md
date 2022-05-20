@@ -52,11 +52,8 @@ const hobbies = {
 
 <p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
 
----
+<img  align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&"  alt="martonszel" />
 
-<div align="center" class="kuki" style="padding: 2em">
-<img  src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&"  alt="martonszel" />
-</div> 
 
 
 <img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
