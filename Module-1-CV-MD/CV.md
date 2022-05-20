@@ -15,7 +15,7 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 <div >
         <img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
-    <div align="left">
+    <div align="left" style="overflow:hidden">
 
 - 🔭 I’m currently working on **something cool 😉**
 
