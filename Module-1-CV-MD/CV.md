@@ -14,13 +14,13 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 
 - 🌱 I’m currently learning **React , Web3 , Blockchain**
 
-- ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
+- ⚡ Fun fact **I'm a Vue.js fanboy, but i do some other stuff too**
 
 ```javascript
 const hobbies = {
     sports: {
-        iLikeToPlay:  ["Basketball", "Cycling", "American football"],
-        iLikeToWatch: ["Real Madrid", "LA Lakers", "LA Rams", "MAFC BME"],
+        iLikeToPlay:  ["Basketball (MAFC BME)", "Cycling", "American football"],
+        iLikeToWatch: ["Real Madrid", "LA Lakers", "LA Rams"],
     },
     other: ["hiking","cooking", "technology"]
 };
@@ -45,17 +45,9 @@ const hobbies = {
 
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
-
-
-
-
-
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a><span align="right"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </span> </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact" alt="martonszel" /></p>
 
