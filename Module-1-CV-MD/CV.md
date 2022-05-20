@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  4
+</div> 
 
 <h1 align="center">👋 Hello! I'm Márton.</h1>
 
