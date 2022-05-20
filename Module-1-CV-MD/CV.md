@@ -8,8 +8,13 @@
 
 Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
 
-  <img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 
+<div align="right">
+<img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
+</div> 
+
+
+<div align="left">
 
 - 🔭 I’m currently working on **something cool 😉**
 
@@ -17,6 +22,7 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 - ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
 
+</div> 
 
 
 ---
