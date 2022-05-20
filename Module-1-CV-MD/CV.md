@@ -48,15 +48,15 @@ const hobbies = {
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
 
-<div >
+
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact" alt="martonszel" /></p>
 
 <p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
-</div>
 
 
+<div align="center">
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" />
-
+</div> 
 
 
 <img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
