@@ -1,5 +1,17 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/banner-software-development.png" align="center" style="width: 100%" />
+</div> 
+
+<div align="center">
+<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/full-stack.jpg" align="center" style="width: 100%" />
+</div> 
+
+<div align="center">
+<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/good-programmer-banner-final.jpg" align="center" style="width: 100%" />
+</div> 
+
+<div align="center">
+<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/vue%20banner.png" align="center" style="width: 100%" />
 </div> 
 
 <h1 align="center">👋 Hello! I'm Márton.</h1>
