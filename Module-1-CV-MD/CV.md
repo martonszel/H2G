@@ -52,12 +52,6 @@ const hobbies = {
 
 <p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p><br> <br> <br> <br>
      <br> <br> <br> <br>
-        
-
-        anyád 
-
-
-
 <br> <br> <br> <br>
 
 <p><img  align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&"  alt="martonszel" /></p> <br> <br> <br> <br>
