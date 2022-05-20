@@ -6,8 +6,7 @@
 <h3 align="center">A passionate Full Stack developer from Hungary</h3>
 
 
-blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-blablablablablablablablablablablablablablablablablablablablablablablablablablabla
+I am an economist by my original degree , but on my 30th birthday I realized I want to be a software developer. 
 
 
 - 🔭 I’m currently working on **something cool 😉**
@@ -48,7 +47,7 @@ const hobbies = {
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact" alt="martonszel" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact&title_color=red" alt="martonszel" /></p>
 
 <p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
 
@@ -58,6 +57,10 @@ const hobbies = {
 
 <div align="center"><img  src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&"  alt="martonszel" /></div>
   
+<br> <br> <br> <br>
+  
+<br> <br> <br> <br>
+
 <div align="center"><img align="center" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" /></div>
 
 
