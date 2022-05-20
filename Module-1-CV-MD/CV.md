@@ -14,7 +14,7 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 
 <h1 align="center">Hi 👋, I'm Márton</h1>
-<h3 align="center">A passionate frontend developer from Hungary</h3>
+<h3 align="center">A passionate Full Stack developer from Hungary</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
 
@@ -36,4 +36,6 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" /></p>
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
