@@ -55,7 +55,7 @@ const hobbies = {
 ---
 
 <div align="center">
-<img  src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" style="padding-top: 1em" alt="martonszel" />
+<img  src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" style="padding-top: 1em !important" alt="martonszel" />
 </div> 
 
 
