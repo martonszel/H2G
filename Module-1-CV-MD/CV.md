@@ -16,12 +16,14 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 - ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
 
-<span><img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" /></span>
+<img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
    
 ---
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
 
