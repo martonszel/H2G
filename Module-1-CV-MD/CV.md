@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/vue%20banner.png" align="center" style="width: 100%" />
+<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/header.png" align="center" style="width: 100%" />
 </div> 
 
 <h1 align="center">Hi 👋, I'm Márton</h1>
@@ -9,22 +9,13 @@
 Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
 
 
-🔭 I’m currently working on **I’m currently working on something cool 😉**
+- 🔭 I’m currently working on **something cool 😉**
 
 - 🌱 I’m currently learning **React , web3 , blockchain**
 
 - ⚡ Fun fact **i'm a vue.js fanboy, but i do some other stuff too**
 
-<p align="center">
-  <a href="https://www.facebook.com/marton.szel.1/">Facebook</a> •
-  <a href="https://www.linkedin.com/in/m%C3%A1rton-sz%C3%A9l-65422354/">Linkedin</a>
-</p>
-
 ---
-
-blablabla
-
-#spotify
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
@@ -33,51 +24,21 @@ blablabla
 
 ---
 
-
-
-
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
-- 
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
-
 ```javascript
 const hobbies = {
-    pronouns: "He" | "Him",
-    code: ["Javascript", "Python", "Java", "PHP"],
-    askMeAbout: ["web dev", "tech", "app dev", "photography"],
-    technologies: {
-        backEnd: {
-            js: ["Node", "Fastify", "Express"],
-        },
-        mobileApp: {
-            native: ["Android Development"]
-        },
-        devOps: ["AWS", "Docker🐳", "Route53", "Nginx"],
-        databases: ["mongo", "MySql", "sqlite"],
-        misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "php", "SuiteApp"]
+    sports: {
+        iLikeToPlay:  ["Basketball", "Cycling", "American football"],
+        iLikeToWatch: ["Real Madrid", "LA Lakers", "LA Rams", "MAFC BME"],
     },
-    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
-    currentFocus: "Building Robots to ease opertations",
-    funFact: "There are two ways to write error-free programs; only the third one works"
+    other: ["hiking","cooking", "technology"]
 };
 ```
-
-
-
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
-
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/márton-szél-65422354" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="márton-szél-65422354" height="30" width="40" /></a>
@@ -91,9 +52,9 @@ const hobbies = {
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
 
-ez mi ez 
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" /></p>
+<div align="center">
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" />
+</div> 
 
 
 
