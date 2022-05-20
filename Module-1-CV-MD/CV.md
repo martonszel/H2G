@@ -10,4 +10,4 @@
 
 Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
 
-[![Márton's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/martonszel/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
