@@ -14,12 +14,52 @@ blablabla
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
 
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45px">
+
+<img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
+
 ---
 
 
 Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
+
+- 🔭 I’m currently working on **I’m currently working on something cool 😉**
+
+- 🌱 I’m currently learning **React , web3 , blockchain**
+
+- ⚡ Fun fact **i'm a vue.js fanboy, but i do some other stuff too**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
+
+```javascript
+const anmol = {
+    pronouns: "He" | "Him",
+    code: ["Javascript", "Python", "Java", "PHP"],
+    askMeAbout: ["web dev", "tech", "app dev", "photography"],
+    technologies: {
+        backEnd: {
+            js: ["Node", "Fastify", "Express"],
+        },
+        mobileApp: {
+            native: ["Android Development"]
+        },
+        devOps: ["AWS", "Docker🐳", "Route53", "Nginx"],
+        databases: ["mongo", "MySql", "sqlite"],
+        misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "php", "SuiteApp"]
+    },
+    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
+    currentFocus: "Building Robots to ease opertations",
+    funFact: "There are two ways to write error-free programs; only the third one works"
+};
+```
 
 
 <h1 align="center">Hi 👋, I'm Márton</h1>
