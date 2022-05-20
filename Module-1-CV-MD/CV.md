@@ -10,7 +10,9 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 blablablablablablablablablablablablablablablablablablablablablablablablablablabla
 
 
-<div style="display:felx">
+<div style="display:flex">
+
+
  <img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
