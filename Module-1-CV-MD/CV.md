@@ -10,21 +10,23 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 
 
+<div>
+  <img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
+  
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
+</div>
+
+
+
 - 🔭 I’m currently working on **something cool 😉**
 
 - 🌱 I’m currently learning **React , Web3 , Blockchain**
 
 - ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
 
-<img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 
-![alt text](https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif "Logo Title Text 1")
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
 
-![alt text](https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif "Logo Title Text 1")
-
-[!alt text](https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif "Logo Title Text 1")
    
 ---
 
