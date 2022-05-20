@@ -10,39 +10,11 @@ blablablablablablablablablablablablablablablablablablablablablablablablablablabl
 blablablablablablablablablablablablablablablablablablablablablablablablablablabla
 
 
-<div style="display:flex">
-
-
- <img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
-
-
-</div>
-
-
- 
-
-
-
 - 🔭 I’m currently working on **something cool 😉**
 
 - 🌱 I’m currently learning **React , Web3 , Blockchain**
 
 - ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
-
-
-
-
-   
----
-
-
-
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
 ```javascript
 const hobbies = {
@@ -53,6 +25,22 @@ const hobbies = {
     other: ["hiking","cooking", "technology"]
 };
 ```
+<div align="center">
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
+
+</div> 
+
+---
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
+
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/márton-szél-65422354" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="márton-szél-65422354" height="30" width="40" /></a>
@@ -71,6 +59,6 @@ const hobbies = {
 </div> 
 
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
 
+<img align="right" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
