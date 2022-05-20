@@ -1,3 +1,7 @@
+<div align="center">
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+</div>  4
+
 <h1 align="center">👋 Hello! I'm Márton.</h1>
 
 <p align="center">
@@ -13,8 +17,6 @@ blablabla
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
-
-<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45px">
 
 <img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 
