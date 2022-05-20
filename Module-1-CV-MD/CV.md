@@ -1,20 +1,19 @@
 <div align="center">
-<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/banner-software-development.png" align="center" style="width: 100%" />
-</div> 
-
-<div align="center">
-<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/full-stack.jpg" align="center" style="width: 100%" />
-</div> 
-
-<div align="center">
-<img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/good-programmer-banner-final.jpg" align="center" style="width: 100%" />
-</div> 
-
-<div align="center">
 <img src="https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/vue%20banner.png" align="center" style="width: 100%" />
 </div> 
 
-<h1 align="center">👋 Hello! I'm Márton.</h1>
+<h1 align="center">Hi 👋, I'm Márton</h1>
+<h3 align="center">A passionate Full Stack developer from Hungary</h3>
+
+
+Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
+
+
+🔭 I’m currently working on **I’m currently working on something cool 😉**
+
+- 🌱 I’m currently learning **React , web3 , blockchain**
+
+- ⚡ Fun fact **i'm a vue.js fanboy, but i do some other stuff too**
 
 <p align="center">
   <a href="https://www.facebook.com/marton.szel.1/">Facebook</a> •
@@ -35,7 +34,7 @@ blablabla
 ---
 
 
-Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
+
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -43,18 +42,14 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
-- 🔭 I’m currently working on **I’m currently working on something cool 😉**
-
-- 🌱 I’m currently learning **React , web3 , blockchain**
-
-- ⚡ Fun fact **i'm a vue.js fanboy, but i do some other stuff too**
+- 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
 ```javascript
-const anmol = {
+const hobbies = {
     pronouns: "He" | "Him",
     code: ["Javascript", "Python", "Java", "PHP"],
     askMeAbout: ["web dev", "tech", "app dev", "photography"],
@@ -76,14 +71,12 @@ const anmol = {
 ```
 
 
-<h1 align="center">Hi 👋, I'm Márton</h1>
-<h3 align="center">A passionate Full Stack developer from Hungary</h3>
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=martonszel&label=Profile%20views&color=0e75b6&style=flat" alt="martonszel" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
-- 🌱 I’m currently learning **React**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -97,6 +90,8 @@ const anmol = {
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact" alt="martonszel" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
+
+ez mi ez 
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" /></p>
 
