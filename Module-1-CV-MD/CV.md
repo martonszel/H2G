@@ -14,11 +14,11 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 
 <div >
-    <div >
+    <div align="right">
         <img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
     </div>
-    <div >
-    
+    <div align="left">
+
 - 🔭 I’m currently working on **something cool 😉**
 
 - 🌱 I’m currently learning **React , Web3 , Blockchain**
