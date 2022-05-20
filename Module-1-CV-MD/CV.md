@@ -49,7 +49,7 @@ const hobbies = {
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact&title_color=red" alt="martonszel" /></p>
 
-<p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
+<p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en&title_color=red" alt="martonszel" /></p>
 
 <br> <br> <br> <br>
   
