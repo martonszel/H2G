@@ -10,7 +10,7 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 
 <div align="right">
-<img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
+<img align="right" height="150" width="275" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 </div> 
 
 
@@ -26,9 +26,8 @@ Software Developer with a diverse and promising skill-set. Experienced with the 
 
 
 ---
+
 ![This is an image](https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif)
-
-
 
 I'm Y**ou** Y**u**f**an**, a freshman at THU.
 
