@@ -57,7 +57,7 @@ const hobbies = {
 
 <div align="center"><img  src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&"  alt="martonszel" /></div>
   
-<br> <br> <br> <br>
+<br> <br> <br>
   
 
 <div align="center"><img align="center" height="175" width="250" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" /></div>
