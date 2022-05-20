@@ -8,21 +8,19 @@
 
 Software Developer with a diverse and promising skill-set. Experienced with the latest cutting edge developement tools and procedures. Able to effectively self-manage during independent projetcs, as well as collaborate as part of a productive team.
 
+  <img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
+
 
 - 🔭 I’m currently working on **something cool 😉**
 
-- 🌱 I’m currently learning **React , web3 , blockchain**
+- 🌱 I’m currently learning **React , Web3 , Blockchain**
 
-- ⚡ Fun fact **i'm a vue.js fanboy, but i do some other stuff too**
-
----
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
+- ⚡ Fun fact **I'm a vue.js fanboy, but i do some other stuff too**
 
 
-<img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" />
 
 ---
+
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=martonszel)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -56,5 +54,7 @@ const hobbies = {
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=martonszel&" alt="martonszel" />
 </div> 
 
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=4ytu587ydan24er51v3vf2e44&cover_image=true&theme=default)](https://github.com/kittinan/spotify-github-profile)
 
 
