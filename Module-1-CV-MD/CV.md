@@ -47,7 +47,7 @@ const hobbies = {
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=martonszel" alt="martonszel" /></a> </p>
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact&title_color=#32a852" alt="martonszel" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact&title_color=32a852" alt="martonszel" /></p>
 
 <p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en" alt="martonszel" /></p>
 
