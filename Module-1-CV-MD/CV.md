@@ -10,7 +10,7 @@ I am an economist by my original degree , but on my 30th birthday I realized I w
 I started with HTML, CSS and Javascript , making simple static or dynamic web pages and expanding my knowledge over time.
 My goal with coding is to help others. I enjoy being able to create something that other people can use to make their lives easier.
 Over the past year, my experience with NodeJS have expanded and I am able to work with web apps or other browser-based environments both on backend and frontend.
-I'm currently working @EPAM. 
+I'm currently working [@Epam](https://www.epam.com/) 
 
 
 - 🔭 I’m currently working on **something cool 😉**
@@ -53,7 +53,7 @@ const hobbies = {
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=martonszel&show_icons=true&locale=en&layout=compact&title_color=41B883" alt="martonszel" /></p>
 
-<p><img align="right" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en&title_color=41B883&&icon_color=41B883" alt="martonszel" /></p>
+<p><img align="right" style="width: 30em" src="https://github-readme-stats.vercel.app/api?username=martonszel&show_icons=true&locale=en&title_color=41B883&&icon_color=41B883" alt="martonszel" /></p>
 
 <br> <br> <br> <br>
   
