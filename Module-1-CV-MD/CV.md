@@ -9,7 +9,7 @@
 I am an economist by my original degree , but on my 30th birthday I realized I want to be a software developer. 
 I started with HTML, CSS and Javascript , making simple static or dynamic web pages and expanding my knowledge over time.
 My goal with coding is to help others. I enjoy being able to create something that other people can use to make their lives easier.
-Over the past year, my knowledge and experience with NodeJS have expanded and I am able to work with web apps or other browser-based environments both on backend and frontend.
+Over the past year, my experience with NodeJS have expanded and I am able to work with web apps or other browser-based environments both on backend and frontend.
 I'm currently working @EPAM. 
 
 
