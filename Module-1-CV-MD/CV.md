@@ -28,7 +28,7 @@ const hobbies = {
 
 ## Connect with me:
 
-[![márton-szél-linkedin](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg)](https://linkedin.com/in/márton-szél-65422354)
+[![márton-szél-linkedin](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg | width=100)](https://linkedin.com/in/márton-szél-65422354)
 
 [![márton-szél-facebook](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg)](https://fb.com/marton.szel.1)
 
