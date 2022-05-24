@@ -28,6 +28,10 @@ const hobbies = {
 
 ## Connect with me:
 
+[![Facebook](https://fb.com/marton.szel.1)](https://www.facebook.com/images/fb_icon_325x325.png)
+
+[![Facebook](https://linkedin.com/in/márton-szél-65422354)](http://www.foodbanknyc.org/_gfx_/icon-linkedin.png)
+
 [Facebook](https://fb.com/marton.szel.1) • [LinkedIn](https://linkedin.com/in/márton-szél-65422354)
 
 ## Languages and Tools:
