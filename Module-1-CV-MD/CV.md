@@ -30,9 +30,9 @@ const hobbies = {
 
 [Facebook](https://fb.com/marton.szel.1) • [LinkedIn](https://linkedin.com/in/márton-szél-65422354)
 
-[![Facebook](https://fb.com/marton.szel.1)](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/facebook.png)
+[![Facebook](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/facebook.png)](https://fb.com/marton.szel.1)
 
-[![LinkedIn](https://linkedin.com/in/márton-szél-65422354)](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/linkedin.png)
+[![LinkedIn](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/linkedin.png)](https://linkedin.com/in/márton-szél-65422354)
 
 ## Languages and Tools:
 
