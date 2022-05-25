@@ -1,0 +1,14 @@
+body,
+html {
+    height: 100%;
+    padding: 3%;
+}
+
+.page-header {
+    background-image: url("assets/header.png");
+    height: 25em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
