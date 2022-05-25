@@ -28,9 +28,7 @@ const hobbies = {
 
 ## Connect with me:
 
-[Facebook](https://fb.com/marton.szel.1) • [LinkedIn](https://linkedin.com/in/márton-szél-65422354)
-
-[![Facebook](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/facebook.png)](https://fb.com/marton.szel.1) • [![LinkedIn](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/linkedin.png)](https://linkedin.com/in/márton-szél-65422354)
+[![Facebook](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/facebook.png)](https://fb.com/marton.szel.1) [![LinkedIn](https://github.com/martonszel/H2G/blob/markdown/Module-1-CV-MD/linkedin.png)](https://linkedin.com/in/márton-szél-65422354)
 
 ## Languages and Tools:
 
