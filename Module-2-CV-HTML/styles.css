@@ -83,7 +83,9 @@ html {
     display: flex;
     padding: 2em;
     margin: 2em 0em;
+
 }
+
 
 .abouttext {
     flex: 3;
@@ -96,7 +98,7 @@ html {
 }
 
 .bio {
-    flex: 1;
+    flex: 2;
     padding-left: 3em;
 }
 
@@ -106,10 +108,7 @@ html {
     font-size: 1em;
 }
 
-.biovalues {
-    flex: 2;
-    padding-top: 3.3em;
-}
+
 
 .skills {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
@@ -256,8 +255,25 @@ footer {
     padding: 2em 0em;
 }
 
+@media only screen and (max-width: 1200px) {
 
-@media only screen and (max-width: 700px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .bio {
+
+        padding-left: 0em;
+    }
+
+    .vl {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
     .main-navigation a {
         font-size: 0.75em;
         padding: 0 0.5em;
@@ -265,6 +281,12 @@ footer {
 
     .main-navigation ul {
         padding: 0em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .timeline {
+        margin-left: 5em;
     }
 }
 
