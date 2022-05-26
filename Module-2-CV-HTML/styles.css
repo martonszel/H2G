@@ -105,11 +105,174 @@ html {
 
 
 
-.skills a {
-    text-decoration: none;
+.skills {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    list-style-type: none;
+
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills>h2 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.languages,
+.tools {
+    padding: 1em;
+    flex: 1;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 1em 0em;
+}
+
+.bar {
+    position: relative;
+    border: 2px solid #0d96e0;
+    border-radius: 20px;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
 }
 
 footer {
     display: flex;
     justify-content: center;
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+#javascript-bar {
+    animation: javascript-fill 2s forwards;
+}
+
+
+#typescript-bar {
+    animation: typescript-fill 2s forwards;
+}
+
+
+#node-bar {
+    animation: node-fill 2s forwards;
+}
+
+
+#vue-bar {
+    animation: vue-fill 2s forwards;
+}
+
+
+#react-bar {
+    animation: react-fill 2s forwards;
+}
+
+#vscode-bar {
+    animation: vscode-fill 2s forwards;
+}
+
+#figma-bar {
+    animation: figma-fill 2s forwards;
+}
+
+#photoshop-bar {
+    animation: photoshop-fill 2s forwards;
+}
+
+#illustrator-bar {
+    animation: illustrator-fill 2s forwards;
+}
+
+#postman-bar {
+    animation: postman-fill 2s forwards;
+}
+
+#bootstrap-bar {
+    animation: bootstrap-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes javascript-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes typescript-fill {
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes node-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes vue-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes react-fill {
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes vscode-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes figma-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes photoshop-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes illustrator-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes postman-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes bootstrap-fill {
+    100% {
+        width: 80%;
+    }
 }
