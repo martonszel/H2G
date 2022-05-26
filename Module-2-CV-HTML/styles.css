@@ -256,6 +256,18 @@ footer {
     padding: 2em 0em;
 }
 
+
+@media only screen and (max-width: 700px) {
+    .main-navigation a {
+        font-size: 0.75em;
+        padding: 0 0.5em;
+    }
+
+    .main-navigation ul {
+        padding: 0em;
+    }
+}
+
 #html-bar {
     animation: html-fill 2s forwards;
 }
