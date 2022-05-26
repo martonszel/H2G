@@ -72,7 +72,13 @@ html {
 }
 
 .page-header-text>h1 {
+    font-size: 3em;
+    font-weight: 600;
     margin: auto;
+}
+
+.page-header-text>p {
+    font-weight: 600;
 }
 
 .avatar {
