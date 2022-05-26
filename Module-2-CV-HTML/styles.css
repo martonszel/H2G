@@ -103,12 +103,10 @@ html {
     padding-top: 3.3em;
 }
 
-
-
 .skills {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
     list-style-type: none;
-
+    padding: 1em;
 }
 
 .skills-container {
@@ -116,7 +114,6 @@ html {
 }
 
 .skills>h2 {
-    text-align: center;
     padding-top: 1em;
 }
 
@@ -217,9 +214,29 @@ html {
     z-index: 9;
 }
 
+.hobbies {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    padding: 1em;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.hobbies img {
+    max-width: 25%;
+    height: 25%;
+    padding: 1em 1em;
+    border-radius: 2em;
+}
+
 footer {
     display: flex;
     justify-content: center;
+    padding: 2em 0em;
 }
 
 #html-bar {
