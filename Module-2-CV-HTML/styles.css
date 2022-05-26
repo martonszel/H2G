@@ -5,6 +5,20 @@ html {
     padding: 0em 10%;
 }
 
+:root {
+    --primary-color: #0D96E0;
+    --secondary-color: #39C08F;
+    --section-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    --section-margin: 2em 0em;
+}
+
+.education h2,
+.skills h2,
+.experience h2 {
+    padding: 1em;
+
+}
+
 .main-navigation {
     position: fixed;
     top: 0;
@@ -61,8 +75,6 @@ html {
     margin: auto;
 }
 
-
-
 .avatar {
     padding-top: 3em;
 }
@@ -70,7 +82,7 @@ html {
 .avatar>img {
     padding: 0.25rem;
     background-color: #fff;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #fff;
     border-radius: 0.25rem;
 }
 
@@ -79,39 +91,35 @@ html {
 }
 
 .about {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    box-shadow: var(--section-box-shadow);
     display: flex;
     padding: 2em;
-    margin: 2em 0em;
-
+    margin: var(--section-margin)
 }
 
-
-.abouttext {
+.about .abouttext {
     flex: 3;
     padding-right: 3em;
 }
 
-.vl {
+.about .vl {
     border-left: 2px solid #8A8A8A;
     height: 15em;
 }
 
-.bio {
+.about .bio {
     flex: 2;
     padding-left: 3em;
 }
 
-.bio>p>i {
+.about .bio>p>i {
     color: #8A8A8A;
     padding-right: 1em;
     font-size: 1em;
 }
 
-
-
 .skills {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    box-shadow: var(--section-box-shadow);
     list-style-type: none;
     padding: 1em;
 }
@@ -120,17 +128,13 @@ html {
     display: flex;
 }
 
-.skills>h2 {
-    padding-top: 1em;
-}
-
-.languages,
-.tools {
+.skills .languages,
+.skills .tools {
     padding: 1em;
     flex: 1;
 }
 
-.details {
+.skills .details {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -138,23 +142,55 @@ html {
     padding: 1em 0em;
 }
 
-.bar {
+.skills .bar {
     position: relative;
-    border: 2px solid #0d96e0;
+    border: 2px solid var(--primary-color);
     border-radius: 20px;
 }
 
-.bar div {
+.skills .bar div {
     position: relative;
     width: 0;
     height: 9px;
     border-radius: 10px;
-    background-color: #0d96e0;
+    background-color: var(--primary-color);
 }
 
 .experience {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    box-shadow: var(--section-box-shadow);
     padding: 1em;
+}
+
+.experience .timeline-item:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 6px solid var(--primary-color);
+    background-color: white;
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    z-index: 9;
+}
+
+.education {
+    box-shadow: var(--section-box-shadow);
+    padding: 1em;
+    margin: var(--section-margin)
+}
+
+.education .timeline-item:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 6px solid var(--secondary-color);
+    background-color: white;
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    z-index: 9;
 }
 
 .timeline {
@@ -174,27 +210,12 @@ html {
 
 .timeline-item {
     position: relative;
-
-}
-
-.experience .timeline-item:after {
-    content: '';
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 6px solid #0D96E0;
-    background-color: white;
-    position: absolute;
-    left: -18px;
-    top: -5px;
-    z-index: 9;
 }
 
 .time {
     position: absolute;
     left: -5em;
     top: -1em;
-
 }
 
 .content {
@@ -203,39 +224,13 @@ html {
     border-bottom: 2px dashed #8A8A8A;
 }
 
-.education {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
-    padding: 1em;
-    margin: 2em 0em;
-}
-
-.education h2,
-.skills h2,
-.experience h2 {
-    padding: 1em;
-
-}
-
-.education .timeline-item:after {
-    content: '';
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 6px solid #39C08F;
-    background-color: white;
-    position: absolute;
-    left: -18px;
-    top: -5px;
-    z-index: 9;
-}
-
 .hobbies {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    box-shadow: var(--section-box-shadow);
     padding: 1em;
-    margin: 2em 0em;
+    margin: var(--section-margin)
 }
 
-.img-container {
+.hobbies .img-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -255,6 +250,7 @@ footer {
     padding: 2em 0em;
 }
 
+/* under 1200px */
 @media only screen and (max-width: 1200px) {
 
     .about {
@@ -272,7 +268,7 @@ footer {
 
 }
 
-
+/* under 800px */
 @media only screen and (max-width: 800px) {
     .main-navigation a {
         font-size: 0.75em;
@@ -284,12 +280,14 @@ footer {
     }
 }
 
+/* under 600px */
 @media only screen and (max-width: 600px) {
     .timeline {
         margin-left: 5em;
     }
 }
 
+/* Animation */
 #html-bar {
     animation: html-fill 2s forwards;
 }
