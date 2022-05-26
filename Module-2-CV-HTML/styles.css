@@ -72,7 +72,38 @@ html {
 
 .about {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    display: flex;
+    padding: 2em;
+    margin: 2em 0em;
 }
+
+.abouttext {
+    flex: 3;
+    padding-right: 3em;
+}
+
+.vl {
+    border-left: 2px solid #8A8A8A;
+    height: 15em;
+}
+
+.bio {
+    flex: 1;
+    padding-left: 3em;
+}
+
+.bio>p>i {
+    color: #8A8A8A;
+    padding-right: 1em;
+    font-size: 1em;
+}
+
+.biovalues {
+    flex: 2;
+    padding-top: 3.3em;
+}
+
+
 
 .skills a {
     text-decoration: none;
