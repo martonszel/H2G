@@ -30,12 +30,32 @@ html {
 }
 
 .page-header {
-    background-image: url("assets/header.png");
-    height: 25em;
-    background-position: center;
+    background-image: url("assets/gravel.jpg");
+    height: 50%;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.avatar {
+    padding-top: 3em;
+}
+
+.avatar>img {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.25rem;
+}
+
+.page-header-social>a {
+
+    color: #D8D8D9;
 }
 
 .skills a {
