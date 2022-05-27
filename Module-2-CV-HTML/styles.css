@@ -204,6 +204,10 @@ html {
     margin-left: 10em;
 }
 
+.timeline-item .content>h3 {
+    text-transform: uppercase
+}
+
 .timeline:after {
     content: '';
     width: 5px;
@@ -290,6 +294,15 @@ footer {
 @media only screen and (max-width: 600px) {
     .timeline {
         margin-left: 5em;
+    }
+
+    body,
+    html {
+        padding: 0em 1%;
+    }
+
+    .about .bio {
+        padding-left: 0em;
     }
 }
 
