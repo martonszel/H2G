@@ -12,6 +12,16 @@ html {
     --section-margin: 2em 0em;
 }
 
+.about,
+.skills,
+.experience,
+.education,
+.hobbies {
+    box-shadow: var(--section-box-shadow);
+    padding: 1em;
+    margin: var(--section-margin)
+}
+
 .education h2,
 .skills h2,
 .experience h2 {
@@ -97,10 +107,7 @@ html {
 }
 
 .about {
-    box-shadow: var(--section-box-shadow);
     display: flex;
-    padding: 2em;
-    margin: var(--section-margin)
 }
 
 .about .abouttext {
@@ -125,9 +132,7 @@ html {
 }
 
 .skills {
-    box-shadow: var(--section-box-shadow);
     list-style-type: none;
-    padding: 1em;
 }
 
 .skills-container {
@@ -145,7 +150,7 @@ html {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    padding: 1em 0em;
+    padding: 1em 0;
 }
 
 .skills .bar {
@@ -162,11 +167,6 @@ html {
     background-color: var(--primary-color);
 }
 
-.experience {
-    box-shadow: var(--section-box-shadow);
-    padding: 1em;
-}
-
 .experience .timeline-item:after {
     content: '';
     width: 20px;
@@ -178,12 +178,6 @@ html {
     left: -18px;
     top: -5px;
     z-index: 9;
-}
-
-.education {
-    box-shadow: var(--section-box-shadow);
-    padding: 1em;
-    margin: var(--section-margin)
 }
 
 .education .timeline-item:after {
@@ -234,12 +228,6 @@ html {
     border-bottom: 2px dashed #8A8A8A;
 }
 
-.hobbies {
-    box-shadow: var(--section-box-shadow);
-    padding: 1em;
-    margin: var(--section-margin)
-}
-
 .hobbies .img-container {
     display: flex;
     flex-wrap: wrap;
@@ -257,7 +245,7 @@ html {
 footer {
     display: flex;
     justify-content: center;
-    padding: 2em 0em;
+    padding: 2em 0;
 }
 
 /* under 1200px */
@@ -269,7 +257,7 @@ footer {
 
     .bio {
 
-        padding-left: 0em;
+        padding-left: 0 !important;
     }
 
     .vl {
@@ -286,7 +274,7 @@ footer {
     }
 
     .main-navigation ul {
-        padding: 0em;
+        padding: 0;
     }
 }
 
@@ -298,11 +286,11 @@ footer {
 
     body,
     html {
-        padding: 0em 1%;
+        padding: 0 1%;
     }
 
     .about .bio {
-        padding-left: 0em;
+        padding-left: 0;
     }
 }
 
