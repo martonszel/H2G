@@ -276,6 +276,17 @@ footer {
     .main-navigation ul {
         padding: 0;
     }
+
+    .hobbies .img-container {
+        flex-direction: column;
+    }
+
+    .hobbies img {
+        max-width: 80%;
+        height: 25%;
+        padding: 1em 1em;
+        border-radius: 2em;
+    }
 }
 
 /* under 600px */
@@ -291,6 +302,13 @@ footer {
 
     .about .bio {
         padding-left: 0;
+    }
+}
+
+/* under 400px */
+@media only screen and (max-width: 400px) {
+    .page-header {
+        height: 70%;
     }
 }
 
