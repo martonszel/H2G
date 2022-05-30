@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Resume, CV" />
+    <meta name="description" content="Simple resume about myself" />
+    <meta name="author" content="Márton Szél" />
+    <title>Márton Szél CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7f593c7c8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="avatar"><img src="assets/avatar.jpg" width="160" height="160" alt="avatar picturer" /></div>
+        <div class="page-header-text">
+            <h1>Szél Márton</h1>
+            <p>A passionate Full Stack developer from Hungary</p>
+        </div>
+        <div class="page-header-social">
+            <a href="https://fb.com/marton.szel.1"><i class="fa-brands fa-facebook-square fa-2xl"></i></a>
+            <a href="https://linkedin.com/in/márton-szél-65422354"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="https://www.instagram.com/martonszel/"><i class="fa-brands fa-instagram-square fa-2xl"></i></a>
+            <a class="nav-link" href="https://github.com/martonszel"><i class="fa-brands fa-github fa-2xl"></i></a>
+        </div>
+    </div>
+
+    <main>
+        <section class="about" id="about">
+            <div class="abouttext">
+                <h2>About me</h2>
+                <p>I am an economist by my original degree , but on my 30th birthday I realized I want to be a software
+                    developer. I started with HTML, CSS and Javascript , making simple static or dynamic web pages and
+                    expanding my knowledge over time. My goal with coding is to help others. I enjoy being able to
+                    create
+                    something that other people can use to make their lives easier. Over the past year, my experience
+                    with
+                    NodeJS have expanded and I am able to work with web apps or other browser-based environments both on
+                    backend and frontend. I'm currently working @EPAM.</p>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="bio">
+                <h2>Bio</h2>
+                <p><i class="fa-solid fa-calendar-days"></i>Age: <span class="biovalue">34</span></p>
+                <p><i class="fa-solid fa-envelope"></i>Email: <span class="biovalue">teszt@teszt.hu</span></p>
+                <p> <i class="fa-solid fa-phone"></i>Phone: <span class="biovalue">+3630 123 4567</span></p>
+                <p><i class="fa-solid fa-address-card"></i> Address: <span class="biovalue">1234 Budapest</span></p>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p class="time">2022-</p>
+                    <div class="content">
+                        <h3>EPAM</h3>
+                        <p>Software developer</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="time">2022</p>
+                    <div class="content">
+                        <h3>TECHRON</h3>
+                        <p>Software developer</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="time">2018</p>
+                    <div class="content">
+                        <h3>COFCO</h3>
+                        <p>Trade admin & execution officer</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="time">2014</p>
+                    <div class="content">
+                        <h3>UNHCR</h3>
+                        <p>Logistic assistant</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <p class="time">2019</p>
+                    <div class="content">
+                        <h3>Green Fox Academy</h3>
+                        <p>Application development</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <p class="time">2013</p>
+                    <div class="content">
+                        <h3>University of Pannonia</h3>
+                        <p>International economics, BA degree</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Professional Skills</h2>
+            <div class="skills-container">
+                <div class="languages">
+                    <h3>Languages</h3>
+                    <div class="details">
+                        <span>HTML/CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Javascript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="javascript-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Typescript</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="typescript-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Node.js</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="node-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Vue</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="vue-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>React</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="react-bar"></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <h3>Tools</h3>
+                    <div class="details">
+                        <span>VS code</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="vscode-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Figma</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="figma-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Photoshop</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="photoshop-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Illustrator</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="illustrator-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Postman</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="postman-bar"></div>
+                    </div>
+                    <div class="details">
+                        <span>Bootstrap</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div id="bootstrap-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <figure class="img-container">
+                <img src="assets/basketball.jpg" alt="people playing basketball">
+                <img src="assets/cooking.jpg" alt="cooking a steak ">
+                <img src="assets/cycling.jpg" alt="gravel bike">
+                <img src="assets/gardening.jpg" alt="indoor plants">
+                <img src="assets/hiking.jpg" alt="two people hiking">
+                <img src="assets/nfl.jpg" alt="offense and d-line">
+            </figure>
+        </section>
+    </main>
+
+    <footer>&copy; Copyright 2022 Márton Szél</footer>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", () => {
+            const header = document.querySelector("nav")
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+</body>
+
+</html>

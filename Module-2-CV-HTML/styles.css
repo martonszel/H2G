@@ -1,0 +1,438 @@
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding: 0em 10%;
+}
+
+:root {
+    --primary-color: #0D96E0;
+    --secondary-color: #39C08F;
+    --section-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+    --section-margin: 2em 0em;
+}
+
+.about,
+.skills,
+.experience,
+.education,
+.hobbies {
+    box-shadow: var(--section-box-shadow);
+    padding: 1em;
+    margin: var(--section-margin)
+}
+
+.education h2,
+.skills h2,
+.experience h2 {
+    padding: 1em;
+
+}
+
+.main-navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    transition: 0.6s;
+    width: 100%;
+}
+
+.main-navigation ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1em;
+    color: #3B4856;
+    font-weight: 600;
+}
+
+.main-navigation a:hover {
+    padding: 1em;
+    background: #9FADBD;
+}
+
+.sticky {
+    background-color: white;
+}
+
+.page-header {
+    background-image: url("assets/gravel.jpg");
+    height: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.page-header-text {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.page-header-text>h1 {
+    font-size: 3em;
+    font-weight: 600;
+    margin: auto;
+}
+
+.page-header-text>p {
+    font-weight: 600;
+}
+
+.avatar {
+    padding-top: 3em;
+}
+
+.avatar>img {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+}
+
+.page-header-social>a {
+    color: #D8D8D9;
+}
+
+.about {
+    display: flex;
+}
+
+.about .abouttext {
+    flex: 3;
+    padding-right: 3em;
+}
+
+.about .vl {
+    border-left: 2px solid #8A8A8A;
+    height: 15em;
+}
+
+.about .bio {
+    flex: 2;
+    padding-left: 3em;
+}
+
+.about .bio>p>i {
+    color: #8A8A8A;
+    padding-right: 1em;
+    font-size: 1em;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills .languages,
+.skills .tools {
+    padding: 1em;
+    flex: 1;
+}
+
+.skills .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 1em 0;
+}
+
+.skills .bar {
+    position: relative;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+}
+
+.skills .bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.experience .timeline-item:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 6px solid var(--primary-color);
+    background-color: white;
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    z-index: 9;
+}
+
+.education .timeline-item:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 6px solid var(--secondary-color);
+    background-color: white;
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    z-index: 9;
+}
+
+.timeline {
+    position: relative;
+    margin-left: 10em;
+}
+
+.timeline-item .content>h3 {
+    text-transform: uppercase
+}
+
+.timeline:after {
+    content: '';
+    width: 5px;
+    height: 100%;
+    background-color: #8A8A8A;
+    position: absolute;
+    left: -5px;
+    top: 0
+}
+
+.timeline-item {
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    left: -5em;
+    top: -1em;
+}
+
+.content {
+    margin: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px dashed #8A8A8A;
+}
+
+.hobbies .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.hobbies img {
+    max-width: 25%;
+    height: 25%;
+    padding: 1em 1em;
+    border-radius: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+/* under 1200px */
+@media only screen and (max-width: 1200px) {
+
+    .about {
+        flex-direction: column;
+    }
+
+    .bio {
+
+        padding-left: 0 !important;
+    }
+
+    .vl {
+        display: none;
+    }
+
+}
+
+/* under 800px */
+@media only screen and (max-width: 800px) {
+    .main-navigation a {
+        font-size: 0.75em;
+        padding: 0 0.5em;
+    }
+
+    .main-navigation ul {
+        padding: 0;
+    }
+
+    .hobbies .img-container {
+        flex-direction: column;
+    }
+
+    .hobbies img {
+        max-width: 80%;
+        height: 25%;
+        padding: 1em 1em;
+        border-radius: 2em;
+    }
+}
+
+/* under 600px */
+@media only screen and (max-width: 600px) {
+    .timeline {
+        margin-left: 5em;
+    }
+
+    body,
+    html {
+        padding: 0 1%;
+    }
+
+    .about .bio {
+        padding-left: 0;
+    }
+}
+
+/* under 400px */
+@media only screen and (max-width: 400px) {
+    .page-header {
+        height: 70%;
+    }
+}
+
+/* Animation */
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+#javascript-bar {
+    animation: javascript-fill 2s forwards;
+}
+
+
+#typescript-bar {
+    animation: typescript-fill 2s forwards;
+}
+
+
+#node-bar {
+    animation: node-fill 2s forwards;
+}
+
+
+#vue-bar {
+    animation: vue-fill 2s forwards;
+}
+
+
+#react-bar {
+    animation: react-fill 2s forwards;
+}
+
+#vscode-bar {
+    animation: vscode-fill 2s forwards;
+}
+
+#figma-bar {
+    animation: figma-fill 2s forwards;
+}
+
+#photoshop-bar {
+    animation: photoshop-fill 2s forwards;
+}
+
+#illustrator-bar {
+    animation: illustrator-fill 2s forwards;
+}
+
+#postman-bar {
+    animation: postman-fill 2s forwards;
+}
+
+#bootstrap-bar {
+    animation: bootstrap-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes javascript-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes typescript-fill {
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes node-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes vue-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes react-fill {
+    100% {
+        width: 10%;
+    }
+}
+
+@keyframes vscode-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes figma-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes photoshop-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes illustrator-fill {
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes postman-fill {
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes bootstrap-fill {
+    100% {
+        width: 80%;
+    }
+}
