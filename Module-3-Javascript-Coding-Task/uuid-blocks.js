@@ -1,3 +1,5 @@
+"use strict";
+
 const getUUIDBlocks = uuid => {
     // your code here
 }

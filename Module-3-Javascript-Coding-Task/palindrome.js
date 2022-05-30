@@ -1,3 +1,5 @@
+"use strict";
+
 // Check if the text is a palindrome. For empty string, it is not considered a palindrome. Whitespaces should not be counted
 
 const isPalindrome = (text) => {

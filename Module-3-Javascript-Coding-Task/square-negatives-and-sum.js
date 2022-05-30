@@ -1,3 +1,5 @@
+"use strict";
+
 const squareAndSum = (array) => {
     // your code here
 }

@@ -1,3 +1,4 @@
+"use strict";
 const getFirstDuplicate = text => {
     // your code here
 }

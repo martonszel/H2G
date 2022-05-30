@@ -1,3 +1,5 @@
+"use strict";
+
 const getFileExtension = filename => {
     // your code here
 }

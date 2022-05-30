@@ -1,3 +1,5 @@
+
+"use strict";
 // Takes a bottleWeight and scale of the bottle to its contents and returns the weight of its contents Acceptable values for scale: ('2 times larger', '4 times larger', '50 times smaller')
 
 /**

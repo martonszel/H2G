@@ -1,3 +1,5 @@
+"use strict";
+
 const getFriday13s = (startYear, endYear) => {
     // your code here
 }

@@ -1,3 +1,5 @@
+"use strict";
+
 const sum = (array) => {
     // your code here
 }

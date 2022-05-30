@@ -1,3 +1,5 @@
+"use strict";
+
 // The order should be odd followed by even numbers
 // - odd numbers should be ascendig
 // - even numbers should be descending
