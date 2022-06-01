@@ -1,5 +1,6 @@
 "use strict";
 
+// solution #1
 
 const getLongestString = array => {
     let tempString = '';
@@ -15,6 +16,8 @@ console.log(getLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
 console.log(getLongestString(['abc', 'a', 'ab'])); // 'abc'
 console.log(getLongestString([1, 2, 3])); // ''
 
+// solution #2
+
 const initialValue = '';
 
 const longestString = (arr) =>
@@ -27,11 +30,11 @@ console.log(longestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
 console.log(longestString(['abc', 'a', 'ab'])); // 'abc'
 console.log(longestString([1, 2, 3])); // ''
 
+// solution #3
+
 const otherLongestString = (arr) =>
     arr.filter((element) => typeof element === "string")
         .sort((a, b) => { return b.length - a.length })[0];
-
-
 
 console.log(otherLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
 console.log(otherLongestString(['abc', 'a', 'ab'])); // 'abc'
