@@ -1,5 +1,7 @@
 "use strict";
 
+// solution #1
+
 const getUUIDBlocks = uuid => {
 
     const fromatted = uuid.replace(/-/g, '')
@@ -17,7 +19,7 @@ const getUUIDBlocks = uuid => {
 
 console.log(getUUIDBlocks('f782f011-636a-4d8b-9f63-dc34a4503c01')); // ['f7', '82', 'f0', '11', '63', '6a', '4d', '8b', '9f', '63', 'dc', '34',' a4', '50', '3c', '01']
 
-
+// solution #2
 
 const formatArray = (str, number) => {
 
@@ -35,3 +37,9 @@ const formatArray = (str, number) => {
 const UUIDBlocks = uuid => formatArray(uuid, 2)
 
 console.log(UUIDBlocks('f782f011-636a-4d8b-9f63-dc34a4503c01')); // ['f7', '82', 'f0', '11', '63', '6a', '4d', '8b', '9f', '63', 'dc', '34',' a4', '50', '3c', '01']
+
+// solution #3
+
+const formatUUIDBlocks = uuid => [...uuid.replace(/-/g, '')].join('').match(/.{1,2}/g);
+
+console.log(formatUUIDBlocks('f782f011-636a-4d8b-9f63-dc34a4503c01')); // ['f7', '82', 'f0', '11', '63', '6a', '4d', '8b', '9f', '63', 'dc', '34',' a4', '50', '3c', '01']
