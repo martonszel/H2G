@@ -4,7 +4,7 @@
 
 const getConvertedUUIDBlocks = uuid => {
 
-    const fromatted = [...uuid.replace(/-/g, '')].join('').match(/.{1,2}/g);
+    const fromatted = [...uuid.replace(/-/g, '')].join('').match(/.{1,2}/g)
 
     const hexColors = []
 

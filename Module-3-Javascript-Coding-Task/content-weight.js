@@ -12,3 +12,13 @@ const contentWeight = (bottleWeight, scale) => {
 
 console.log(contentWeight(120, '2 times larger')); // 80
 console.log(contentWeight(120, '2 times smaller')); // 40
+console.log(contentWeight(125, '4 times larger')); // 100
+console.log(contentWeight(1020, '50 times smaller')); // 20
+
+function contentWeight(bottleWeight, scale) {
+
+    var s = parseInt(scale);
+    
+    return /larger/.test(scale) ? bottleWeight * s / (s+1) : bottleWeight / (s+1);
+    
+    }
