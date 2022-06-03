@@ -6,6 +6,10 @@
  * @param {number} bottleWeight: The weight of the entire bottle and contents
  * @param {string} scale: A string comparing the weight of the bottle contents to the weight of the bottle by itself
  */
+
+
+// solution #1
+
 const contentWeight = (bottleWeight, scale) => {
 
     const splittedScale = scale.split(' ')
@@ -24,6 +28,8 @@ console.log(contentWeight(125, '4 times larger')); // 100
 console.log(contentWeight(250, '4 times smaller')); // 50
 console.log(contentWeight(1020, '50 times smaller')); // 20
 
+
+// solution #2
 
 const contentWeightCalc = (bottleWeight, scale) =>
     /larger/.test(scale) ? bottleWeight * Number(scale.substring(0, 2)) / (Number(scale.substring(0, 2)) + 1) : bottleWeight / (Number(scale.substring(0, 2)) + 1)

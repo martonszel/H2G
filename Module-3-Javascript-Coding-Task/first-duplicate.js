@@ -1,9 +1,9 @@
 "use strict";
 
+// solution #1
 
 const getFirstDuplicate = (text) => {
     for (let i = 0; i < text.length; i++) {
-
         //          indexof (a)   !==  lastindex (a)
         //            0                     0  
         //          indexof (b)   !==  lastindex (b)
@@ -18,6 +18,8 @@ const getFirstDuplicate = (text) => {
 console.log(getFirstDuplicate('abccb')); // 'b'
 console.log(getFirstDuplicate('abc')); // ''
 
+
+// solution #2 - not working
 
 const firstDuplicate = (text) => {
 
@@ -42,6 +44,8 @@ console.log(firstDuplicate('abccb')); // 'b'
 console.log(firstDuplicate('bcabc')); // 'b'
 console.log(firstDuplicate(["1", "2", "3", "4", "3", "2"])); // '2'
 
+
+// solution #3
 
 const findFirstDuplicate = (text) => ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
 

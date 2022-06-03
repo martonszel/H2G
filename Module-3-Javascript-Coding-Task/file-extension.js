@@ -1,5 +1,7 @@
 "use strict";
 
+// solution #1
+
 const getFileExtension = filename => {
     const splittedName = filename.split('.')
     return splittedName.length === 1 || splittedName[0] === '' ? false : splittedName[splittedName.length - 1]
@@ -10,6 +12,8 @@ console.log(getFileExtension('component.test.js')); // 'js'
 console.log(getFileExtension('README')); // false
 console.log(getFileExtension('.git')); // false
 
+
+// solution #2
 
 const searchTerm = '.';
 const extension = (word) => word.indexOf(searchTerm) > 0 ? word.substring(word.lastIndexOf(searchTerm) + 1) : false
