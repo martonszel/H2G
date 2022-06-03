@@ -24,10 +24,12 @@ console.log(contentWeight(125, '4 times larger')); // 100
 console.log(contentWeight(250, '4 times smaller')); // 50
 console.log(contentWeight(1020, '50 times smaller')); // 20
 
-// function contentWeight(bottleWeight, scale) {
 
-//     var s = parseInt(scale);
+const contentWeightCalc = (bottleWeight, scale) =>
+    /larger/.test(scale) ? bottleWeight * Number(scale.substring(0, 2)) / (Number(scale.substring(0, 2)) + 1) : bottleWeight / (Number(scale.substring(0, 2)) + 1)
 
-//     return /larger/.test(scale) ? bottleWeight * s / (s + 1) : bottleWeight / (s + 1);
-
-// }
+console.log(contentWeightCalc(120, '2 times larger')); // 80
+console.log(contentWeightCalc(120, '2 times smaller')); // 40
+console.log(contentWeightCalc(125, '4 times larger')); // 100
+console.log(contentWeightCalc(250, '4 times smaller')); // 50
+console.log(contentWeightCalc(1020, '50 times smaller')); // 20
