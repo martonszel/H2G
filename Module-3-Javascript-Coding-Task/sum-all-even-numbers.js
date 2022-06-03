@@ -1,5 +1,7 @@
 "use strict";
 
+// solution #1
+
 const sumArray = (array) => {
     return array.reduce((sum, current) => {
         return Array.isArray(current) ?
@@ -12,6 +14,8 @@ const sumArray = (array) => {
 console.log(sumArray([1, [2, 3], [[4], 5]])); // 6
 console.log(sumArray([1, [1, 1], [[1], 1]])); // 0
 
+
+// solution #2
 
 const sumEven = (array) => array.flat(3).filter((number) => number % 2 == 0).reduce((previousValue, currentValue) => previousValue + currentValue, 0)
 

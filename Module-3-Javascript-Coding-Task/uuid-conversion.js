@@ -1,6 +1,6 @@
 "use strict";
 
-
+// solution #1
 
 const getConvertedUUIDBlocks = uuid => {
 

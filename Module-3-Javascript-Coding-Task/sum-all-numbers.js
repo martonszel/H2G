@@ -1,5 +1,7 @@
 "use strict";
 
+// solution #1
+
 const sum = (array) => array.reduce((sum, current) => typeof current === 'number' && isFinite(current) ? sum + current : sum, 0);
 
 
