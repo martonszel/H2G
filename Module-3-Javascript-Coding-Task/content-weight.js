@@ -7,18 +7,27 @@
  * @param {string} scale: A string comparing the weight of the bottle contents to the weight of the bottle by itself
  */
 const contentWeight = (bottleWeight, scale) => {
-    // your code here
+
+    const splittedScale = scale.split(' ')
+
+    if (splittedScale[2] === 'larger') {
+
+        return (bottleWeight / (Number(splittedScale[0]) + 1)) * Number(splittedScale[0])
+
+    } else return (bottleWeight / (Number(splittedScale[0]) + 1))
+
 }
 
 console.log(contentWeight(120, '2 times larger')); // 80
 console.log(contentWeight(120, '2 times smaller')); // 40
 console.log(contentWeight(125, '4 times larger')); // 100
+console.log(contentWeight(250, '4 times smaller')); // 50
 console.log(contentWeight(1020, '50 times smaller')); // 20
 
-function contentWeight(bottleWeight, scale) {
+// function contentWeight(bottleWeight, scale) {
 
-    var s = parseInt(scale);
-    
-    return /larger/.test(scale) ? bottleWeight * s / (s+1) : bottleWeight / (s+1);
-    
-    }
+//     var s = parseInt(scale);
+
+//     return /larger/.test(scale) ? bottleWeight * s / (s + 1) : bottleWeight / (s + 1);
+
+// }
