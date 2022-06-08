@@ -1,0 +1,16 @@
+{
+  "name": "module-3-javascript-coding-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content-weight.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:ci": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "type": "module"
+}
