@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">70.68% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>41/58</span>
+                <span class='fraction'>57/57</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">33.33% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/3</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">70.68% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>41/58</span>
+                <span class='fraction'>57/57</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -119,8 +119,7 @@
 <a name='L54'></a><a href='#L54'>54</a>
 <a name='L55'></a><a href='#L55'>55</a>
 <a name='L56'></a><a href='#L56'>56</a>
-<a name='L57'></a><a href='#L57'>57</a>
-<a name='L58'></a><a href='#L58'>58</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L57'></a><a href='#L57'>57</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -148,23 +147,22 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -183,7 +181,7 @@
 &nbsp;
 export const getFirstDuplicate = (text) =&gt; {
 &nbsp;
-    if (text === undefined ) {
+    if (text === undefined) {
         return ''
     }
     for (let i = 0; i &lt; text.length; i++) {
@@ -204,24 +202,23 @@ export const getFirstDuplicate = (text) =&gt; {
 &nbsp;
 // solution #2 - not working
 &nbsp;
-const firstDuplicate = (<span class="fstat-no" title="function not covered" >text) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    let tempMap = new Map();</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    [...text].forEach((el, index) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >        tempMap.set(index, el)</span>
-<span class="cstat-no" title="statement not covered" >    })</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    console.log(tempMap);</span>
-<span class="cstat-no" title="statement not covered" >    for (const [key, char] of tempMap) {</span>
-<span class="cstat-no" title="statement not covered" >        if (tempMap.has(char)) {</span>
-<span class="cstat-no" title="statement not covered" >            return char</span>
-<span class="cstat-no" title="statement not covered" >        } else {</span>
-<span class="cstat-no" title="statement not covered" >            tempMap.set(char, true)</span>
-<span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" >    }</span>
-<span class="cstat-no" title="statement not covered" >    return ''</span>
-<span class="cstat-no" title="statement not covered" >}</span>
+// export const firstDuplicate = (text) =&gt; {
+&nbsp;
+//     let tempMap = new Map();
+&nbsp;
+//     [...text].forEach((el, index) =&gt; {
+//         tempMap.set(index, el)
+//     })
+&nbsp;
+//     for (const [key, char] of tempMap) {
+//         if (tempMap.has(char)) {
+//             return char
+//         } else {
+//             tempMap.set(char, true)
+//         }
+//     }
+//     return ''
+// }
 &nbsp;
 // console.log(firstDuplicate('abccb')); // 'b'
 // console.log(firstDuplicate('bcabc')); // 'b'
@@ -230,7 +227,7 @@ const firstDuplicate = (<span class="fstat-no" title="function not covered" >tex
 &nbsp;
 // solution #3
 &nbsp;
-const findFirstDuplicate = (<span class="fstat-no" title="function not covered" >text) =&gt; ([...text].find((element, index) =&gt; text.lastIndexOf(element) !== index)) || '';</span>
+export const findFirstDuplicate = (text) =&gt; ([...text].find((element, index) =&gt; text.lastIndexOf(element) !== index)) || '';
 &nbsp;
 // console.log(findFirstDuplicate('abccb')); // 'b'
 // console.log(findFirstDuplicate('abc')); // ''
@@ -241,7 +238,7 @@ const findFirstDuplicate = (<span class="fstat-no" title="function not covered" 
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu Jun 09 2022 14:32:28 GMT+0200 (Central European Summer Time)
+                at Thu Jun 09 2022 15:32:04 GMT+0200 (Central European Summer Time)
             </div>
         <script src="prettify.js"></script>
         <script>

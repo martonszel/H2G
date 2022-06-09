@@ -4,13 +4,21 @@ describe('sum-all-even-numbers', () => {
 
     describe('sumArray', () => {
         it('should pass', () => {
-            expect(sumArray()).toBeDefined()
+            const array = [1, [2, 3], [[4], 5]]
+            const actual = sumArray(array)
+            const expected = 6
+
+            expect(actual).toEqual(expected)
         })
     })
 
     describe('sumEven', () => {
         it('should pass', () => {
-            expect(sumEven()).toBeDefined()
+            const array = [1, [2, 3], [[4], 5]]
+            const actual = sumEven(array)
+            const expected = 6
+
+            expect(actual).toEqual(expected)
         })
     })
 })

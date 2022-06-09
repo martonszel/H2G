@@ -23,16 +23,16 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">77.77% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>35/45</span>
+                <span class='fraction'>45/45</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.66% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>4/6</span>
+                <span class='fraction'>6/6</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">77.77% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>35/45</span>
+                <span class='fraction'>45/45</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -121,11 +121,9 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -138,11 +136,13 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -165,12 +165,12 @@ export const getUUIDBlocks = uuid =&gt; {
 &nbsp;
     let splittedArray = []
 &nbsp;
-    for (let i = 0; i &lt; fromatted.length; i += chunkSize) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
-<span class="cstat-no" title="statement not covered" >        let chunk = fromatted.slice(i, i + chunkSize);</span>
-<span class="cstat-no" title="statement not covered" >        splittedArray.push(chunk)</span>
-<span class="cstat-no" title="statement not covered" >    }</span>
-<span class="cstat-no" title="statement not covered" >    return splittedArray</span>
-<span class="cstat-no" title="statement not covered" >}</span>
+    for (let i = 0; i &lt; fromatted.length; i += chunkSize) {
+        let chunk = fromatted.slice(i, i + chunkSize);
+        splittedArray.push(chunk)
+    }
+    return splittedArray
+}
 &nbsp;
 // console.log(getUUIDBlocks('f782f011-636a-4d8b-9f63-dc34a4503c01')); // ['f7', '82', 'f0', '11', '63', '6a', '4d', '8b', '9f', '63', 'dc', '34',' a4', '50', '3c', '01']
 &nbsp;
@@ -182,12 +182,12 @@ const formatArray = (str, number) =&gt; {
 &nbsp;
     let splittedArray = []
 &nbsp;
-    for (let i = 0; i &lt; fromatted.length; i += number) <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
-<span class="cstat-no" title="statement not covered" >        splittedArray.push(fromatted.slice(i, i + number));</span>
-<span class="cstat-no" title="statement not covered" >    }</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    return splittedArray</span>
-<span class="cstat-no" title="statement not covered" >}</span>
+    for (let i = 0; i &lt; fromatted.length; i += number) {
+        splittedArray.push(fromatted.slice(i, i + number));
+    }
+&nbsp;
+    return splittedArray
+}
 &nbsp;
 export const UUIDBlocks = uuid =&gt; formatArray(uuid, 2)
 &nbsp;
@@ -205,7 +205,7 @@ export const formatUUIDBlocks = uuid =&gt; [...uuid.replace(/-/g, '')].join('').
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu Jun 09 2022 14:32:28 GMT+0200 (Central European Summer Time)
+                at Thu Jun 09 2022 15:32:04 GMT+0200 (Central European Summer Time)
             </div>
         <script src="prettify.js"></script>
         <script>

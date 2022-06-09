@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">72.91% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>35/48</span>
+                <span class='fraction'>48/48</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>12/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.66% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/3</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">72.91% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>35/48</span>
+                <span class='fraction'>48/48</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -125,19 +125,19 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -169,26 +169,26 @@
 &nbsp;
 // solution #1
 &nbsp;
-export const formattedElement = (<span class="fstat-no" title="function not covered" >number) =&gt; [.</span>..number.toString()].reduce((total, current) =&gt; total + Number(current), 0)
+export const formattedElement = (number) =&gt; [...number.toString()].reduce((total, current) =&gt; total + Number(current), 0)
 &nbsp;
 export const squareAndSum = (array) =&gt; {
 &nbsp;
     const formattedArray = [];
 &nbsp;
     array.forEach(element =&gt; {
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >        if (element &lt; 0) {</span>
-<span class="cstat-no" title="statement not covered" >            element = Math.pow(element, 2)</span>
-<span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >        let tempElement = formattedElement(element)</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >        while (tempElement.toString().length &gt; 1) {</span>
-<span class="cstat-no" title="statement not covered" >            tempElement = formattedElement(tempElement)</span>
-<span class="cstat-no" title="statement not covered" >        }</span>
-<span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >        formattedArray.push(tempElement)</span>
-<span class="cstat-no" title="statement not covered" >    });</span>
+&nbsp;
+        if (element &lt; 0) {
+            element = Math.pow(element, 2)
+        }
+&nbsp;
+        let tempElement = formattedElement(element)
+&nbsp;
+        while (tempElement.toString().length &gt; 1) {
+            tempElement = formattedElement(tempElement)
+        }
+&nbsp;
+        formattedArray.push(tempElement)
+    });
 &nbsp;
     return formattedArray
 }
@@ -223,7 +223,7 @@ export const sumAndSquare = (array) =&gt;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Thu Jun 09 2022 14:32:28 GMT+0200 (Central European Summer Time)
+                at Thu Jun 09 2022 15:32:04 GMT+0200 (Central European Summer Time)
             </div>
         <script src="prettify.js"></script>
         <script>

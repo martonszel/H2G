@@ -4,13 +4,37 @@ describe('sum-all-numbers-nested', () => {
 
     describe('sumArray', () => {
         it('should pass', () => {
-            expect(sumArray()).toBeDefined()
+            const array = [1, [2, [[[3]]]], [4, 5]]
+            const actual = sumArray(array)
+            const expected = 15
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should pass', () => {
+            const array = [1, [2, [3], [4, "5", null, undefined, [NaN, Infinity], [true, false], { id: '1' }, 5]]]
+            const actual = sumArray(array)
+            const expected = 15
+
+            expect(actual).toEqual(expected)
         })
     })
 
     describe('sumNumbers', () => {
         it('should pass', () => {
-            expect(sumNumbers()).toBeDefined()
+            const array = [1, [2, [[[3]]]], [4, 5]]
+            const actual = sumNumbers(array)
+            const expected = 15
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should pass', () => {
+            const array = [1, [2, [3], [4, "5", null, undefined, [NaN, Infinity], [true, false], { id: '1' }, 5]]]
+            const actual = sumNumbers(array)
+            const expected = 15
+
+            expect(actual).toEqual(expected)
         })
     })
 })

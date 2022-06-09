@@ -4,7 +4,7 @@
 
 export const getFirstDuplicate = (text) => {
 
-    if (text === undefined ) {
+    if (text === undefined) {
         return ''
     }
     for (let i = 0; i < text.length; i++) {
@@ -25,24 +25,23 @@ export const getFirstDuplicate = (text) => {
 
 // solution #2 - not working
 
-const firstDuplicate = (text) => {
+// export const firstDuplicate = (text) => {
 
-    let tempMap = new Map();
+//     let tempMap = new Map();
 
-    [...text].forEach((el, index) => {
-        tempMap.set(index, el)
-    })
+//     [...text].forEach((el, index) => {
+//         tempMap.set(index, el)
+//     })
 
-    console.log(tempMap);
-    for (const [key, char] of tempMap) {
-        if (tempMap.has(char)) {
-            return char
-        } else {
-            tempMap.set(char, true)
-        }
-    }
-    return ''
-}
+//     for (const [key, char] of tempMap) {
+//         if (tempMap.has(char)) {
+//             return char
+//         } else {
+//             tempMap.set(char, true)
+//         }
+//     }
+//     return ''
+// }
 
 // console.log(firstDuplicate('abccb')); // 'b'
 // console.log(firstDuplicate('bcabc')); // 'b'
@@ -51,7 +50,7 @@ const firstDuplicate = (text) => {
 
 // solution #3
 
-const findFirstDuplicate = (text) => ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
+export const findFirstDuplicate = (text) => ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
 
 // console.log(findFirstDuplicate('abccb')); // 'b'
 // console.log(findFirstDuplicate('abc')); // ''

@@ -15,8 +15,9 @@ export const isPalindrome = (text) => text.replace(/ /g, '') === '' ? false : te
 
 // solution #2
 
-export const clean = (str) => str.toLowerCase().replace(/ /g, '')
-export const Palindrome = (text) => {
+const clean = (str) => str.toLowerCase().replace(/ /g, '')
+
+export const palindrome = (text) => {
 
     const cleanStr = clean(text)
     const splitted = cleanStr.split('')
@@ -33,9 +34,9 @@ export const Palindrome = (text) => {
     return true
 }
 
-// console.log(Palindrome('')); // false
-// console.log(Palindrome('     ')); // false
-// console.log(Palindrome('anna')); // true
-// console.log(Palindrome('anna    ')); // true
-// console.log(Palindrome('indul a gorog aludni')); // true
-// console.log(Palindrome('alma')); // false
+// console.log(palindrome('')); // false
+// console.log(palindrome('     ')); // false
+// console.log(palindrome('anna')); // true
+// console.log(palindrome('anna    ')); // true
+// console.log(palindrome('indul a gorog aludni')); // true
+// console.log(palindrome('alma')); // false
