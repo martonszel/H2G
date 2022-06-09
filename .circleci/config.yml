@@ -2,20 +2,26 @@ version: 2.1
 orbs:
   node: circleci/node@4.3.0
 jobs:
-  test:
+  build_and_test:
     docker:
       - image: 'cimg/node:lts'
     steps:
       - checkout
+      - restore_cache:
+          key: v1-deps-{{ checksum "package-lock.json" }}
       - run: 
           name: install
           working_directory: Module-3-Javascript-Coding-Task
           command: npm i
+      - save_cache:
+          key: v1-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
       - run:
           name: test
           working_directory: Module-3-Javascript-Coding-Task
           command: npm run test:ci
 workflows:
-  test:
+  build_and_test:
     jobs:
-      - test
+      - build_and_test
