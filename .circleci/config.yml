@@ -16,7 +16,7 @@ jobs:
       - save_cache:
           key: v1-deps-{{ checksum "Module-3-Javascript-Coding-Task/package-lock.json" }}
           paths:
-            - node_modules
+            - Module-3-Javascript-Coding-Task/node_modules
       - run:
           name: test
           working_directory: Module-3-Javascript-Coding-Task
