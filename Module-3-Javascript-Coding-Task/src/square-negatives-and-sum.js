@@ -26,7 +26,7 @@ export const squareAndSum = (array) => {
     return formattedArray
 }
 
-console.log(squareAndSum([-1, 1, 12, -4, -5, 999])); // [1, 1, 3, 7, 7, 9]
+// console.log(squareAndSum([-1, 1, 12, -4, -5, 999])); // [1, 1, 3, 7, 7, 9]
 
 
 // const sumAndSquare = (array) => {
@@ -45,7 +45,7 @@ export const sumAndSquare = (array) =>
         .map((item) => item % 9 || 9)
 
 
-console.log(sumAndSquare([-1, 1, 12, -6, -5, 999])); // [1, 1, 3, 7, 7, 9]
+// console.log(sumAndSquare([-1, 1, 12, -6, -5, 999])); // [1, 1, 3, 7, 7, 9]
 
 
 

@@ -12,9 +12,9 @@ export const getLongestString = array => {
     return tempString
 }
 
-console.log(getLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
-console.log(getLongestString(['abc', 'a', 'ab'])); // 'abc'
-console.log(getLongestString([1, 2, 3])); // ''
+// console.log(getLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
+// console.log(getLongestString(['abc', 'a', 'ab'])); // 'abc'
+// console.log(getLongestString([1, 2, 3])); // ''
 
 // solution #2
 
@@ -26,9 +26,9 @@ export const longestString = (arr) =>
             , initialValue
         );
 
-console.log(longestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
-console.log(longestString(['abc', 'a', 'ab'])); // 'abc'
-console.log(longestString([1, 2, 3])); // ''
+// console.log(longestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
+// console.log(longestString(['abc', 'a', 'ab'])); // 'abc'
+// console.log(longestString([1, 2, 3])); // ''
 
 // solution #3
 
@@ -36,6 +36,6 @@ export const otherLongestString = (arr) =>
     arr.filter((element) => typeof element === "string")
         .sort((a, b) => { return b.length - a.length })[0];
 
-console.log(otherLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
-console.log(otherLongestString(['abc', 'a', 'ab'])); // 'abc'
-console.log(otherLongestString([1, 2, 3])); // ''
+// console.log(otherLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
+// console.log(otherLongestString(['abc', 'a', 'ab'])); // 'abc'
+// console.log(otherLongestString([1, 2, 3])); // ''

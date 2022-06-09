@@ -6,12 +6,12 @@
 
 export const isPalindrome = (text) => text.replace(/ /g, '') === '' ? false : text.toLowerCase().split('').reverse().join('').replace(/ /g, '') === text.toLowerCase().replace(/ /g, '')
 
-console.log(isPalindrome('')); // false
-console.log(isPalindrome('     ')); // false
-console.log(isPalindrome('anna')); // true
-console.log(isPalindrome('anna    ')); // true
-console.log(isPalindrome('indul a gorog aludni')); // true
-console.log(isPalindrome('alma')); // false
+// console.log(isPalindrome('')); // false
+// console.log(isPalindrome('     ')); // false
+// console.log(isPalindrome('anna')); // true
+// console.log(isPalindrome('anna    ')); // true
+// console.log(isPalindrome('indul a gorog aludni')); // true
+// console.log(isPalindrome('alma')); // false
 
 // solution #2
 
@@ -33,9 +33,9 @@ export const Palindrome = (text) => {
     return true
 }
 
-console.log(Palindrome('')); // false
-console.log(Palindrome('     ')); // false
-console.log(Palindrome('anna')); // true
-console.log(Palindrome('anna    ')); // true
-console.log(Palindrome('indul a gorog aludni')); // true
-console.log(Palindrome('alma')); // false
+// console.log(Palindrome('')); // false
+// console.log(Palindrome('     ')); // false
+// console.log(Palindrome('anna')); // true
+// console.log(Palindrome('anna    ')); // true
+// console.log(Palindrome('indul a gorog aludni')); // true
+// console.log(Palindrome('alma')); // false

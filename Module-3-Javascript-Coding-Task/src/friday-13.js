@@ -3,9 +3,9 @@
 
 // solution #1
 
-const range = (min, max) => Array.from({ length: max - min + 1 }, (_, i) => min + i);
+export const range = (min, max) => Array.from({ length: max - min + 1 }, (_, i) => min + i);
 
-const getFriday13s = (startYear, endYear) => {
+export const getFriday13s = (startYear, endYear) => {
 
     const months = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
@@ -38,14 +38,14 @@ const getFriday13s = (startYear, endYear) => {
     }
 }
 
-console.log(getFriday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
-console.log(getFriday13s(1999)); // ['2000.10.13']t
-console.log(getFriday13s(1999, 2005));
+// console.log(getFriday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
+// console.log(getFriday13s(1999)); // ['2000.10.13']t
+// console.log(getFriday13s(1999, 2005));
 
 
 // solution #2
 
-const friday13s = (startYear, endYear) => {
+export const friday13s = (startYear, endYear) => {
     const rangeStart = new Date(startYear, 0, 1);
     const rangeEnd = endYear ? new Date(endYear, 12, 31) : new Date(startYear, 12, 31);
     const getDaysArray = (start, end) => {
@@ -63,9 +63,9 @@ const friday13s = (startYear, endYear) => {
 }
 
 
-console.log(friday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
-console.log(friday13s(2000)); // ['2000.10.13']
-console.log(friday13s(1999, 2005));
+// console.log(friday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
+// console.log(friday13s(2000)); // ['2000.10.13']
+// console.log(friday13s(1999, 2005));
 
 
 // solution #3
@@ -87,6 +87,6 @@ export const findfriday13s = (startYear, endYear) =>
         .filter((date) => date.getDay() === 5 && date.getDate() === 13)
         .map(friday => new Intl.DateTimeFormat('hu').format(friday))
 
-console.log(findfriday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
-console.log(findfriday13s(2000)); // ['2000.10.13']
-console.log(findfriday13s(1999, 2005));
+// console.log(findfriday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
+// console.log(findfriday13s(2000)); // ['2000.10.13']
+// console.log(findfriday13s(1999, 2005));
