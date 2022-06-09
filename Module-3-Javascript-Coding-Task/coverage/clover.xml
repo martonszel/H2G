@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654781524957" clover="3.2.0">
-  <project timestamp="1654781524957" name="All files">
-    <metrics statements="505" coveredstatements="505" conditionals="124" coveredconditionals="124" methods="34" coveredmethods="34" elements="663" coveredelements="663" complexity="0" loc="505" ncloc="505" packages="1" files="13" classes="13"/>
+<coverage generated="1654783238958" clover="3.2.0">
+  <project timestamp="1654783238958" name="All files">
+    <metrics statements="511" coveredstatements="511" conditionals="127" coveredconditionals="127" methods="34" coveredmethods="34" elements="672" coveredelements="672" complexity="0" loc="511" ncloc="511" packages="1" files="13" classes="13"/>
     <file name="content-weight.js" path="C:\Users\Marton_Szel\Desktop\EPAM\H2G\Module-3-Javascript-Coding-Task\src\content-weight.js">
       <metrics statements="41" coveredstatements="41" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
@@ -134,7 +134,7 @@
       <line num="57" count="1" type="stmt"/>
     </file>
     <file name="friday-13.js" path="C:\Users\Marton_Szel\Desktop\EPAM\H2G\Module-3-Javascript-Coding-Task\src\friday-13.js">
-      <metrics statements="92" coveredstatements="92" conditionals="25" coveredconditionals="25" methods="6" coveredmethods="6"/>
+      <metrics statements="98" coveredstatements="98" conditionals="28" coveredconditionals="28" methods="6" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -143,13 +143,13 @@
       <line num="6" count="1" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="10" count="2" type="stmt"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="14" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
       <line num="16" count="12" type="stmt"/>
       <line num="17" count="12" type="stmt"/>
       <line num="18" count="12" type="cond" truecount="1" falsecount="0"/>
@@ -157,76 +157,82 @@
       <line num="20" count="1" type="stmt"/>
       <line num="21" count="1" type="stmt"/>
       <line num="22" count="12" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="27" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="28" count="24" type="stmt"/>
-      <line num="29" count="24" type="stmt"/>
-      <line num="30" count="24" type="stmt"/>
-      <line num="31" count="24" type="cond" truecount="1" falsecount="0"/>
-      <line num="32" count="2" type="stmt"/>
-      <line num="33" count="2" type="stmt"/>
-      <line num="34" count="2" type="stmt"/>
-      <line num="35" count="24" type="stmt"/>
-      <line num="36" count="2" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="39" count="2" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
-      <line num="41" count="1" type="stmt"/>
-      <line num="42" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="29" count="4" type="cond" truecount="1" falsecount="0"/>
+      <line num="30" count="48" type="stmt"/>
+      <line num="31" count="48" type="stmt"/>
+      <line num="32" count="48" type="cond" truecount="1" falsecount="0"/>
+      <line num="33" count="4" type="stmt"/>
+      <line num="34" count="4" type="stmt"/>
+      <line num="35" count="4" type="stmt"/>
+      <line num="36" count="48" type="stmt"/>
+      <line num="37" count="4" type="stmt"/>
+      <line num="38" count="2" type="stmt"/>
+      <line num="39" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="41" count="2" type="stmt"/>
+      <line num="42" count="2" type="stmt"/>
+      <line num="43" count="2" type="stmt"/>
+      <line num="44" count="3" type="stmt"/>
       <line num="45" count="1" type="stmt"/>
       <line num="46" count="1" type="stmt"/>
       <line num="47" count="1" type="stmt"/>
-      <line num="48" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="49" count="2" type="stmt"/>
-      <line num="50" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="51" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="52" count="2" type="stmt"/>
-      <line num="53" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="54" count="1159" type="stmt"/>
-      <line num="55" count="1159" type="stmt"/>
-      <line num="56" count="2" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="53" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="2" type="cond" truecount="1" falsecount="0"/>
       <line num="57" count="2" type="stmt"/>
-      <line num="58" count="2" type="stmt"/>
-      <line num="59" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="60" count="1159" type="cond" truecount="1" falsecount="0"/>
-      <line num="61" count="1159" type="stmt"/>
-      <line num="62" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="58" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="59" count="1159" type="stmt"/>
+      <line num="60" count="1159" type="stmt"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="62" count="2" type="stmt"/>
       <line num="63" count="2" type="stmt"/>
-      <line num="64" count="1" type="stmt"/>
-      <line num="65" count="1" type="stmt"/>
-      <line num="66" count="1" type="stmt"/>
-      <line num="67" count="1" type="stmt"/>
-      <line num="68" count="1" type="stmt"/>
+      <line num="64" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="65" count="1159" type="cond" truecount="1" falsecount="0"/>
+      <line num="66" count="1159" type="stmt"/>
+      <line num="67" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="68" count="2" type="stmt"/>
       <line num="69" count="1" type="stmt"/>
       <line num="70" count="1" type="stmt"/>
       <line num="71" count="1" type="stmt"/>
       <line num="72" count="1" type="stmt"/>
-      <line num="73" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="74" count="2" type="stmt"/>
-      <line num="75" count="2" type="stmt"/>
-      <line num="76" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="77" count="2" type="stmt"/>
-      <line num="78" count="2" type="stmt"/>
-      <line num="79" count="2" type="cond" truecount="1" falsecount="0"/>
-      <line num="80" count="1097" type="stmt"/>
-      <line num="81" count="1097" type="stmt"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="76" count="1" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="78" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="79" count="2" type="stmt"/>
+      <line num="80" count="2" type="stmt"/>
+      <line num="81" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="82" count="2" type="stmt"/>
       <line num="83" count="2" type="stmt"/>
-      <line num="84" count="1" type="stmt"/>
-      <line num="85" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="86" count="1" type="stmt"/>
-      <line num="87" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="88" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="84" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="85" count="1097" type="stmt"/>
+      <line num="86" count="1097" type="stmt"/>
+      <line num="87" count="2" type="stmt"/>
+      <line num="88" count="2" type="stmt"/>
       <line num="89" count="1" type="stmt"/>
-      <line num="90" count="1" type="stmt"/>
-      <line num="91" count="1" type="stmt"/>
-      <line num="92" count="1" type="stmt"/>
+      <line num="90" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="91" count="2" type="stmt"/>
+      <line num="92" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="93" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="94" count="3" type="stmt"/>
+      <line num="95" count="3" type="stmt"/>
+      <line num="96" count="1" type="stmt"/>
+      <line num="97" count="1" type="stmt"/>
+      <line num="98" count="1" type="stmt"/>
     </file>
     <file name="longest-string.js" path="C:\Users\Marton_Szel\Desktop\EPAM\H2G\Module-3-Javascript-Coding-Task\src\longest-string.js">
       <metrics statements="41" coveredstatements="41" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>

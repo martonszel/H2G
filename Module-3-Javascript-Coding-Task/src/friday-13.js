@@ -20,21 +20,24 @@ export const getFriday13s = (startYear, endYear) => {
                 fridays.push(fromattedDate)
             }
         })
-        return fridays
+
+        const goodDate = fridays.map(friday => friday.replace(/-/g, ".").concat("."))
+        return goodDate
     } else {
         const years = range(startYear, endYear)
         years.forEach((year) => {
             months.forEach((month) => {
                 let newDate = new Date();
                 newDate.setFullYear(year, month, 13);
-                console.log(newDate);
                 if (newDate.getDay() == 5) {
                     let fromattedDate = newDate.toISOString().split('T')[0]
                     fridays.push(fromattedDate)
                 }
             })
         })
-        return fridays
+
+        const goodDate = fridays.map(friday => friday.replace(/-/g, ".").concat("."))
+        return goodDate
     }
 }
 
@@ -59,7 +62,7 @@ export const friday13s = (startYear, endYear) => {
         .filter((date) => {
             return date.getDay() === 5 && date.getDate() === 13
         })
-        .map(friday => new Intl.DateTimeFormat('hu').format(friday))
+        .map(friday => new Intl.DateTimeFormat('hu').format(friday).replace(/ /g, ""))
 }
 
 
@@ -85,8 +88,9 @@ export const getDaysArray = (start, end) => {
 export const findfriday13s = (startYear, endYear) =>
     getDaysArray(startYear, endYear)
         .filter((date) => date.getDay() === 5 && date.getDate() === 13)
-        .map(friday => new Intl.DateTimeFormat('hu').format(friday))
+        .map(friday => {
+            return new Intl.DateTimeFormat('hu').format(friday).replace(/ /g, "")
+        })
 
 // console.log(findfriday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
 // console.log(findfriday13s(2000)); // ['2000.10.13']
-// console.log(findfriday13s(1999, 2005));
