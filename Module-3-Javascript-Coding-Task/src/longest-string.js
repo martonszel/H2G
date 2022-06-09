@@ -2,7 +2,7 @@
 
 // solution #1
 
-const getLongestString = array => {
+export const getLongestString = array => {
     let tempString = '';
     array.forEach(element => {
         if (typeof element === "string" && element.length > tempString.length) {
@@ -20,7 +20,7 @@ console.log(getLongestString([1, 2, 3])); // ''
 
 const initialValue = '';
 
-const longestString = (arr) =>
+export const longestString = (arr) =>
     arr.filter((element) => typeof element === "string")
         .reduce((previousValue, currentValue) => previousValue.length < currentValue.length ? currentValue : previousValue
             , initialValue
@@ -32,7 +32,7 @@ console.log(longestString([1, 2, 3])); // ''
 
 // solution #3
 
-const otherLongestString = (arr) =>
+export const otherLongestString = (arr) =>
     arr.filter((element) => typeof element === "string")
         .sort((a, b) => { return b.length - a.length })[0];
 

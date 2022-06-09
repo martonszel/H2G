@@ -70,7 +70,7 @@ console.log(friday13s(1999, 2005));
 
 // solution #3
 
-const getDaysArray = (start, end) => {
+export const getDaysArray = (start, end) => {
 
     const rangeStart = new Date(Date.UTC(start, 0, 1));
     const rangeEnd = end ? new Date(Date.UTC(end, 11, 31)) : new Date(Date.UTC(start, 11, 31));
@@ -82,7 +82,7 @@ const getDaysArray = (start, end) => {
     return arr;
 };
 
-const findfriday13s = (startYear, endYear) =>
+export const findfriday13s = (startYear, endYear) =>
     getDaysArray(startYear, endYear)
         .filter((date) => date.getDay() === 5 && date.getDate() === 13)
         .map(friday => new Intl.DateTimeFormat('hu').format(friday))

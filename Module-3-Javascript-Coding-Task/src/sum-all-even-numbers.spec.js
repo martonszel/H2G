@@ -1,0 +1,1 @@
+import { sumArray, sumEven } from './sum-all-even-numbers'

@@ -4,7 +4,7 @@
 
 // solution #1
 
-const isPalindrome = (text) => text.replace(/ /g, '') === '' ? false : text.toLowerCase().split('').reverse().join('').replace(/ /g, '') === text.toLowerCase().replace(/ /g, '')
+export const isPalindrome = (text) => text.replace(/ /g, '') === '' ? false : text.toLowerCase().split('').reverse().join('').replace(/ /g, '') === text.toLowerCase().replace(/ /g, '')
 
 console.log(isPalindrome('')); // false
 console.log(isPalindrome('     ')); // false
@@ -15,8 +15,8 @@ console.log(isPalindrome('alma')); // false
 
 // solution #2
 
-const clean = (str) => str.toLowerCase().replace(/ /g, '')
-const Palindrome = (text) => {
+export const clean = (str) => str.toLowerCase().replace(/ /g, '')
+export const Palindrome = (text) => {
 
     const cleanStr = clean(text)
     const splitted = cleanStr.split('')

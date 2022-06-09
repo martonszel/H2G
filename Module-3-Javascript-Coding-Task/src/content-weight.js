@@ -10,7 +10,7 @@
 
 // solution #1
 
-const contentWeight = (bottleWeight, scale) => {
+export const contentWeight = (bottleWeight, scale) => {
 
     const splittedScale = scale.split(' ')
 
@@ -31,7 +31,7 @@ console.log(contentWeight(1020, '50 times smaller')); // 20
 
 // solution #2
 
-const contentWeightCalc = (bottleWeight, scale) =>
+export const contentWeightCalc = (bottleWeight, scale) =>
     /larger/.test(scale) ? bottleWeight * Number(scale.substring(0, 2)) / (Number(scale.substring(0, 2)) + 1) : bottleWeight / (Number(scale.substring(0, 2)) + 1)
 
 console.log(contentWeightCalc(120, '2 times larger')); // 80

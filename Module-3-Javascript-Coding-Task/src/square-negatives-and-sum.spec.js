@@ -1,0 +1,1 @@
+import { formattedElement, squareAndSum, sumAndSquare } from './square-negatives-and-sum'

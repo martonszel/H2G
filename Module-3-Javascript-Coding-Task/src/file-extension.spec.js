@@ -1,0 +1,1 @@
+import { getFileExtension, extension } from './file-extension'

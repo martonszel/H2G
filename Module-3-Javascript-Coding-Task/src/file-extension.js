@@ -2,7 +2,7 @@
 
 // solution #1
 
-const getFileExtension = filename => {
+export const getFileExtension = filename => {
     const splittedName = filename.split('.')
     return splittedName.length === 1 || splittedName[0] === '' ? false : splittedName[splittedName.length - 1]
 }
@@ -16,7 +16,7 @@ console.log(getFileExtension('.git')); // false
 // solution #2
 
 const searchTerm = '.';
-const extension = (word) => word.indexOf(searchTerm) > 0 ? word.substring(word.lastIndexOf(searchTerm) + 1) : false
+export const extension = (word) => word.indexOf(searchTerm) > 0 ? word.substring(word.lastIndexOf(searchTerm) + 1) : false
 
 console.log(extension('data.txt')); // 'txt'
 console.log(extension('component.test.js')); // 'js'
