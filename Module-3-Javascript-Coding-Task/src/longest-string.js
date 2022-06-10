@@ -3,6 +3,11 @@
 // solution #1
 
 export const getLongestString = array => {
+
+    if (!array) {
+        return 'dájé'
+    }
+
     let tempString = '';
     array.forEach(element => {
         if (typeof element === "string" && element.length > tempString.length) {
@@ -21,10 +26,11 @@ export const getLongestString = array => {
 const initialValue = '';
 
 export const longestString = (arr) =>
-    arr.filter((element) => typeof element === "string")
-        .reduce((previousValue, currentValue) => previousValue.length < currentValue.length ? currentValue : previousValue
-            , initialValue
-        );
+    !arr ? 'dájé' :
+        arr.filter((element) => typeof element === "string")
+            .reduce((previousValue, currentValue) => previousValue.length < currentValue.length ? currentValue : previousValue
+                , initialValue
+            );
 
 // console.log(longestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
 // console.log(longestString(['abc', 'a', 'ab'])); // 'abc'
@@ -33,8 +39,9 @@ export const longestString = (arr) =>
 // solution #3
 
 export const otherLongestString = (arr) =>
-    arr.filter((element) => typeof element === "string")
-        .sort((a, b) => b.length - a.length)[0] || ''
+    !arr ? 'dájé' :
+        arr.filter((element) => typeof element === "string")
+            .sort((a, b) => b.length - a.length)[0] || ''
 
 // console.log(otherLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
 // console.log(otherLongestString(['abc', 'a', 'ab'])); // 'abc'

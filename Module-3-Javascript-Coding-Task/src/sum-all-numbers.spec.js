@@ -18,5 +18,23 @@ describe('sum-all-numbers', () => {
 
             expect(actual).toEqual(expected)
         })
+
+        it('should return empty string when undefined', () => {
+
+            const array = undefined
+            const actual = sum(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const array = null
+            const actual = sum(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
     })
 })

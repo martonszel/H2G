@@ -3,6 +3,10 @@
 // solution #1
 
 export const getFileExtension = filename => {
+    if (!filename) {
+        return 'dájé'
+    }
+
     const splittedName = filename.split('.')
     return splittedName.length === 1 || splittedName[0] === '' ? false : splittedName[splittedName.length - 1]
 }
@@ -16,7 +20,7 @@ export const getFileExtension = filename => {
 // solution #2
 
 const searchTerm = '.';
-export const extension = (word) => word.indexOf(searchTerm) > 0 ? word.substring(word.lastIndexOf(searchTerm) + 1) : false
+export const extension = (word) => !word ? 'dájé' : word.indexOf(searchTerm) > 0 ? word.substring(word.lastIndexOf(searchTerm) + 1) : false
 
 // console.log(extension('data.txt')); // 'txt'
 // console.log(extension('component.test.js')); // 'js'

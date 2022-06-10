@@ -4,7 +4,7 @@
 
 // solution #1
 
-export const isPalindrome = (text) => text.replace(/ /g, '') === '' ? false : text.toLowerCase().split('').reverse().join('').replace(/ /g, '') === text.toLowerCase().replace(/ /g, '')
+export const isPalindrome = (text) => !text ? false : text.replace(/ /g, '') === '' ? false : text.toLowerCase().split('').reverse().join('').replace(/ /g, '') === text.toLowerCase().replace(/ /g, '')
 
 // console.log(isPalindrome('')); // false
 // console.log(isPalindrome('     ')); // false
@@ -18,6 +18,10 @@ export const isPalindrome = (text) => text.replace(/ /g, '') === '' ? false : te
 const clean = (str) => str.toLowerCase().replace(/ /g, '')
 
 export const palindrome = (text) => {
+
+    if (!text) {
+        return false
+    }
 
     const cleanStr = clean(text)
     const splitted = cleanStr.split('')

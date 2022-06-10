@@ -2,7 +2,7 @@
 
 // solution #1
 
-export const sum = (array) => array.reduce((sum, current) => typeof current === 'number' && isFinite(current) ? sum + current : sum, 0);
+export const sum = (array) => !array ? 'dájé' : array.reduce((sum, current) => typeof current === 'number' && isFinite(current) ? sum + current : sum, 0);
 
 
 // console.log(sum([1, 2, 3, 4, 5])); // 15

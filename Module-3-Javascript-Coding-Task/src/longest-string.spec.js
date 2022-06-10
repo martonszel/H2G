@@ -26,6 +26,24 @@ describe('longest-string', () => {
 
             expect(actual).toEqual(expected)
         })
+
+        it('should return empty string when undefined', () => {
+
+            const array = undefined
+            const actual = getLongestString(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const array = null
+            const actual = getLongestString(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
     })
 
     describe('longestString', () => {
@@ -54,6 +72,24 @@ describe('longest-string', () => {
             expect(actual).toEqual(expected)
         })
 
+        it('should return empty string when undefined', () => {
+
+            const array = undefined
+            const actual = longestString(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const array = null
+            const actual = longestString(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
     })
 
     describe('otherLongestString', () => {
@@ -78,6 +114,24 @@ describe('longest-string', () => {
             const array = [1, 2, 3]
             const actual = otherLongestString(array)
             const expected = ''
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when undefined', () => {
+
+            const array = undefined
+            const actual = otherLongestString(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const array = null
+            const actual = otherLongestString(array)
+            const expected = 'dájé'
 
             expect(actual).toEqual(expected)
         })

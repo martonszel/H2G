@@ -3,6 +3,7 @@ import { getFirstDuplicate, findFirstDuplicate } from './first-duplicate'
 describe('first-duplicate', () => {
 
     describe('getFirstDuplicate', () => {
+
         it('should return b', () => {
 
             const text = 'abccb'
@@ -10,8 +11,8 @@ describe('first-duplicate', () => {
             const expected = 'b'
 
             expect(actual).toEqual(expected)
-
         })
+
         it('should return empty string', () => {
 
             const text = 'abc'
@@ -19,8 +20,8 @@ describe('first-duplicate', () => {
             const expected = ''
 
             expect(actual).toEqual(expected)
-
         })
+
         it('should return empty string when undefined', () => {
 
             const text = undefined
@@ -28,12 +29,21 @@ describe('first-duplicate', () => {
             const expected = ''
 
             expect(actual).toEqual(expected)
+        })
 
+        it('should return empty string when null', () => {
+
+            const text = null
+            const actual = getFirstDuplicate(text)
+            const expected = ''
+
+            expect(actual).toEqual(expected)
         })
     })
 
 
     describe('findFirstDuplicate', () => {
+
         it('should return b', () => {
 
             const text = 'abccb'
@@ -41,8 +51,8 @@ describe('first-duplicate', () => {
             const expected = 'b'
 
             expect(actual).toEqual(expected)
-
         })
+
         it('should return empty string', () => {
 
             const text = 'abc'
@@ -50,8 +60,8 @@ describe('first-duplicate', () => {
             const expected = ''
 
             expect(actual).toEqual(expected)
-
         })
+
         it('should return empty string when undefined', () => {
 
             const text = undefined
@@ -59,7 +69,15 @@ describe('first-duplicate', () => {
             const expected = ''
 
             expect(actual).toEqual(expected)
+        })
 
+        it('should return empty string when null', () => {
+
+            const text = null
+            const actual = findFirstDuplicate(text)
+            const expected = ''
+
+            expect(actual).toEqual(expected)
         })
     })
 

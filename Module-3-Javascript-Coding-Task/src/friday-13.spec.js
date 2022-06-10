@@ -19,6 +19,26 @@ describe('friday-13', () => {
 
             expect(actual).toEqual(expected)
         })
+
+        it('should return empty string when undefined', () => {
+
+            const startYear = undefined
+            const endYear = undefined
+            const actual = getFriday13s(startYear, endYear)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const startYear = null
+            const endYear = null
+            const actual = getFriday13s(startYear, endYear)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
     })
 
     describe('friday13s', () => {
@@ -38,6 +58,26 @@ describe('friday-13', () => {
 
             expect(actual).toEqual(expected)
         })
+
+        it('should return empty string when undefined', () => {
+
+            const startYear = undefined
+            const endYear = undefined
+            const actual = friday13s(startYear, endYear)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const startYear = null
+            const endYear = null
+            const actual = friday13s(startYear, endYear)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
     })
 
     describe('findfriday13s', () => {
@@ -54,6 +94,26 @@ describe('friday-13', () => {
             const startYear = 2000
             const actual = findfriday13s(startYear)
             const expected = ['2000.10.13.']
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when undefined', () => {
+
+            const startYear = undefined
+            const endYear = undefined
+            const actual = findfriday13s(startYear, endYear)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const startYear = null
+            const endYear = null
+            const actual = findfriday13s(startYear, endYear)
+            const expected = 'dájé'
 
             expect(actual).toEqual(expected)
         })

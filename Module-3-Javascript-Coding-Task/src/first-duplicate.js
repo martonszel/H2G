@@ -4,7 +4,7 @@
 
 export const getFirstDuplicate = (text) => {
 
-    if (text === undefined) {
+    if (text === undefined || text === null) {
         return ''
     }
     for (let i = 0; i < text.length; i++) {
@@ -51,7 +51,7 @@ export const getFirstDuplicate = (text) => {
 
 // solution #3
 
-export const findFirstDuplicate = (text) => typeof text === 'undefined' ? '' : ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
+export const findFirstDuplicate = (text) => text === undefined || text === null ? '' : ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
 
 // console.log(findFirstDuplicate('abccb')); // 'b'
 // console.log(findFirstDuplicate(undefined)); // 'b'

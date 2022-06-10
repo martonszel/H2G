@@ -6,6 +6,10 @@ export const formattedElement = (number) => [...number.toString()].reduce((total
 
 export const squareAndSum = (array) => {
 
+    if (!array) {
+        return 'dájé'
+    }
+
     const formattedArray = [];
 
     array.forEach(element => {
@@ -41,8 +45,9 @@ export const squareAndSum = (array) => {
 
 
 export const sumAndSquare = (array) =>
-    array.map((element) => element < 0 ? Math.pow(element, 2) : element)
-        .map((item) => item % 9 || 9)
+    !array ? 'dájé' :
+        array.map((element) => element < 0 ? Math.pow(element, 2) : element)
+            .map((item) => item % 9 || 9)
 
 
 // console.log(sumAndSquare([-1, 1, 12, -6, -5, 999])); // [1, 1, 3, 7, 7, 9]

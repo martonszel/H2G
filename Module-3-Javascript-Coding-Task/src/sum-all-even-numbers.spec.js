@@ -18,6 +18,24 @@ describe('sum-all-even-numbers', () => {
 
             expect(actual).toEqual(expected)
         })
+
+        it('should return empty string when undefined', () => {
+
+            const array = undefined
+            const actual = sumArray(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const array = null
+            const actual = sumArray(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
     })
 
     describe('sumEven', () => {
@@ -33,6 +51,24 @@ describe('sum-all-even-numbers', () => {
             const array = [1, [1, 1], [[1], 1]]
             const actual = sumEven(array)
             const expected = 0
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when undefined', () => {
+
+            const array = undefined
+            const actual = sumEven(array)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const array = null
+            const actual = sumEven(array)
+            const expected = 'dájé'
 
             expect(actual).toEqual(expected)
         })

@@ -34,6 +34,24 @@ describe('file-extension', () => {
 
             expect(actual).toEqual(expected)
         })
+
+        it('should return empty string when undefined', () => {
+
+            const filename = undefined
+            const actual = getFileExtension(filename)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const filename = null
+            const actual = getFileExtension(filename)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
     })
 
     describe('extension', () => {
@@ -65,6 +83,24 @@ describe('file-extension', () => {
             const filename = '.git'
             const actual = extension(filename)
             const expected = false
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when undefined', () => {
+
+            const filename = undefined
+            const actual = extension(filename)
+            const expected = 'dájé'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return empty string when null', () => {
+
+            const filename = null
+            const actual = extension(filename)
+            const expected = 'dájé'
 
             expect(actual).toEqual(expected)
         })

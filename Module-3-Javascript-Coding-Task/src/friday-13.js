@@ -7,6 +7,10 @@ export const range = (min, max) => Array.from({ length: max - min + 1 }, (_, i) 
 
 export const getFriday13s = (startYear, endYear) => {
 
+    if (!startYear && !endYear) {
+        return 'dájé'
+    }
+
     const months = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
     const fridays = []
@@ -49,6 +53,11 @@ export const getFriday13s = (startYear, endYear) => {
 // solution #2
 
 export const friday13s = (startYear, endYear) => {
+
+    if (!startYear && !endYear) {
+        return 'dájé'
+    }
+
     const rangeStart = new Date(startYear, 0, 1);
     const rangeEnd = endYear ? new Date(endYear, 12, 31) : new Date(startYear, 12, 31);
     const getDaysArray = (start, end) => {
@@ -86,11 +95,12 @@ export const getDaysArray = (start, end) => {
 };
 
 export const findfriday13s = (startYear, endYear) =>
-    getDaysArray(startYear, endYear)
-        .filter((date) => date.getDay() === 5 && date.getDate() === 13)
-        .map(friday => {
-            return new Intl.DateTimeFormat('hu').format(friday).replace(/ /g, "")
-        })
+    !startYear && !endYear ? 'dájé' :
+        getDaysArray(startYear, endYear)
+            .filter((date) => date.getDay() === 5 && date.getDate() === 13)
+            .map(friday => {
+                return new Intl.DateTimeFormat('hu').format(friday).replace(/ /g, "")
+            })
 
 // console.log(findfriday13s(1999, 2000)); // ['1999.08.13.', '2000.10.13']
 // console.log(findfriday13s(2000)); // ['2000.10.13']
