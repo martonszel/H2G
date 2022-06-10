@@ -4,7 +4,7 @@ describe('content-weight', () => {
 
     describe('contentWeight', () => {
 
-        it('should pass', () => {
+        it('should return 80', () => {
 
             const bottleWeight = 120
             const scale = '2 times larger'
@@ -14,7 +14,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should pass', () => {
+        it('should return 40', () => {
 
             const bottleWeight = 120
             const scale = '2 times smaller'
@@ -22,11 +22,13 @@ describe('content-weight', () => {
             const expected = 40
 
             expect(actual).toEqual(expected)
+
         })
+
     })
 
     describe('contentWeightCalc', () => {
-        it('should pass', () => {
+        it('should return 80', () => {
 
             const bottleWeight = 120
             const scale = '2 times larger'
@@ -36,7 +38,8 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should pass', () => {
+
+        it('should return 40', () => {
 
             const bottleWeight = 120
             const scale = '2 times smaller'

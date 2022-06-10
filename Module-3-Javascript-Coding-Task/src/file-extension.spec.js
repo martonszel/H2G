@@ -3,7 +3,7 @@ import { getFileExtension, extension } from './file-extension'
 describe('file-extension', () => {
 
     describe('getFileExtension', () => {
-        it('should pass', () => {
+        it('should return txt', () => {
             const filename = 'data.txt'
             const actual = getFileExtension(filename)
             const expected = 'txt'
@@ -11,8 +11,24 @@ describe('file-extension', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should pass', () => {
+        it('should return js', () => {
+            const filename = 'component.test.js'
+            const actual = getFileExtension(filename)
+            const expected = 'js'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return false', () => {
             const filename = 'README'
+            const actual = getFileExtension(filename)
+            const expected = false
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return false', () => {
+            const filename = '.git'
             const actual = getFileExtension(filename)
             const expected = false
 
@@ -21,7 +37,7 @@ describe('file-extension', () => {
     })
 
     describe('extension', () => {
-        it('should pass', () => {
+        it('should return txt', () => {
             const filename = 'data.txt'
             const actual = extension(filename)
             const expected = 'txt'
@@ -29,8 +45,24 @@ describe('file-extension', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should pass', () => {
+        it('should return js', () => {
+            const filename = 'component.test.js'
+            const actual = extension(filename)
+            const expected = 'js'
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return false', () => {
             const filename = 'README'
+            const actual = extension(filename)
+            const expected = false
+
+            expect(actual).toEqual(expected)
+        })
+
+        it('should return false', () => {
+            const filename = '.git'
             const actual = extension(filename)
             const expected = false
 

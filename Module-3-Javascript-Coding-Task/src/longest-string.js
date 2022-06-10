@@ -34,7 +34,7 @@ export const longestString = (arr) =>
 
 export const otherLongestString = (arr) =>
     arr.filter((element) => typeof element === "string")
-        .sort((a, b) => { return b.length - a.length })[0];
+        .sort((a, b) => b.length - a.length)[0] || ''
 
 // console.log(otherLongestString([[1, 2, 3, 4, 5], 'alma'])); // 'alma'
 // console.log(otherLongestString(['abc', 'a', 'ab'])); // 'abc'

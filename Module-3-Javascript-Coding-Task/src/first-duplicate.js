@@ -21,6 +21,7 @@ export const getFirstDuplicate = (text) => {
 
 // console.log(getFirstDuplicate('abccb')); // 'b'
 // console.log(getFirstDuplicate('abc')); // ''
+// console.log(getFirstDuplicate(undefined)); // ''
 
 
 // solution #2 - not working
@@ -50,8 +51,9 @@ export const getFirstDuplicate = (text) => {
 
 // solution #3
 
-export const findFirstDuplicate = (text) => ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
+export const findFirstDuplicate = (text) => typeof text === 'undefined' ? '' : ([...text].find((element, index) => text.lastIndexOf(element) !== index)) || '';
 
 // console.log(findFirstDuplicate('abccb')); // 'b'
+// console.log(findFirstDuplicate(undefined)); // 'b'
 // console.log(findFirstDuplicate('abc')); // ''
 // console.log(findFirstDuplicate('abbcca')); // 'a'
