@@ -29,7 +29,7 @@ describe('content-weight', () => {
             const bottleWeight = undefined
             const scale = undefined
             const actual = contentWeight(bottleWeight, scale)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -39,7 +39,7 @@ describe('content-weight', () => {
             const bottleWeight = null
             const scale = null
             const actual = contentWeight(bottleWeight, scale)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -73,7 +73,7 @@ describe('content-weight', () => {
             const bottleWeight = undefined
             const scale = undefined
             const actual = contentWeightCalc(bottleWeight, scale)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -83,7 +83,7 @@ describe('content-weight', () => {
             const bottleWeight = null
             const scale = null
             const actual = contentWeightCalc(bottleWeight, scale)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

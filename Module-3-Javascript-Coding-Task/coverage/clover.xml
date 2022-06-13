@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654867132523" clover="3.2.0">
-  <project timestamp="1654867132523" name="All files">
+<coverage generated="1655100658431" clover="3.2.0">
+  <project timestamp="1655100658431" name="All files">
     <metrics statements="561" coveredstatements="561" conditionals="181" coveredconditionals="181" methods="34" coveredmethods="34" elements="776" coveredelements="776" complexity="0" loc="561" ncloc="561" packages="1" files="13" classes="13"/>
     <file name="content-weight.js" path="C:\Users\Marton_Szel\Desktop\EPAM\H2G\Module-3-Javascript-Coding-Task\src\content-weight.js">
       <metrics statements="46" coveredstatements="46" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>

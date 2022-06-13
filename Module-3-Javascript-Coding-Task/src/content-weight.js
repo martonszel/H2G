@@ -13,7 +13,7 @@
 export const contentWeight = (bottleWeight, scale) => {
 
     if (!bottleWeight || !scale) {
-        return 'dájé'
+        return null
     }
 
     const splittedScale = scale.split(' ')
@@ -36,7 +36,7 @@ export const contentWeight = (bottleWeight, scale) => {
 // solution #2
 
 export const contentWeightCalc = (bottleWeight, scale) =>
-    !bottleWeight || !scale ? 'dájé' :
+    !bottleWeight || !scale ? null :
         /larger/.test(scale) ? bottleWeight * Number(scale.substring(0, 2)) / (Number(scale.substring(0, 2)) + 1) : bottleWeight / (Number(scale.substring(0, 2)) + 1)
 
 // console.log(contentWeightCalc(120, '2 times larger')); // 80
