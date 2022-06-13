@@ -9,7 +9,7 @@ export const sumArray = (array) => {
     return array.reduce((sum, current) => {
         return Array.isArray(current) ?
             sum + sumArray(current) :
-            typeof current === 'number' && isFinite(current) && current % 2 == 0 ?
+            typeof current === 'number' && isFinite(current) && current % 2 === 0 ?
                 sum + current : sum
     }, 0);
 }
@@ -20,7 +20,7 @@ export const sumArray = (array) => {
 
 // solution #2
 
-export const sumEven = (array) => !array ? null : array.flat(3).filter((number) => number % 2 == 0).reduce((previousValue, currentValue) => previousValue + currentValue, 0)
+export const sumEven = (array) => !array ? null : array.flat(3).filter((number) => number % 2 === 0).reduce((previousValue, currentValue) => previousValue + currentValue, 0)
 
 // console.log(sumEven([1, [2, 3], [[4], 5]])); // 6
 // console.log(sumEven([1, [1, 1], [[3], 1]])); // 0

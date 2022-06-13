@@ -4,13 +4,13 @@
 
 // solution #1
 
-export const isPalindrome = (text) => !text ? false : text.replace(/ /g, '').toLowerCase().split('').reverse().join('').replace(/ /g, '') === text.toLowerCase().replace(/ /g, '')
+export const isPalindrome = (text) => !text ? false : text.replace(/ /g, '').toLowerCase().split('').reverse().join('') === text.toLowerCase().replace(/ /g, '')
 
 // console.log(isPalindrome('')); // false
 // console.log(isPalindrome('     ')); // false
 // console.log(isPalindrome('anna')); // true
 // console.log(isPalindrome('anna    ')); // true
-// console.log(isPalindrome('indul a gorog aludni')); // true
+console.log(isPalindrome('indul a gorog aludni')); // true
 // console.log(isPalindrome('alma')); // false
 
 // solution #2
