@@ -16,7 +16,7 @@ describe('uuid-blocks', () => {
 
             const text = undefined
             const actual = getUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -25,7 +25,7 @@ describe('uuid-blocks', () => {
 
             const text = null
             const actual = getUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -44,7 +44,7 @@ describe('uuid-blocks', () => {
 
             const text = undefined
             const actual = UUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -53,7 +53,7 @@ describe('uuid-blocks', () => {
 
             const text = null
             const actual = UUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -72,7 +72,7 @@ describe('uuid-blocks', () => {
 
             const text = undefined
             const actual = formatUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -81,7 +81,7 @@ describe('uuid-blocks', () => {
 
             const text = null
             const actual = formatUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

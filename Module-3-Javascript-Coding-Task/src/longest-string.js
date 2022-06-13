@@ -5,7 +5,7 @@
 export const getLongestString = array => {
 
     if (!array) {
-        return 'dájé'
+        return null
     }
 
     let tempString = '';
@@ -26,7 +26,7 @@ export const getLongestString = array => {
 const initialValue = '';
 
 export const longestString = (arr) =>
-    !arr ? 'dájé' :
+    !arr ? null :
         arr.filter((element) => typeof element === "string")
             .reduce((previousValue, currentValue) => previousValue.length < currentValue.length ? currentValue : previousValue
                 , initialValue
@@ -39,7 +39,7 @@ export const longestString = (arr) =>
 // solution #3
 
 export const otherLongestString = (arr) =>
-    !arr ? 'dájé' :
+    !arr ? null :
         arr.filter((element) => typeof element === "string")
             .sort((a, b) => b.length - a.length)[0] || ''
 

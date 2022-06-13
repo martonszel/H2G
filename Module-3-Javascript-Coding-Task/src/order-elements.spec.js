@@ -15,7 +15,7 @@ describe('order-elements', () => {
 
             const array = undefined
             const actual = order(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -24,7 +24,7 @@ describe('order-elements', () => {
 
             const array = null
             const actual = order(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -43,7 +43,7 @@ describe('order-elements', () => {
 
             const array = undefined
             const actual = orderNumbers(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -52,7 +52,7 @@ describe('order-elements', () => {
 
             const array = null
             const actual = orderNumbers(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

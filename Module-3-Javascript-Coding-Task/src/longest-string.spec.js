@@ -31,7 +31,7 @@ describe('longest-string', () => {
 
             const array = undefined
             const actual = getLongestString(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -40,7 +40,7 @@ describe('longest-string', () => {
 
             const array = null
             const actual = getLongestString(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -76,7 +76,7 @@ describe('longest-string', () => {
 
             const array = undefined
             const actual = longestString(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -85,7 +85,7 @@ describe('longest-string', () => {
 
             const array = null
             const actual = longestString(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -122,7 +122,7 @@ describe('longest-string', () => {
 
             const array = undefined
             const actual = otherLongestString(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -131,7 +131,7 @@ describe('longest-string', () => {
 
             const array = null
             const actual = otherLongestString(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

@@ -15,7 +15,7 @@ describe('uuid-conversion', () => {
 
             const text = undefined
             const actual = getConvertedUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -24,7 +24,7 @@ describe('uuid-conversion', () => {
 
             const text = null
             const actual = getConvertedUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -43,7 +43,7 @@ describe('uuid-conversion', () => {
 
             const text = undefined
             const actual = convertedUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -52,7 +52,7 @@ describe('uuid-conversion', () => {
 
             const text = null
             const actual = convertedUUIDBlocks(text)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

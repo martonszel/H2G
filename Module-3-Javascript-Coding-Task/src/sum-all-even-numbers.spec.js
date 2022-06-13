@@ -23,7 +23,7 @@ describe('sum-all-even-numbers', () => {
 
             const array = undefined
             const actual = sumArray(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -32,7 +32,7 @@ describe('sum-all-even-numbers', () => {
 
             const array = null
             const actual = sumArray(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -59,7 +59,7 @@ describe('sum-all-even-numbers', () => {
 
             const array = undefined
             const actual = sumEven(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -68,7 +68,7 @@ describe('sum-all-even-numbers', () => {
 
             const array = null
             const actual = sumEven(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

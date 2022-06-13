@@ -9,7 +9,7 @@
 export const order = (array) => {
 
     if (!array) {
-        return 'dájé'
+        return null
     }
 
     const even = [];
@@ -31,7 +31,7 @@ export const order = (array) => {
 
 // solution #2
 
-export const orderNumbers = (array) => !array ? 'dájé' : array.sort((a, b) => (b % 2 - a % 2) || (b % 2 ? a - b : b - a));
+export const orderNumbers = (array) => !array ? null : array.sort((a, b) => (b % 2 - a % 2) || (b % 2 ? a - b : b - a));
 
 // console.log(orderNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])); // [1, 3, 5, 7, 9, 8, 6, 4, 2, 0]
 // console.log(orderNumbers([13, 22, 34, 41, 56, 67, 78, 89, 92])); 

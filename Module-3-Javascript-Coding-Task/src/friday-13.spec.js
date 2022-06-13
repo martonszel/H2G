@@ -25,7 +25,7 @@ describe('friday-13', () => {
             const startYear = undefined
             const endYear = undefined
             const actual = getFriday13s(startYear, endYear)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -35,7 +35,7 @@ describe('friday-13', () => {
             const startYear = null
             const endYear = null
             const actual = getFriday13s(startYear, endYear)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -64,7 +64,7 @@ describe('friday-13', () => {
             const startYear = undefined
             const endYear = undefined
             const actual = friday13s(startYear, endYear)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -74,7 +74,7 @@ describe('friday-13', () => {
             const startYear = null
             const endYear = null
             const actual = friday13s(startYear, endYear)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -103,7 +103,7 @@ describe('friday-13', () => {
             const startYear = undefined
             const endYear = undefined
             const actual = findfriday13s(startYear, endYear)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -113,7 +113,7 @@ describe('friday-13', () => {
             const startYear = null
             const endYear = null
             const actual = findfriday13s(startYear, endYear)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

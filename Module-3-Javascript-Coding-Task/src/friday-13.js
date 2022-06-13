@@ -8,7 +8,7 @@ export const range = (min, max) => Array.from({ length: max - min + 1 }, (_, i) 
 export const getFriday13s = (startYear, endYear) => {
 
     if (!startYear && !endYear) {
-        return 'dájé'
+        return null
     }
 
     const months = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
@@ -55,7 +55,7 @@ export const getFriday13s = (startYear, endYear) => {
 export const friday13s = (startYear, endYear) => {
 
     if (!startYear && !endYear) {
-        return 'dájé'
+        return null
     }
 
     const rangeStart = new Date(startYear, 0, 1);
@@ -95,7 +95,7 @@ export const getDaysArray = (start, end) => {
 };
 
 export const findfriday13s = (startYear, endYear) =>
-    !startYear && !endYear ? 'dájé' :
+    !startYear && !endYear ? null :
         getDaysArray(startYear, endYear)
             .filter((date) => date.getDay() === 5 && date.getDate() === 13)
             .map(friday => {

@@ -23,7 +23,7 @@ describe('sum-all-numbers', () => {
 
             const array = undefined
             const actual = sum(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -32,7 +32,7 @@ describe('sum-all-numbers', () => {
 
             const array = null
             const actual = sum(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

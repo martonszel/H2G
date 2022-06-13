@@ -15,7 +15,7 @@ describe('square-negatives-and-sum', () => {
 
             const array = undefined
             const actual = squareAndSum(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -24,7 +24,7 @@ describe('square-negatives-and-sum', () => {
 
             const array = null
             const actual = squareAndSum(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -43,7 +43,7 @@ describe('square-negatives-and-sum', () => {
 
             const array = undefined
             const actual = sumAndSquare(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -52,7 +52,7 @@ describe('square-negatives-and-sum', () => {
 
             const array = null
             const actual = sumAndSquare(array)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

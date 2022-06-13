@@ -39,7 +39,7 @@ describe('file-extension', () => {
 
             const filename = undefined
             const actual = getFileExtension(filename)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -48,7 +48,7 @@ describe('file-extension', () => {
 
             const filename = null
             const actual = getFileExtension(filename)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -91,7 +91,7 @@ describe('file-extension', () => {
 
             const filename = undefined
             const actual = extension(filename)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })
@@ -100,7 +100,7 @@ describe('file-extension', () => {
 
             const filename = null
             const actual = extension(filename)
-            const expected = 'dájé'
+            const expected = null
 
             expect(actual).toEqual(expected)
         })

@@ -7,7 +7,7 @@ export const formattedElement = (number) => [...number.toString()].reduce((total
 export const squareAndSum = (array) => {
 
     if (!array) {
-        return 'dájé'
+        return null
     }
 
     const formattedArray = [];
@@ -45,7 +45,7 @@ export const squareAndSum = (array) => {
 
 
 export const sumAndSquare = (array) =>
-    !array ? 'dájé' :
+    !array ? null :
         array.map((element) => element < 0 ? Math.pow(element, 2) : element)
             .map((item) => item % 9 || 9)
 
