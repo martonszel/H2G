@@ -18,7 +18,7 @@ export const order = (array) => {
     array.sort((a, b) => a - b)
 
     array.forEach(element => {
-        if (element % 2 == 0) {
+        if (element % 2 === 0) {
             even.push(element)
         } else odd.push(element)
     });
