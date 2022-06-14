@@ -11,7 +11,7 @@ describe('square-negatives-and-sum', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const array = undefined
             const actual = squareAndSum(array)
@@ -20,7 +20,7 @@ describe('square-negatives-and-sum', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const array = null
             const actual = squareAndSum(array)
@@ -39,7 +39,7 @@ describe('square-negatives-and-sum', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const array = undefined
             const actual = sumAndSquare(array)
@@ -48,7 +48,7 @@ describe('square-negatives-and-sum', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const array = null
             const actual = sumAndSquare(array)

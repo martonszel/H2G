@@ -35,7 +35,7 @@ describe('palindrome', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = isPalindrome(text)
@@ -44,7 +44,7 @@ describe('palindrome', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = isPalindrome(text)
@@ -87,7 +87,7 @@ describe('palindrome', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = palindrome(text)
@@ -96,7 +96,7 @@ describe('palindrome', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = palindrome(text)

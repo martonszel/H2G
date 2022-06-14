@@ -20,7 +20,7 @@ describe('friday-13', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const startYear = undefined
             const endYear = undefined
@@ -30,7 +30,7 @@ describe('friday-13', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const startYear = null
             const endYear = null
@@ -59,7 +59,7 @@ describe('friday-13', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const startYear = undefined
             const endYear = undefined
@@ -69,7 +69,7 @@ describe('friday-13', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const startYear = null
             const endYear = null
@@ -98,7 +98,7 @@ describe('friday-13', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const startYear = undefined
             const endYear = undefined
@@ -108,7 +108,7 @@ describe('friday-13', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const startYear = null
             const endYear = null

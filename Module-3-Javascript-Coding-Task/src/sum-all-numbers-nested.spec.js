@@ -19,7 +19,7 @@ describe('sum-all-numbers-nested', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const array = undefined
             const actual = sumArray(array)
@@ -28,7 +28,7 @@ describe('sum-all-numbers-nested', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const array = null
             const actual = sumArray(array)
@@ -55,7 +55,7 @@ describe('sum-all-numbers-nested', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const array = undefined
             const actual = sumNumbers(array)
@@ -64,7 +64,7 @@ describe('sum-all-numbers-nested', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const array = null
             const actual = sumNumbers(array)

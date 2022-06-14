@@ -11,7 +11,7 @@ describe('uuid-conversion', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = getConvertedUUIDBlocks(text)
@@ -20,7 +20,7 @@ describe('uuid-conversion', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = getConvertedUUIDBlocks(text)
@@ -39,7 +39,7 @@ describe('uuid-conversion', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = convertedUUIDBlocks(text)
@@ -48,7 +48,7 @@ describe('uuid-conversion', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = convertedUUIDBlocks(text)

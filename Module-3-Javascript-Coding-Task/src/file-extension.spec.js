@@ -35,7 +35,7 @@ describe('file-extension', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const filename = undefined
             const actual = getFileExtension(filename)
@@ -44,7 +44,7 @@ describe('file-extension', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const filename = null
             const actual = getFileExtension(filename)
@@ -87,7 +87,7 @@ describe('file-extension', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const filename = undefined
             const actual = extension(filename)
@@ -96,7 +96,7 @@ describe('file-extension', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const filename = null
             const actual = extension(filename)

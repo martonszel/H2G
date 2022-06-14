@@ -8,14 +8,14 @@ export const getUUIDBlocks = uuid => {
         return null
     }
 
-    const fromatted = uuid.replace(/-/g, '')
+    const formatted = uuid.replace(/-/g, '')
 
     const chunkSize = 2;
 
     let splittedArray = []
 
-    for (let i = 0; i < fromatted.length; i += chunkSize) {
-        let chunk = fromatted.slice(i, i + chunkSize);
+    for (let i = 0; i < formatted.length; i += chunkSize) {
+        let chunk = formatted.slice(i, i + chunkSize);
         splittedArray.push(chunk)
     }
     return splittedArray
@@ -27,12 +27,12 @@ export const getUUIDBlocks = uuid => {
 
 const formatArray = (str, number) => {
 
-    const fromatted = str.replace(/-/g, '')
+    const formatted = str.replace(/-/g, '')
 
     let splittedArray = []
 
-    for (let i = 0; i < fromatted.length; i += number) {
-        splittedArray.push(fromatted.slice(i, i + number));
+    for (let i = 0; i < formatted.length; i += number) {
+        splittedArray.push(formatted.slice(i, i + number));
     }
 
     return splittedArray

@@ -8,11 +8,11 @@ export const getConvertedUUIDBlocks = uuid => {
         return null
     }
 
-    const fromatted = [...uuid.replace(/-/g, '')].join('').match(/.{1,2}/g)
+    const formatted = [...uuid.replace(/-/g, '')].join('').match(/.{1,2}/g)
 
     const hexColors = []
 
-    fromatted.forEach(element => {
+    formatted.forEach(element => {
         hexColors.push(parseInt(element, 16))
     });
 

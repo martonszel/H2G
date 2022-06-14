@@ -11,7 +11,7 @@ describe('order-elements', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const array = undefined
             const actual = order(array)
@@ -20,7 +20,7 @@ describe('order-elements', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const array = null
             const actual = order(array)
@@ -39,7 +39,7 @@ describe('order-elements', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const array = undefined
             const actual = orderNumbers(array)
@@ -48,7 +48,7 @@ describe('order-elements', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const array = null
             const actual = orderNumbers(array)

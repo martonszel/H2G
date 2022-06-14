@@ -12,7 +12,7 @@ describe('uuid-blocks', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = getUUIDBlocks(text)
@@ -21,7 +21,7 @@ describe('uuid-blocks', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = getUUIDBlocks(text)
@@ -40,7 +40,7 @@ describe('uuid-blocks', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = UUIDBlocks(text)
@@ -49,7 +49,7 @@ describe('uuid-blocks', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = UUIDBlocks(text)
@@ -68,7 +68,7 @@ describe('uuid-blocks', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const text = undefined
             const actual = formatUUIDBlocks(text)
@@ -77,7 +77,7 @@ describe('uuid-blocks', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const text = null
             const actual = formatUUIDBlocks(text)

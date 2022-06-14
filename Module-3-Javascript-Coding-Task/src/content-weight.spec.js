@@ -24,7 +24,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const bottleWeight = undefined
             const scale = '2 times smaller'
@@ -34,7 +34,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const bottleWeight = 120
             const scale = undefined
@@ -44,7 +44,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const bottleWeight = 120
             const scale = null
@@ -54,7 +54,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const bottleWeight = null
             const scale = '2 times smaller'
@@ -88,7 +88,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const bottleWeight = undefined
             const scale = '2 times smaller'
@@ -98,7 +98,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when undefined', () => {
+        it('should return null when undefined', () => {
 
             const bottleWeight = 120
             const scale = undefined
@@ -108,7 +108,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const bottleWeight = 120
             const scale = null
@@ -118,7 +118,7 @@ describe('content-weight', () => {
             expect(actual).toEqual(expected)
         })
 
-        it('should return empty string when null', () => {
+        it('should return null when null', () => {
 
             const bottleWeight = null
             const scale = '2 times smaller'
