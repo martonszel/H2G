@@ -20,17 +20,13 @@ const AllMeetupsPage = () => {
                         id: key,
                         ...data[key]
                     }
-
                     meetups.push(meetup)
-
                 }
             }
             setIsLoading(false)
             setLoadedMeetups(meetups)
         })
     }, [])
-
-
 
     if (isLoading) {
         return (
