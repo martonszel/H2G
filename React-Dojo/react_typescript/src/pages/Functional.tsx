@@ -1,20 +1,45 @@
-import React, { useState } from 'react'
+import { useState, useEffect } from "react";
 import CharacterList from '../components/CharacterList';
+import SearchIcon from "../search.svg";
 
 type Props = {
-    marvelChar: any;
+    apiUrl: string;
+    apiKey: string;
 }
 
-const Functional: React.FC<Props> = ({ marvelChar }) => {
+const Functional: React.FC<Props> = ({ apiUrl, apiKey }) => {
 
-    const [number, setNumber] = useState<number>(5)
+    const [characters, setCharacters] = useState([])
+    const [searchTerm, setSearchTerm] = useState('')
+
+    const getAllCharacters = async () => {
+        const response = await fetch(`${apiUrl}?${apiKey}`)
+        const data = await response.json()
+
+        setCharacters(data.data.results)
+    }
+
+    const searchCharacter = async (name: string) => {
+
+        const response = await fetch(`${apiUrl}?name=${name}${apiKey}`)
+        const data = await response.json()
+
+        setCharacters(data.data.results)
+    }
+
+    useEffect(() => {
+        getAllCharacters()
+    }, [])
 
 
     return (
         <div className='funcContainer'>
             <h1>Functional</h1>
-
-            <CharacterList marvelChar={marvelChar} ></CharacterList>
+            <div className="search">
+                <input placeholder='Search for characters...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+                <img src={SearchIcon} alt="search" onClick={() => searchCharacter(searchTerm)} />
+            </div>
+            <CharacterList marvelChar={characters} ></CharacterList>
 
         </div>
     )

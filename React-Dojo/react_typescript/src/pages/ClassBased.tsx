@@ -2,7 +2,8 @@
 import React from 'react'
 
 type Props = {
-    marvelChar: string[];
+    apiUrl: string;
+    apiKey: string;
 }
 
 type State = {
