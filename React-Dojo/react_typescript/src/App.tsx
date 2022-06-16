@@ -7,6 +7,7 @@ import {
 
 import ClassBased from './pages/ClassBased';
 import Functional from './pages/Functional';
+import MainNavigation from './components/MainNavigation';
 
 const App: React.FC = () => {
 
@@ -15,6 +16,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <MainNavigation></MainNavigation>
       <Routes>
         <Route path='/' element={<Navigate to="/functional" />} />
         <Route path="/class-based" element={<ClassBased apiKey={API_KEY} apiUrl={API_URL} />}></Route>

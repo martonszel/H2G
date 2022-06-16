@@ -18,12 +18,13 @@ body {
 }
 
 .App {
-  padding: 10rem;
+  padding: 0 10rem;
 }
 
 h1 {
   font-size: 3rem;
   color: #fff;
+  text-align: center;
 }
 
 p {
@@ -33,6 +34,16 @@ p {
 button {
   padding: 1em;
   margin: 1em;
+}
+
+.funcContainer,
+.classBased {
+  padding-top: 2em
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .search {
