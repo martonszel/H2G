@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 
-type Props = {}
+type Props = {
+    marvelChar: string[];
+}
 
-const Functional: React.FC = (props: Props) => {
+const Functional: React.FC<Props> = (props: Props) => {
 
     const [number, setNumber] = useState<number>(5)
 

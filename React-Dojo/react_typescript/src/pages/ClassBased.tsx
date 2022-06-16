@@ -3,6 +3,7 @@ import React from 'react'
 
 type Props = {
     message?: string;
+    marvelChar: string[];
 }
 
 type State = {
