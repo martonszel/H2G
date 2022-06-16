@@ -14,7 +14,7 @@ const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('')
 
   const getAllCharacters = async () => {
-    const response = await fetch(`${API_URL}?limit=25${API_KEY}`)
+    const response = await fetch(`${API_URL}?${API_KEY}`)
     const data = await response.json()
 
     setCharacters(data.data.results)
@@ -61,8 +61,7 @@ const App: React.FC = () => {
         <input placeholder='Search for characters...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
         <img src={SearchIcon} alt="search" onClick={() => searchCharacter(searchTerm)} />
       </div>
-
-      <ClassBased marvelChar={characters}></ClassBased>
+      <ClassBased marvelChar={characters} ></ClassBased>
       <Functional marvelChar={characters} ></Functional>
     </div>
   );

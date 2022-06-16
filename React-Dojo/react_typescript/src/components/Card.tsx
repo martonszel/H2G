@@ -1,10 +1,13 @@
 import React from 'react'
+import classes from "./Card.module.css";
 
-type Props = {}
+type Props = {
+    children: React.ReactNode;
+}
 
 const Card = (props: Props) => {
     return (
-        <div>Card</div>
+        <div className={classes.card}>{props.children}</div>
     )
 }
 

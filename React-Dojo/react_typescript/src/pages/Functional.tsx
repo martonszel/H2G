@@ -1,21 +1,20 @@
 import React, { useState } from 'react'
+import CharacterList from '../components/CharacterList';
 
 type Props = {
-    marvelChar: string[];
+    marvelChar: any;
 }
 
-const Functional: React.FC<Props> = (props: Props) => {
+const Functional: React.FC<Props> = ({ marvelChar }) => {
 
     const [number, setNumber] = useState<number>(5)
 
+
     return (
-        <div>
+        <div className='funcContainer'>
             <h1>Functional</h1>
 
-            <p>{number}</p>
-
-            <button onClick={() => setNumber(number + 1)}> +</button>
-            <button onClick={() => setNumber(number - 1)}> -</button>
+            <CharacterList marvelChar={marvelChar} ></CharacterList>
 
         </div>
     )

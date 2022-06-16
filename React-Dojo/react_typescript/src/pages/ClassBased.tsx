@@ -2,7 +2,6 @@
 import React from 'react'
 
 type Props = {
-    message?: string;
     marvelChar: string[];
 }
 
@@ -26,9 +25,9 @@ export default class ClassBased extends React.Component<Props, State> {
         return (
             <div>
                 <h1>Classbased</h1>
-                <div>
-                    {this.props.message} {this.state.count}
-                </div>
+
+                <p> {this.state.count}</p>
+
                 <button onClick={() => this.increment(1)}> +</button>
                 <button onClick={() => this.increment(-1)}> -</button>
             </div>
