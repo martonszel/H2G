@@ -13,7 +13,7 @@ const Functional: React.FC<Props> = ({ apiUrl, apiKey }) => {
     const [searchTerm, setSearchTerm] = useState('')
 
     const getAllCharacters = async () => {
-        const response = await fetch(`${apiUrl}?${apiKey}`)
+        const response = await fetch(`${apiUrl}?limit=21?${apiKey}`)
         const data = await response.json()
 
         setCharacters(data.data.results)

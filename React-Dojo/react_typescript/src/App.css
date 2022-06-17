@@ -25,6 +25,7 @@ h1 {
   font-size: 3rem;
   color: #fff;
   text-align: center;
+  padding: 1em 0;
 }
 
 p {
@@ -38,7 +39,7 @@ button {
 
 .funcContainer,
 .classBased {
-  padding-top: 2em
+  padding: 0 2em
 }
 
 .searchContainer {
