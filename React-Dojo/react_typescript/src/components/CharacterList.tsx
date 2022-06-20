@@ -2,9 +2,10 @@ import React from 'react'
 import CharacterItem from './CharacterItem';
 import classes from './CharacterList.module.css'
 import Grid from '@mui/material/Grid';
+import { Character } from '../models/Characters';
 
 type Props = {
-    marvelChar: any[];
+    marvelChar: Character[];
 }
 
 const CharacterList: React.FC<Props> = ({ marvelChar }) => {

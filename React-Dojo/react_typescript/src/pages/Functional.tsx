@@ -11,17 +11,16 @@ type Props = {
 
 const Functional: React.FC<Props> = ({ apiUrl, apiKey }) => {
 
-    const [characters, setCharacters] = useState([])
+    const [characters, setCharacters] = useState<Character[]>([])
     const [error, setError] = useState<null | Error>(null);
-    const [isLoaded, setIsLoaded] = useState(false);
-    const [searchTerm, setSearchTerm] = useState('')
+    const [isLoaded, setIsLoaded] = useState<boolean>(false);
+    const [searchTerm, setSearchTerm] = useState<string>('')
 
     const getAllCharacters = async () => {
 
         try {
             const response = await fetch(`${apiUrl}?limit=21?${apiKey}`)
             const data = await response.json()
-
 
             const fromattedResults = data.data.results.map((char: Character) => (
                 {
@@ -34,6 +33,7 @@ const Functional: React.FC<Props> = ({ apiUrl, apiKey }) => {
             ));
 
             setCharacters(fromattedResults)
+
             setIsLoaded(true)
         } catch (error) {
             setIsLoaded(true);
@@ -41,7 +41,6 @@ const Functional: React.FC<Props> = ({ apiUrl, apiKey }) => {
                 setError(error)
             }
         }
-
     }
 
     const searchCharacter = async (name: string) => {
