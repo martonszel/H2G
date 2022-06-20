@@ -2,6 +2,7 @@ import React from 'react'
 import CharacterItem from './CharacterItem';
 import classes from './CharacterList.module.css'
 import Grid from '@mui/material/Grid';
+
 type Props = {
     marvelChar: any[];
 }
@@ -15,10 +16,10 @@ const CharacterList: React.FC<Props> = ({ marvelChar }) => {
                     < CharacterItem
                         key={char.id}
                         id={char.id}
-                        image={char.thumbnail.path + '.' + char.thumbnail.extension}
+                        image={char.image}
                         name={char.name}
                         description={char.description}
-                        url={char.urls[0].url} />
+                        url={char.url} />
                 </Grid>)}
         </Grid>
     )
