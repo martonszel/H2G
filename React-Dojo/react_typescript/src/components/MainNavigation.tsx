@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from './MainNavigation.module.css'
 
-type Props = {}
-
-const MainNavigation = (props: Props) => {
+const MainNavigation = () => {
     return (
         <header className={classes.header}>
             <nav>

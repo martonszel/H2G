@@ -16,13 +16,13 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <MainNavigation></MainNavigation>
+      <MainNavigation />
       <Routes>
         <Route path='/' element={<Navigate to="/functional" />} />
         <Route path="/class-based" element={<ClassBased apiKey={API_KEY} apiUrl={API_URL} />}></Route>
         <Route path="/functional" element={<Functional apiKey={API_KEY} apiUrl={API_URL} />}></Route>
       </Routes>
-    </div>
+    </div >
   );
 }
 

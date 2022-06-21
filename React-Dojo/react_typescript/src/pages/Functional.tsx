@@ -48,7 +48,17 @@ const Functional: React.FC<Props> = ({ apiUrl, apiKey }) => {
         const response = await fetch(`${apiUrl}?name=${name}${apiKey}`)
         const data = await response.json()
 
-        setCharacters(data.data.results)
+        const fromattedResults = data.data.results.map((char: Character) => (
+            {
+                id: char.id,
+                name: char.name,
+                image: char.thumbnail.path + '.' + char.thumbnail.extension,
+                description: char.description,
+                url: char.urls[0].url
+            } as Character
+        ));
+
+        setCharacters(fromattedResults)
         setIsLoaded(true);
     }
 
