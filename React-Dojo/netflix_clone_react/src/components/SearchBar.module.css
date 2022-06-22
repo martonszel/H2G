@@ -1,0 +1,33 @@
+.searchContainer {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.searchContainer>h1 {
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--text-color);
+}
+
+.searchInput {
+    background-color: var(--content-primary-background-color);
+    font-size: 1em;
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 15em;
+    color: var(--text-color);
+}
+
+.searchButton {
+    padding: 0.5em;
+    font-size: 1em;
+    color: var(--text-color);
+    background-color: var(--primary-button-color);
+    border: none;
+    cursor: pointer;
+}
