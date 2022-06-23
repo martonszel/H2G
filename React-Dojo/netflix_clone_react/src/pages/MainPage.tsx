@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Movie } from '../model/Movies';
 import { GET } from '../services/services';
 import MovieCard from '../components/MovieCard';
+import MovieTabs from '../components/MovieTabs';
 
 type Props = {}
 
@@ -59,6 +60,7 @@ const MainPage: React.FC = (props: Props) => {
 
     return (
         <div className='MainPage'>
+            <MovieTabs />
             {error && <div><h1> Error: {error.message} </h1></div>}
             {isLoaded && <div ><h1>Loading...</h1></div>}
             {

@@ -6,6 +6,7 @@
 .MainPage {
   background-color: var(--content-primary-background-color);
   padding: 0 2em;
+  margin: 1em 0;
 }
 
 .movieContainer {
