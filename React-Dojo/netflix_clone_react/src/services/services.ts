@@ -1,16 +1,14 @@
 
 export const GET = async (url: string) => {
 
-    try {
-        const response = await fetch(url)
 
-        if (!response.ok) {
-            throw Error('couldnt fetch data')
-        }
-        return response.json()
+    const response = await fetch(url)
 
-    } catch (error) {
-        return error
+    if (!response.ok) {
+        throw Error('couldnt fetch data')
     }
+    return response.json()
+
+
 }
 

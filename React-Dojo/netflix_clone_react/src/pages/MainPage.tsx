@@ -16,8 +16,10 @@ const MainPage: React.FC = (props: Props) => {
 
     const getAllMovies = async () => {
 
-        try {
-            setTimeout(async () => {
+
+        setTimeout(async () => {
+
+            try {
 
                 const url = "movies.json";
                 const response = await GET(url);
@@ -41,17 +43,20 @@ const MainPage: React.FC = (props: Props) => {
                 setMovies(fromattedResult)
                 setIsLoaded(false)
                 setError(null)
-            }, 2000);
 
-        } catch (error) {
 
-            setIsLoaded(false)
-            if (error instanceof Error) {
-                setError(error)
+            } catch (error) {
+
+                setIsLoaded(false)
+                if (error instanceof Error) {
+                    setError(error)
+                }
             }
-        }
-    }
 
+        }, 2000);
+
+
+    }
 
     useEffect(() => {
         getAllMovies()
@@ -74,7 +79,7 @@ const MainPage: React.FC = (props: Props) => {
 
 
                 ) : (
-                    <div className={"empty"}>
+                    <div className="empty">
                         <h2>No movies found</h2>
                     </div>
                 )
