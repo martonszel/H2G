@@ -63,9 +63,14 @@ const MainPage: React.FC = (props: Props) => {
             {isLoaded && <div ><h1>Loading...</h1></div>}
             {
                 movies?.length > 0 ? (
-                    <div className="movieContainer">
-                        {movies.map((movie) => <MovieCard movie={movie} />)}
+                    <div>
+                        <p className="moviesFound"> <strong>{movies.length}</strong> movies found</p>
+                        <div className="movieContainer">
+                            {movies.map((movie) => <MovieCard movie={movie} key={movie.id} />)}
+                        </div>
                     </div>
+
+
                 ) : (
                     <div className={"empty"}>
                         <h2>No movies found</h2>

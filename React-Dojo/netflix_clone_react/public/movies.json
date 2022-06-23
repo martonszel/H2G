@@ -59,26 +59,6 @@
             "movie_url": "https://www.imdb.com/title/tt0110912/",
             "rating": "8.9",
             "runtime": "154 min"
-        },
-        {
-            "id": "195ba5cf-a5e4-434e-b013-fb27c05701d7",
-            "title": "Stranger Things",
-            "release_date": "2016",
-            "genre": "Drama, Fantasy, Horror",
-            "thumbnail": "https://m.media-amazon.com/images/M/MV5BODZlYjQ4NzYtZTg1MC00NGY4LTg4NjQtNGE3ZjRkMjk3YjMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-            "movie_url": "https://www.imdb.com/title/tt4574334/",
-            "rating": "8.7",
-            "runtime": "51 min"
-        },
-        {
-            "id": "117c31fc-466d-43bc-97b9-a679464274ac",
-            "title": "Star Wars",
-            "release_date": "1977",
-            "genre": "Action, Adventure, Fantasy",
-            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzg4MjQxNTQtZmI5My00YjMwLWJlMjUtMmJlY2U2ZWFlNzY1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-            "movie_url": "https://www.imdb.com/star-wars/",
-            "rating": "8.6",
-            "runtime": "121 min"
         }
     ]
 }

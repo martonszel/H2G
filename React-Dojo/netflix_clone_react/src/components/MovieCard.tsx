@@ -7,15 +7,13 @@ type Props = {
 }
 
 const MovieCard: React.FC<Props> = ({ movie }) => {
+
     return (
-        <div className={classes.movie}>
-            <div>
-                <p>{movie.release_date}</p>
-            </div>
-            <div><img src={movie.thumbnail !== 'N/A' ? movie.thumbnail : 'https://via.placeholder.com/400'} alt={movie.title} /></div>
-            <div>
-                <span>{movie.genre}</span>
-                <h3>{movie.title}</h3>
+        <div className={classes.card}>
+            <div className={classes.poster}><img src={movie.thumbnail !== 'N/A' ? movie.thumbnail : 'https://via.placeholder.com/400'} alt={movie.title} /></div>
+            <div className={classes.details}>
+                <h2>{movie.title} ({movie.release_date})</h2><span></span>
+                <div className={classes.tags}>{movie.genre}</div>
             </div>
         </div>
     )
