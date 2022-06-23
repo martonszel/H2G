@@ -1,7 +1,8 @@
 import React from 'react'
-import MovieList from '../components/MovieList'
 import { useState, useEffect } from "react";
 import { Movie } from '../model/Movies';
+import { GET } from '../services/services';
+import MovieCard from '../components/MovieCard';
 
 type Props = {}
 
@@ -16,15 +17,14 @@ const MainPage: React.FC = (props: Props) => {
 
         try {
             setTimeout(async () => {
-                const response = await fetch('movies.json')
 
-                if (!response.ok) {
-                    throw Error('couldnt fetch data')
-                }
+                const url = "movies.json";
+                const response = await GET(url);
 
-                const data = await response.json()
+                console.log(response);
 
-                const fromattedResult = data.movies.map((movie: Movie) => (
+
+                const fromattedResult = response.movies.map((movie: Movie) => (
                     {
                         id: movie.id,
                         title: movie.title,
@@ -43,6 +43,7 @@ const MainPage: React.FC = (props: Props) => {
             }, 2000);
 
         } catch (error) {
+
             setIsLoaded(false)
             if (error instanceof Error) {
                 setError(error)
@@ -57,24 +58,20 @@ const MainPage: React.FC = (props: Props) => {
 
 
     return (
-        <div>
+        <div className='MainPage'>
             {error && <div><h1> Error: {error.message} </h1></div>}
             {isLoaded && <div ><h1>Loading...</h1></div>}
-            {movies &&
-                <div>
-                    <p>{movies.length} movies found</p>
-                    <ul>
-                        {movies.map((movie) =>
-                            <li>
-                                <p>{movie.id}</p>
-                                <p>{movie.title}</p>
-                            </li>
-                        )}
-                    </ul>
-
-                </div>
+            {
+                movies?.length > 0 ? (
+                    <div className="movieContainer">
+                        {movies.map((movie) => <MovieCard movie={movie} />)}
+                    </div>
+                ) : (
+                    <div className={"empty"}>
+                        <h2>No movies found</h2>
+                    </div>
+                )
             }
-            <MovieList />
         </div>
 
 
