@@ -20,3 +20,12 @@ code {
   --text-color: #ffffff;
   --letter-spacing: 1px;
 }
+
+.optionListContainer {
+  width: 10em !important
+}
+
+.notFound {
+  background: var(--content-secondary-background-color);
+
+}
