@@ -1,0 +1,12 @@
+.footerContainer {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    background-color: var(--content-secondary-background-color);
+}
+
+.logo {
+    margin-left: 1em;
+    margin-top: 0.7em;
+    height: 2em;
+}
