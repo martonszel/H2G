@@ -10,7 +10,7 @@
     border: none;
     color: var(--text-color);
     font-size: 1em;
-    letter-spacing: 1px;
+    letter-spacing: var(--letter-spacing);
     cursor: pointer;
     padding: 1em;
 }
@@ -22,7 +22,7 @@
 .sort span {
     color: var(--page-background-color);
     font-size: 1em;
-    letter-spacing: 1px;
+    letter-spacing: var(--letter-spacing);
     text-transform: uppercase;
     font-weight: 600;
     padding-right: 1em;

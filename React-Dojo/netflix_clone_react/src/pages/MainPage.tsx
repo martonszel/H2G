@@ -53,7 +53,7 @@ const MainPage: React.FC = (props: Props) => {
                 }
             }
 
-        }, 2000);
+        }, 1000);
 
 
     }

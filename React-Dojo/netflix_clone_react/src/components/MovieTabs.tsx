@@ -1,5 +1,4 @@
 import React from 'react'
-import { classicNameResolver } from 'typescript'
 import classes from './MovieTabs.module.css'
 import { useState } from "react";
 

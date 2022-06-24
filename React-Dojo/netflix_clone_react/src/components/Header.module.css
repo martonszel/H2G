@@ -31,7 +31,7 @@
     padding: 1em;
     color: var(--primary-button-color);
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: var(--letter-spacing);
     font-weight: 900;
     background-color: rgba(167, 161, 161, 0.5);
     border: none;
