@@ -1,0 +1,68 @@
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: url("../assets/countdown.jpg") no-repeat;
+    background-size: contain;
+}
+
+
+
+.loginForm {
+    width: 25em;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #232323;
+    color: var(--text-color);
+    letter-spacing: var(--letter-spacing);
+}
+
+.loginForm h1 {
+    font-weight: 200;
+}
+
+.formGroup {
+    padding: 1em;
+}
+
+.formGroup label {
+    color: #f65261;
+    font-size: 0.75em;
+}
+
+.formGroup input {
+    width: 100%;
+    background: #323232;
+    border: none;
+    font-size: 1.25em;
+    padding: 1em 0.5em;
+    color: var(--text-color);
+}
+
+.formGroup label {
+    color: var(--primary-button-color)
+}
+
+.formFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.formButton button {
+    background: #232323;
+    border: 1px solid #f65261;
+    color: #f65261;
+    margin: 0 1em;
+    font-size: 1em;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.formButton button:hover {
+    background: #f65261;
+    color: white;
+}

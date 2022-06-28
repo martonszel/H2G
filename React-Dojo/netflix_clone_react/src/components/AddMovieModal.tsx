@@ -65,7 +65,7 @@ const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
                                     <div className={classes.flexLeft} >
                                         <div>
                                             <label htmlFor='title'>title</label>
-                                            <input type="text" id="title" value={title} onChange={(e) => setTitle(e.currentTarget.value)} />
+                                            D
                                         </div>
                                         <div>
                                             <label htmlFor='url'>movie url</label>
