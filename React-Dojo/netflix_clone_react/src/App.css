@@ -1,4 +1,36 @@
 .App {
-  text-align: center;
   background-color: var(--page-background-color);
+  padding: 1em 15%;
+}
+
+.MainPage {
+  background-color: var(--content-primary-background-color);
+  padding: 0 2em;
+  margin: 1em 0;
+}
+
+.movieContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: var(--text-color);
+}
+
+.moviesFound {
+  color: var(--text-color);
+}
+
+.empty {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty h2 {
+  font-size: 1.25rem;
+  color: #f9d3b4;
+  font-family: var(--font-raleway);
 }
