@@ -37,13 +37,10 @@ const MainPage: React.FC = (props: Props) => {
 
             try {
 
-                const url = "movies.json";
+                const url = "http://localhost:8000/movies";
                 const response = await GET(url);
 
-                console.log(response);
-
-
-                const fromattedResult = response.movies.map((movie: Movie) => (
+                const fromattedResult = response.map((movie: Movie) => (
                     {
                         id: movie.id,
                         title: movie.title,
