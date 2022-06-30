@@ -6,6 +6,7 @@ import MovieCard from '../components/MovieCard';
 import MovieTabs from '../components/MovieTabs';
 import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { increment, incrementWithValue } from "../features/movie-slice";
+import { useFetchBreedsQuery } from '../features/dog-api-slice';
 
 type Props = {}
 
@@ -13,6 +14,8 @@ const MainPage: React.FC = (props: Props) => {
 
     const count = useAppSelector((state) => state.movie.value)
     const dispatch = useAppDispatch()
+
+    const { data = [], isFetching } = useFetchBreedsQuery()
 
     const handleClick = () => {
         dispatch(increment())
@@ -80,6 +83,25 @@ const MainPage: React.FC = (props: Props) => {
         <div className='MainPage'>
             <button onClick={handleClick}>count is {count}</button>
             <button onClick={handleClickWithValue}>count is {count}</button>
+            <div>numbers of dogs fetched : {data.length}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>picurte</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {data.map((breed) =>
+                            <tr key={breed.id}>
+                                <td>{breed.name}</td>
+                                <td><img src={breed.image.url} /></td>
+                            </tr>
+                        )}
+                    </tbody>
+                </table>
+            </div>
+
             <MovieTabs />
             {error && <div><h1> Error: {error.message} </h1></div>}
             {isLoaded && <div ><h1>Loading...</h1></div>}
