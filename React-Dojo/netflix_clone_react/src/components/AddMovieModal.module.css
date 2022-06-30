@@ -36,11 +36,7 @@
 }
 
 .flexRight {
-    width: calc(25% - 10px);
-}
-
-.flexRight input {
-    width: calc(90% - 10px);
+    width: calc(30% - 10px);
 }
 
 .modalTitle {
@@ -74,7 +70,7 @@
     font-size: 1.5em;
     padding: 0.5em;
     min-height: 2em;
-    width: 60%;
+    width: 75%;
 }
 
 .modalBody label {

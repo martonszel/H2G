@@ -1,13 +1,26 @@
 import React from 'react'
 import { useState, useEffect } from "react";
-import { Movie } from '../model/Movies';
+import { Movie } from '../models/Movies';
 import { GET } from '../services/services';
 import MovieCard from '../components/MovieCard';
 import MovieTabs from '../components/MovieTabs';
+import { useAppDispatch, useAppSelector } from '../store/hooks'
+import { increment, incrementWithValue } from "../features/movie-slice";
 
 type Props = {}
 
 const MainPage: React.FC = (props: Props) => {
+
+    const count = useAppSelector((state) => state.movie.value)
+    const dispatch = useAppDispatch()
+
+    const handleClick = () => {
+        dispatch(increment())
+    }
+
+    const handleClickWithValue = () => {
+        dispatch(incrementWithValue(10))
+    }
 
     const [movies, setMovies] = useState<Movie[]>([])
     const [error, setError] = useState<null | Error>(null);
@@ -65,6 +78,8 @@ const MainPage: React.FC = (props: Props) => {
 
     return (
         <div className='MainPage'>
+            <button onClick={handleClick}>count is {count}</button>
+            <button onClick={handleClickWithValue}>count is {count}</button>
             <MovieTabs />
             {error && <div><h1> Error: {error.message} </h1></div>}
             {isLoaded && <div ><h1>Loading...</h1></div>}

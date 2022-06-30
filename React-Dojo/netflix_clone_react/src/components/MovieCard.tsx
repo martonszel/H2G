@@ -1,5 +1,5 @@
 import React from 'react'
-import { Movie } from '../model/Movies'
+import { Movie } from '../models/Movies'
 import classes from './MovieCard.module.css'
 
 type Props = {

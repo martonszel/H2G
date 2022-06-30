@@ -102,22 +102,19 @@ const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
                                                         background: '#424242',
                                                         padding: 'none',
                                                         height: '70px',
-                                                        width: '63%'
+                                                        width: '78%'
 
 
                                                     },
                                                     optionListContainer: { // To change css for option container 
                                                         width: '50% !important'
-
                                                     },
                                                     optionContainer: { // To change css for option container 
                                                         background: '#424242 !important',
                                                         color: '#f65261',
-
                                                     },
                                                     option: { // To change css for dropdown options
                                                         background: '#424242',
-
                                                     },
                                                 }}
                                             />
