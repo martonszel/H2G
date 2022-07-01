@@ -20,7 +20,7 @@ const MovieDetails = () => {
             <div className={classes.content}>
                 <div className={classes.div1}><img src={oneMovie.thumbnail} alt="" /> </div>
                 <div className={classes.div2}> <h1>{oneMovie.title} <span>{oneMovie.rating}</span> </h1> </div>
-                <div className={classes.div3}>     <p>{oneMovie.genre}</p> </div>
+                <div className={classes.div3}>  <p>{oneMovie.genre}</p> </div>
                 <div className={classes.div4}> <p>{oneMovie.release_date} <span>{oneMovie.runtime}</span> </p></div>
                 <div className={classes.div5}> <p>{oneMovie.overview}</p> </div>
             </div>
