@@ -8,10 +8,6 @@ import Login from './pages/Login';
 import MovieDetails from './components/MovieDetails';
 import { useAppSelector } from './store/hooks'
 
-
-
-
-
 const App: React.FC = () => {
 
   // eslint-disable-next-line
