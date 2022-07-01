@@ -1,32 +1,33 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { Movie } from '../models/Movies';
+
 
 interface MovieState {
-    value: number
+    movies: Movie[]
+    oneMovie: Movie
 }
 
 const initialState: MovieState = {
-    value: 10
+    movies: [],
+    oneMovie: { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: '', overview: '' }
 }
 
 const movieSlice = createSlice({
     name: 'movie',
     initialState,
     reducers: {
-        increment(state) {
-            console.log('jajaj');
-
-            state.value++
+        getOneMovie(state, action: PayloadAction<Movie>) {
+            state.oneMovie = action.payload
+            console.log(state.oneMovie);
         },
-        incrementWithValue(state, action: PayloadAction<number>) {
-            console.log('jajaj');
 
-            state.value += action.payload
+        reset(state) {
+            state.oneMovie = { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: '', overview: '' }
         },
-        decrement(state) {
-            state.value--
-        }
+
+
     }
 })
 
-export const { increment, incrementWithValue, decrement } = movieSlice.actions
+export const { getOneMovie, reset } = movieSlice.actions
 export default movieSlice.reducer

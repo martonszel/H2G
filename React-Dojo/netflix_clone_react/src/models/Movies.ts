@@ -6,5 +6,6 @@ export interface Movie {
     thumbnail: string,
     movie_url: string,
     rating: number,
-    runtime: string
+    runtime: string,
+    overview: string
 }
