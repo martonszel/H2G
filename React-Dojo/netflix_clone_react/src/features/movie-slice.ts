@@ -27,6 +27,11 @@ const movieSlice = createSlice({
             state.oneMovie = { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: '', overview: '' }
         },
 
+        searchMovie(state, action: PayloadAction<string>) {
+            action.payload === '' ? state.filteredMovies = [] :
+                state.filteredMovies = state.movies.filter((e) => e.title.toLocaleLowerCase() === action.payload.toLocaleLowerCase())
+        },
+
         filterByGenre(state, action: PayloadAction<string>) {
 
             if (action.payload === 'All') {
@@ -100,5 +105,5 @@ const movieSlice = createSlice({
     },
 })
 
-export const { getOneMovie, reset, filterByGenre, sortBy } = movieSlice.actions
+export const { getOneMovie, reset, filterByGenre, sortBy, searchMovie } = movieSlice.actions
 export default movieSlice.reducer
