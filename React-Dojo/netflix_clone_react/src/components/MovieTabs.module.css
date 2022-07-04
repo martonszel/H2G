@@ -1,0 +1,38 @@
+.movieTabs {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.tabs button,
+.sort select {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 1em;
+    letter-spacing: var(--letter-spacing);
+    cursor: pointer;
+    padding: 1em;
+}
+
+.sort select>option {
+    background: var(--content-primary-background-color);
+}
+
+.sort label {
+    color: var(--page-background-color);
+    font-size: 1em;
+    letter-spacing: var(--letter-spacing);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 1em;
+}
+
+.tabs button:hover,
+.sort button:hover {
+    color: var(--primary-button-color);
+}
+
+.tabs button.active {
+    border-bottom: 1px solid var(--primary-button-color);
+}
