@@ -1,0 +1,137 @@
+.modalContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modalContent {
+    width: 80%;
+    background-color: #363636;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-50px);
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexLeft {
+    width: calc(70% - 10px);
+
+}
+
+.flexRight {
+    width: calc(30% - 10px);
+}
+
+.modalTitle {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    margin: 0 0.5em;
+    font-weight: 200;
+}
+
+.modalBody {
+    margin: 0 1em;
+}
+
+.modalBody input,
+.modalBody label,
+.modalBody textarea {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.modalBody input,
+.modalBody textarea {
+
+    background-color: #424242;
+    border: none;
+    color: var(--text-color);
+}
+
+.modalBody input {
+    font-size: 1.5em;
+    padding: 0.5em;
+    min-height: 2em;
+    width: 75%;
+}
+
+.modalBody label {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: var(--primary-button-color);
+    letter-spacing: var(--letter-spacing);
+
+}
+
+.modalBody textarea {
+    font-size: 2em;
+    padding: 1em;
+    width: 91%;
+}
+
+
+.release {
+    font-size: 2em !important;
+    padding: 10px !important
+}
+
+.modalClose {
+    cursor: pointer;
+    float: right;
+    padding: 0 1em;
+    font-size: 2em;
+}
+
+.modalFooter {
+    float: right;
+    padding: 1em 1em;
+}
+
+.modalButton {
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 0 1em;
+    background-color: transparent;
+    color: var(--primary-button-color);
+    letter-spacing: var(--letter-spacing);
+    border-color: var(--primary-button-color);
+    text-transform: uppercase;
+    border-style: solid;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.succesful {
+    padding: 2em;
+    text-align: center;
+}
+
+.succesful img {
+    width: 5%;
+}
+
+.modalCloseSuccess {
+    float: right;
+    cursor: pointer;
+    font-size: 2em;
+}
