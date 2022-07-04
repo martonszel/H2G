@@ -1,0 +1,13 @@
+.poster img {
+    width: 20em;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.details h2 {
+    font-size: 1em;
+}
+
+.card {
+    margin: 1em
+}

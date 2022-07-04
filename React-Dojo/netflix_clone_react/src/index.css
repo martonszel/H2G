@@ -18,4 +18,14 @@ code {
   --content-primary-background-color: #232323;
   --content-secondary-background-color: #424242;
   --text-color: #ffffff;
+  --letter-spacing: 1px;
+}
+
+.optionListContainer {
+  width: 10em !important
+}
+
+.notFound {
+  background: var(--content-secondary-background-color);
+
 }
