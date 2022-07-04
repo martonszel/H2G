@@ -9,14 +9,17 @@ type Props = {}
 const MovieTabs = (props: Props) => {
 
     const [activeTab, setActive] = useState<number>(1);
+    const [selectedValue, setSelectedValue] = useState<string>('Please choose...');
     const dispatch = useAppDispatch();
 
     const setActiveTabAndDispatch = (currentTab: number, currentTabName: string) => {
         setActive(currentTab)
+        setSelectedValue('Please choose...')
         dispatch(filterByGenre(currentTabName))
     }
 
     const setUserChoice = (choice: string) => {
+        setSelectedValue(choice)
         dispatch(sortBy(choice))
     }
 
@@ -33,7 +36,8 @@ const MovieTabs = (props: Props) => {
             <div className={classes.sort}>
                 <form>
                     <label htmlFor='select'>Sort By</label>
-                    <select id="select" onChange={(choice) => setUserChoice(choice.target.value)}>
+                    <select id="select" value={selectedValue} onChange={(choice) => setUserChoice(choice.target.value)}>
+                        <option >Please choose...</option>
                         <option value="release_date" >Release Date</option>
                         <option value="rating">Rating</option>
                         <option value="title">Title</option>
