@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./MovieDetails.module.css";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { reset } from "../features/movie-slice";
@@ -6,6 +5,7 @@ import logo from "../assets/logo.png";
 
 const MovieDetails = () => {
   const dispatch = useAppDispatch();
+
   const oneMovie = useAppSelector((state) => state.movie.oneMovie);
 
   return (

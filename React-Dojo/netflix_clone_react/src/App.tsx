@@ -7,6 +7,7 @@ import MainPage from './pages/MainPage';
 import Login from './pages/Login';
 import MovieDetails from './components/MovieDetails';
 import { useAppSelector } from './store/hooks'
+import { useFetchMoviesQuery } from './features/movie-api-slice';
 
 const App: React.FC = () => {
 
@@ -14,7 +15,7 @@ const App: React.FC = () => {
   const [isLoggedIn, setisLoggedIn] = useState<boolean>(true)
 
   const oneMovie = useAppSelector((state) => state.movie.oneMovie)
-  
+  const { data = [], isFetching } = useFetchMoviesQuery()
 
   return (
     <div className="App" >
