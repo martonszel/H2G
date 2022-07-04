@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './MovieTabs.module.css'
 import { useAppDispatch } from "../store/hooks";
 import { useState } from "react";
-import { filterByGenre } from "../features/movie-slice";
+import { filterByGenre, sortBy } from "../features/movie-slice";
 
 type Props = {}
 
@@ -15,6 +15,11 @@ const MovieTabs = (props: Props) => {
         setActive(currentTab)
         dispatch(filterByGenre(currentTabName))
     }
+
+    const setUserChoice = (choice: string) => {
+        dispatch(sortBy(choice))
+    }
+
     return (
         <div className={classes.movieTabs}>
             <div className={classes.tabs}>
@@ -26,12 +31,15 @@ const MovieTabs = (props: Props) => {
             </div>
 
             <div className={classes.sort}>
-                <span>Sort By</span>
-                <select>
-                    <option value="release_date">Release Date</option>
-                    <option value="rating">Rating</option>
-                    <option value="runtime">Runtime</option>
-                </select>
+                <form>
+                    <label htmlFor='select'>Sort By</label>
+                    <select id="select" onChange={(choice) => setUserChoice(choice.target.value)}>
+                        <option value="release_date" >Release Date</option>
+                        <option value="rating">Rating</option>
+                        <option value="title">Title</option>
+                    </select>
+                </form>
+
             </div>
 
         </div>
