@@ -24,6 +24,41 @@
       "email": "binghidread@gmail.com",
       "password": "234234",
       "id": 5
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "123213",
+      "id": 6
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "78",
+      "id": 7
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "5656",
+      "id": 8
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "213",
+      "id": 9
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "234324",
+      "id": 10
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "12",
+      "id": 11
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "232",
+      "id": 12
     }
   ],
   "movies": [
@@ -177,6 +212,19 @@
       "rating": 10,
       "runtime": 8,
       "overview": "eminem dalol"
+    },
+    {
+      "id": 0.04944487302766376,
+      "title": "eded",
+      "thumbnail": "https://www.elozetes.hu/img2/original/wddyr5H8KtK2ofv09pMDsVMIZPH.jpg",
+      "genre": [
+        "Documentary",
+        "Horror"
+      ],
+      "release_date": "2022",
+      "rating": 10,
+      "runtime": 8,
+      "overview": "eded"
     }
   ]
 }

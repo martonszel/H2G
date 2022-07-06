@@ -4,11 +4,13 @@ import { apiSlice } from "./movie-api-slice";
 
 
 interface UserState {
-    user: User | null
+    email: string,
+    password: string
 }
 
 const initialState: UserState = {
-    user: null,
+    email: '',
+    password: ''
 }
 
 export const userSlice = createSlice({
@@ -19,8 +21,18 @@ export const userSlice = createSlice({
         setUser: (state, action: PayloadAction<User>) => {
             console.log(action.payload);
 
-            state.user = action.payload;
+            state.email = action.payload.email;
+            state.password = action.payload.password;
         },
+    },
+    extraReducers: (builder) => {
+        builder.addMatcher(
+            apiSlice.endpoints.loginUser.matchFulfilled,
+            (state, { payload }) => {
+                state.email = payload.email
+                state.password = payload.password
+            }
+        )
     },
 });
 
