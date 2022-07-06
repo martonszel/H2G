@@ -21,7 +21,7 @@ const MovieCard: React.FC<Props> = ({ movie }) => {
             <div className={classes.poster}><img onClick={() => dispatch(getOneMovie(movie))} src={movie.thumbnail !== 'N/A' ? movie.thumbnail : 'https://via.placeholder.com/400'} alt={movie.title} /></div>
             <div className={classes.details}>
                 <h2>{movie.title} ({movie.release_date})</h2><span></span>
-                <div className={classes.tags}>{movie.genre}</div>
+                <div className={classes.tags}>{movie.genre.map((e) => `${e} `)}</div>
             </div>
         </div>
     )

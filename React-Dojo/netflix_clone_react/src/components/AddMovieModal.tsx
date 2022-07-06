@@ -4,6 +4,7 @@ import classes from './AddMovieModal.module.css'
 import Multiselect from 'multiselect-react-dropdown';
 import { useState } from "react";
 import logo from '../assets/success.png'
+import { useAddMoviesMutation } from '../features/movie-api-slice';
 
 type Props = {
     show: boolean
@@ -13,21 +14,30 @@ type Props = {
 const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
 
     const [title, setTitle] = useState<string>('');
-    const [url, setURL] = useState<string>('');
-    const [genres, setGenre] = useState<string[]>([])
+    const [thumbnail, setURL] = useState<string>('');
+    const [genre, setGenre] = useState<string[]>([])
     const [release, setRelease] = useState<string>('');
     const [rating, setRating] = useState<number>();
     const [runtime, setRuntime] = useState<number>();
     const [overview, setOverview] = useState<string>('');
     const [isSubmitted, setSubmitted] = useState<boolean>(false);
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+
+    const [addMovie, result] = useAddMoviesMutation();
+
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        const addMoviesForm = {
-            title, url, genres, release, rating, runtime, overview
+        console.log(release);
+
+        const release_date = release.slice(0, 4)
+
+        const movie = {
+            id: Math.random(), title, thumbnail, genre, release_date, rating, runtime, overview
         }
         setSubmitted(true)
-        console.log(addMoviesForm);
+        console.log(movie);
+        console.log(result);
+        await addMovie(movie);
 
     }
 
@@ -69,7 +79,7 @@ const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
                                         </div>
                                         <div>
                                             <label htmlFor='url'>movie url</label>
-                                            <input type="text" id="url" value={url} onChange={(e) => setURL(e.currentTarget.value)} placeholder='https://' />
+                                            <input type="text" id="url" value={thumbnail} onChange={(e) => setURL(e.currentTarget.value)} placeholder='https://' />
                                         </div>
                                         <div className={classes.multiselect}>
                                             <label htmlFor='url' >genre</label>
@@ -132,7 +142,7 @@ const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
                                         </div>
                                         <div>
                                             <label htmlFor='runtime'>runtime</label>
-                                            <input type="text" id="runtime" value={runtime} onChange={(e) => setRuntime(parseInt(e.currentTarget.value))} placeholder='minutes' />
+                                            <input type="text" id="runtime" onChange={(e) => setRuntime(parseInt(e.currentTarget.value))} placeholder='minutes' />
                                         </div>
                                     </div>
 
