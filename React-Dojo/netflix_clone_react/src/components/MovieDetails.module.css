@@ -81,3 +81,8 @@
 .div5 p {
     color: #555555;
 }
+
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+}

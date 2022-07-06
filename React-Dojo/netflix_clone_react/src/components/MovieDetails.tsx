@@ -2,11 +2,25 @@ import classes from "./MovieDetails.module.css";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { reset } from "../features/movie-slice";
 import logo from "../assets/logo.png";
+import EmptyButton from "./EmptyButton";
+import FullButton from "./FullButton";
+import MovieModal from './MovieModal';
+import { useState } from "react";
 
 const MovieDetails = () => {
   const dispatch = useAppDispatch();
 
   const oneMovie = useAppSelector((state) => state.movie.oneMovie);
+  const [show, setShow] = useState<boolean>(false);
+
+  const handleEditClick = () => {
+    setShow(true)
+
+  }
+
+  const handleDeleteClick = () => {
+    setShow(true)
+  }
 
   return (
     <div className={classes.detailsContainer}>
@@ -39,7 +53,13 @@ const MovieDetails = () => {
         </div>
         <div className={classes.div5}>
           <p>{oneMovie.overview}</p>
+          <div className={classes.buttonContainer}>
+            <EmptyButton name='Delete' onClick={() => handleDeleteClick()} />
+            <FullButton name='Edit' onClick={() => handleEditClick()} />
+          </div>
         </div>
+        <MovieModal hide={() => setShow(false)}
+          show={show}  />
       </div>
     </div>
   );

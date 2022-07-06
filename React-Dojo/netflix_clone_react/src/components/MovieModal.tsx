@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import classes from './AddMovieModal.module.css'
+import classes from './MovieModal.module.css'
 import Multiselect from 'multiselect-react-dropdown';
 import { useState } from "react";
 import logo from '../assets/success.png'
@@ -9,6 +9,7 @@ import { useAddMoviesMutation } from '../features/movie-api-slice';
 type Props = {
     show: boolean
     hide: () => void;
+
 }
 
 const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
