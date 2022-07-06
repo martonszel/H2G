@@ -23,8 +23,16 @@ export const apiSlice = createApi({
                 }),
                 invalidatesTags: ['Movies'],
             }),
+            loginUser: builder.mutation({
+                query: (data) => ({
+                    url: "/login",
+                    method: "POST",
+                    body: data
+                }),
+            }),
+
         }
     },
 })
 
-export const { useFetchMoviesQuery, useAddMoviesMutation } = apiSlice
+export const { useFetchMoviesQuery, useAddMoviesMutation, useLoginUserMutation } = apiSlice

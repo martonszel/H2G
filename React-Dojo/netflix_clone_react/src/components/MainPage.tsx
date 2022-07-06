@@ -1,6 +1,6 @@
 import React from 'react'
-import MovieCard from '../components/MovieCard';
-import MovieTabs from '../components/MovieTabs';
+import MovieCard from './MovieCard';
+import MovieTabs from './MovieTabs';
 import { useAppSelector } from "../store/hooks";
 
 

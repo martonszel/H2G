@@ -1,4 +1,31 @@
 {
+  "login": [
+    {
+      "email": "binghidread@gmail.com",
+      "password": "121212",
+      "id": 1
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "12323",
+      "id": 3
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "123213123",
+      "id": 4
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "234234",
+      "id": 5
+    }
+  ],
   "movies": [
     {
       "id": "8a3ec55b-b0a4-4ebd-a56e-ef618f40dffc",

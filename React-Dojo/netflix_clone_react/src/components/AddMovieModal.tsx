@@ -27,7 +27,6 @@ const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log(release);
 
         const release_date = release.slice(0, 4)
 
@@ -35,8 +34,6 @@ const AddMovieModal: React.FC<Props> = ({ show, hide }) => {
             id: Math.random(), title, thumbnail, genre, release_date, rating, runtime, overview
         }
         setSubmitted(true)
-        console.log(movie);
-        console.log(result);
         await addMovie(movie);
 
     }

@@ -1,19 +1,29 @@
 import React from 'react'
 import classes from './Login.module.css'
 import { useState } from "react";
+import { useLoginUserMutation } from '../features/movie-api-slice';
+import { useAppDispatch } from '../store/hooks'
+import { setUser } from '../features/user-slice';
+import { useNavigate } from "react-router-dom";
 
 const Login: React.FC = () => {
 
     const [email, setEmail] = useState<string>('');
     const [password, setPassword] = useState<string>('');
+    const [addUser, result] = useLoginUserMutation();
+    const dispatch = useAppDispatch()
+    const navigate = useNavigate();
 
-
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const user = {
             email, password
         }
         console.log(user);
+        await addUser(user);
+        dispatch(setUser)
+        navigate("/private");
+
     }
 
     const resetForm = () => {

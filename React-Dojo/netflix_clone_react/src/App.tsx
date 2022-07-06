@@ -5,7 +5,7 @@ import { useState } from "react";
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 const App: React.FC = () => {
 
@@ -15,8 +15,9 @@ const App: React.FC = () => {
   return (
     <div className="App" >
       <Routes>
+        <Route path='/' element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/private" element={<Dashboard />} />
       </Routes>
     </div >
   );
