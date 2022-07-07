@@ -281,6 +281,137 @@
       "genre": [],
       "release_date": "",
       "overview": ""
+    },
+    {
+      "id": 0.5784067923609237,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.22825133799886,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.4386936333173268,
+      "title": "eminem",
+      "thumbnail": "https://www.elozetes.hu/img2/original/wddyr5H8KtK2ofv09pMDsVMIZPH.jpg",
+      "genre": [
+        "Crime",
+        "Horror"
+      ],
+      "release_date": "2022",
+      "rating": 10,
+      "runtime": 8,
+      "overview": "dede"
+    },
+    {
+      "id": 0.0991351897626156,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.9992728551022265,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.3601318557097255,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.4103475023673926,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.3042859676564569,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.1895823008438926,
+      "title": "wdqw",
+      "thumbnail": "wdqwd",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.36557294815176755,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.9036345670820487,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.8721829602757893,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.1973649096536778,
+      "title": "sadqw",
+      "thumbnail": "https://www.elozetes.hu/img2/original/wddyr5H8KtK2ofv09pMDsVMIZPH.jpg",
+      "genre": [
+        "Documentary"
+      ],
+      "release_date": "2022",
+      "rating": 12,
+      "runtime": 12,
+      "overview": "qwdwd"
+    },
+    {
+      "id": 0.06388309208711207,
+      "title": "213123",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.9371573674905649,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "rating": 0,
+      "runtime": 0,
+      "overview": ""
     }
   ]
 }

@@ -4,13 +4,13 @@ import MovieTabs from './MovieTabs';
 import { useAppSelector } from "../store/hooks";
 
 
-
 type Props = {}
 
 const MainPage: React.FC = (props: Props) => {
 
     const movies = useAppSelector((state) => state.movie.movies);
     const filteredMovies = useAppSelector((state) => state.movie.filteredMovies);
+
 
     return (
 

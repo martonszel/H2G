@@ -4,22 +4,24 @@ import { reset } from "../features/movie-slice";
 import logo from "../assets/logo.png";
 import EmptyButton from "./EmptyButton";
 import FullButton from "./FullButton";
-import MovieModal from './MovieModal';
 import { useState } from "react";
+import DeleteModal from "./Modals/DeleteModal";
+import ModalContainer from "./Modals/ModalContainer";
+import FormModal from "./Modals/FormModal";
 
 const MovieDetails = () => {
   const dispatch = useAppDispatch();
 
   const oneMovie = useAppSelector((state) => state.movie.oneMovie);
-  const [show, setShow] = useState<boolean>(false);
+  const [showFormModal, setShowFormModal] = useState<boolean>(false);
+  const [showDeleteModal, setShowDeleteModal] = useState<boolean>(false);
 
   const handleEditClick = () => {
-    setShow(true)
-
+    setShowFormModal(true)
   }
 
   const handleDeleteClick = () => {
-    setShow(true)
+    setShowDeleteModal(true)
   }
 
   return (
@@ -58,8 +60,8 @@ const MovieDetails = () => {
             <FullButton name='Edit' onClick={() => handleEditClick()} />
           </div>
         </div>
-        <MovieModal hide={() => setShow(false)}
-          show={show}  />
+        <ModalContainer close={() => setShowDeleteModal(false)} show={showDeleteModal}> <DeleteModal close={() => setShowDeleteModal(false)} />    </ModalContainer >
+        <ModalContainer close={() => setShowFormModal(false)} show={showFormModal}> <FormModal close={() => setShowFormModal(false)} />    </ModalContainer >
       </div>
     </div>
   );

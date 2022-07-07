@@ -3,7 +3,7 @@ import classes from "./EmptyButton.module.css";
 
 type Props = {
     name: string,
-    onClick: () => void;
+    onClick?: (e: any) => void;
 }
 
 const EmptyButton: React.FC<Props> = ({ name, onClick }) => {
