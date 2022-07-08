@@ -7,36 +7,11 @@
     },
     {
       "email": "binghidread@gmail.com",
-      "password": "123",
+      "password": "qwd",
       "id": 2
-    },
-    {
-      "email": "binghidread@gmail.com",
-      "password": "324",
-      "id": 3
     }
   ],
   "movies": [
-    {
-      "title": "Thornaldo",
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-      "genre": [
-        "Documentary"
-      ],
-      "release_date": "2022",
-      "rating": "7.5",
-      "runtime": 120,
-      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
-      "id": "318119d2-67ea-4e98-a6gb-e0916f0bf3dc"
-    },
-    {
-      "title": "",
-      "thumbnail": "",
-      "genre": [],
-      "release_date": "",
-      "overview": "qwdwqd",
-      "id": "e67gb515-0b36-4f9d-a7fa-aa38150b66bb"
-    },
     {
       "title": "Star Warss",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzg4MjQxNTQtZmI5My00YjMwLWJlMjUtMmJlY2U2ZWFlNzY1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
@@ -45,6 +20,43 @@
       ],
       "release_date": "2022",
       "rating": "8.5",
+      "runtime": 99,
+      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
+      "id": "856aae4a-3593-4571-agb9-d9po40498383"
+    },
+    {
+      "title": "Pulp Fiction",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "genre": [
+        "Comedy",
+        "Crime"
+      ],
+      "release_date": "2020",
+      "rating": "10.0",
+      "runtime": 160,
+      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
+      "id": "e67fb515-0b36-4f9d-a7fa-gb3ls50b66bb"
+    },
+    {
+      "title": "Thornaldo",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
+      "genre": [
+        "Documentary"
+      ],
+      "release_date": "2025",
+      "rating": "7.5",
+      "runtime": 120,
+      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
+      "id": "318119d2-67ea-4e98-a6gb-e0916f0bf3dc"
+    },
+    {
+      "title": "Star Warss",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzg4MjQxNTQtZmI5My00YjMwLWJlMjUtMmJlY2U2ZWFlNzY1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+      "genre": [
+        "Documentary"
+      ],
+      "release_date": "1988",
+      "rating": "8.5",
       "runtime": 55,
       "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
       "id": "856aae4a-3593-4571-agb9-d95540498383"
@@ -52,7 +64,7 @@
     {
       "id": "318119d2-67ea-4gb8-a606-e0916f0bf3dc",
       "title": "Thor",
-      "release_date": "2022",
+      "release_date": "2006",
       "genre": [
         "Documentary",
         "Horror",
@@ -68,22 +80,51 @@
       "title": "Pulp Fiction",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
       "genre": [
-        "Comedy",
+        "Documentary",
         "Crime"
       ],
-      "release_date": "2022",
+      "release_date": "2010",
       "rating": "10.0",
       "runtime": 120,
       "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat.",
-      "id": "e67fb515-0b36-4f9d-a7fa-gb38150b66bb"
+      "id": "e67fb515-0b36-4f9d-a7fa-rf38150b66bb"
     },
     {
-      "id": 0.49105635039551165,
-      "title": "",
-      "thumbnail": "",
-      "genre": [],
-      "release_date": "",
-      "overview": ""
+      "title": "LOTR:The Fellowship of the Ring",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "genre": [
+        "Documentary"
+      ],
+      "release_date": "2001",
+      "rating": "8.6",
+      "runtime": 117,
+      "overview": "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend. A daunting task lies ahead for Frodo when he becomes the Ringbearer - to destroy the One Ring in the fires of Mount Doom where it was forged.",
+      "id": "e67frf15-2536-4f9d-a7fa-gb38150b66bb"
+    },
+    {
+      "title": "Superman",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+      "genre": [
+        "Comedy"
+      ],
+      "release_date": "1978",
+      "rating": "8.6",
+      "runtime": 135,
+      "overview": "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.",
+      "id": "e67fb515-2536-4f9d-a7fa-gbkk150b345b"
+    },
+    {
+      "title": "Batman",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZTM2NmZlOTEtYTI5NS00N2JjLWJkNzItMmZkNDBlYmQzNDA2XkEyXkFqcGdeQXVyMTAxODYyODI@._V1_SX300.jpg",
+      "genre": [
+        "Comedy",
+        "Horror"
+      ],
+      "release_date": "1989",
+      "rating": "8.6",
+      "runtime": 122,
+      "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+      "id": "e67fb515-2536-4f9d-a7fa-gbkk1123b66bb"
     }
   ]
 }
