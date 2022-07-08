@@ -23,6 +23,13 @@ export const apiSlice = createApi({
                 }),
                 invalidatesTags: ['Movies'],
             }),
+            deleteMovies: builder.mutation({
+                query: (id) => ({
+                    url: `/movies/${id}`,
+                    method: "DELETE",
+                }),
+                invalidatesTags: ['Movies'],
+            }),
             loginUser: builder.mutation({
                 query: (data) => ({
                     url: "/login",
@@ -35,4 +42,4 @@ export const apiSlice = createApi({
     },
 })
 
-export const { useFetchMoviesQuery, useAddMoviesMutation, useLoginUserMutation } = apiSlice
+export const { useFetchMoviesQuery, useAddMoviesMutation, useDeleteMoviesMutation, useLoginUserMutation } = apiSlice

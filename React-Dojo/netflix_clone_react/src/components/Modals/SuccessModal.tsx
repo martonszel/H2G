@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Modals.module.css'
-import logo from '../../assets/success.png'
+import logo from '../../assets/success.webp'
 
 type Props = {
     close: () => void;

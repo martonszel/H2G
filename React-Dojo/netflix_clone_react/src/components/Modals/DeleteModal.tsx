@@ -1,6 +1,9 @@
 import React from 'react'
 import FullButton from '../FullButton';
 import classes from './Modals.module.css'
+import { useDeleteMoviesMutation } from '../../features/movie-api-slice';
+import { useAppDispatch, useAppSelector } from "../../store/hooks";
+import { reset } from "../../features/movie-slice";
 
 
 type Props = {
@@ -9,8 +12,13 @@ type Props = {
 
 const DeleteModal: React.FC<Props> = ({ close }) => {
 
-    const confirmDelete = () => {
-        console.log('deleted');
+    const [deleteMovie, result] = useDeleteMoviesMutation();
+    const oneMovie = useAppSelector((state) => state.movie.oneMovie);
+    const dispatch = useAppDispatch();
+
+    const confirmDelete = async () => {
+        await deleteMovie(oneMovie.id);
+        dispatch(reset())
     }
 
     return (

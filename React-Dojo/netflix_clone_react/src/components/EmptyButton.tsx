@@ -3,6 +3,7 @@ import classes from "./EmptyButton.module.css";
 
 type Props = {
     name: string,
+    // ez miez 
     onClick?: (e: any) => void;
 }
 

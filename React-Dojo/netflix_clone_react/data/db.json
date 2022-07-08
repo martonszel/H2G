@@ -59,61 +59,14 @@
       "email": "binghidread@gmail.com",
       "password": "232",
       "id": 12
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "23423",
+      "id": 13
     }
   ],
   "movies": [
-    {
-      "id": "8a3ec55b-b0a4-4ebd-a56e-ef618f40dffc",
-      "title": "Thor",
-      "release_date": "2011",
-      "genre": [
-        "Documentary"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-      "movie_url": "https://www.imdb.com/title/tt0800369/",
-      "rating": "7.0",
-      "runtime": "115 min",
-      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat."
-    },
-    {
-      "id": "c756ce95-7ca8-4bbd-8968-6153014af7f8",
-      "title": "Pulp Fiction",
-      "release_date": "1994",
-      "genre": [
-        "Comedy"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-      "movie_url": "https://www.imdb.com/title/tt0110912/",
-      "rating": "8.9",
-      "runtime": "154 min",
-      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat."
-    },
-    {
-      "id": "9951d425-6f87-4f76-b6cf-063fc15fe2a0",
-      "title": "Stranger Things",
-      "release_date": "2016",
-      "genre": [
-        " Horror"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BODZlYjQ4NzYtZTg1MC00NGY4LTg4NjQtNGE3ZjRkMjk3YjMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
-      "movie_url": "https://www.imdb.com/title/tt4574334/",
-      "rating": "8.7",
-      "runtime": "51 min",
-      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat."
-    },
-    {
-      "id": "856aae4a-3593-4571-adc9-d95540498383",
-      "title": "Star Wars",
-      "release_date": "1977",
-      "genre": [
-        "Crime"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzg4MjQxNTQtZmI5My00YjMwLWJlMjUtMmJlY2U2ZWFlNzY1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-      "movie_url": "https://www.imdb.com/star-wars/",
-      "rating": "8.6",
-      "runtime": "121 min",
-      "overview": "As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki (Tom Hiddleston), Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat."
-    },
     {
       "id": "318119d2-67ea-4e98-a6gb-e0916f0bf3dc",
       "title": "Thor",
@@ -225,14 +178,6 @@
       "rating": 10,
       "runtime": 8,
       "overview": "eded"
-    },
-    {
-      "id": 0.16079686988110908,
-      "title": "",
-      "thumbnail": "",
-      "genre": [],
-      "release_date": "",
-      "overview": ""
     },
     {
       "id": 0.7582748291118981,
@@ -411,6 +356,104 @@
       "release_date": "",
       "rating": 0,
       "runtime": 0,
+      "overview": ""
+    },
+    {
+      "id": 0.38265195239858985,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "rating": 0,
+      "runtime": 0,
+      "overview": ""
+    },
+    {
+      "id": 0.40172745534923804,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.8336498060813888,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.34499657118845395,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.3020897527914055,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.511171357311115,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.8960160011068923,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.828863428973089,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.18750898799660187,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.02524197229398628,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.23506925982520044,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
+      "overview": ""
+    },
+    {
+      "id": 0.48075893275618053,
+      "title": "",
+      "thumbnail": "",
+      "genre": [],
+      "release_date": "",
       "overview": ""
     }
   ]

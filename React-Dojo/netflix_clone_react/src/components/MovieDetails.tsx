@@ -9,6 +9,7 @@ import DeleteModal from "./Modals/DeleteModal";
 import ModalContainer from "./Modals/ModalContainer";
 import FormModal from "./Modals/FormModal";
 
+
 const MovieDetails = () => {
   const dispatch = useAppDispatch();
 
@@ -16,11 +17,12 @@ const MovieDetails = () => {
   const [showFormModal, setShowFormModal] = useState<boolean>(false);
   const [showDeleteModal, setShowDeleteModal] = useState<boolean>(false);
 
+
   const handleEditClick = () => {
     setShowFormModal(true)
   }
 
-  const handleDeleteClick = () => {
+  const handleDeleteClick = async () => {
     setShowDeleteModal(true)
   }
 
