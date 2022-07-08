@@ -23,7 +23,7 @@ const FormModal: React.FC<Props> = ({ close, name, updatable }) => {
     const [genre, setGenre] = useState<string[]>(oneMovie.genre || [])
     const [release, setRelease] = useState<string>('');
     const [rating, setRating] = useState<number>(oneMovie.rating || 0);
-    const [runtime, setRuntime] = useState<number>();
+    const [runtime, setRuntime] = useState<number>(oneMovie.runtime || 0);
     const [overview, setOverview] = useState<string>(oneMovie.overview || '');
     const [isSubmitted, setSubmitted] = useState<boolean>(false);
 
@@ -87,7 +87,7 @@ const FormModal: React.FC<Props> = ({ close, name, updatable }) => {
                                         <Multiselect
                                             isObject={false}
                                             options={['Crime', 'Documentary', 'Horror', 'Comedy']} // Options to display in the dropdown
-
+                                            selectedValues={oneMovie.genre}
                                             onSelect={(e) => {
 
                                                 setGenre(e)

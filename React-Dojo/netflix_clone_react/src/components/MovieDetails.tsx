@@ -52,7 +52,7 @@ const MovieDetails = () => {
         </div>
         <div className={classes.div4}>
           <p>
-            {oneMovie.release_date} <span>{oneMovie.runtime}</span>
+            {oneMovie.release_date} <span>{oneMovie.runtime} min</span>
           </p>
         </div>
         <div className={classes.div5}>

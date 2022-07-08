@@ -10,7 +10,7 @@ interface MovieState {
 
 const initialState: MovieState = {
     movies: [],
-    oneMovie: { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: '', overview: '' },
+    oneMovie: { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: 0, overview: '' },
     filteredMovies: []
 }
 
@@ -24,7 +24,7 @@ const movieSlice = createSlice({
         },
 
         reset(state) {
-            state.oneMovie = { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: '', overview: '' }
+            state.oneMovie = { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: 0, overview: '' }
         },
 
         searchMovie(state, action: PayloadAction<string>) {
