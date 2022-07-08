@@ -2,38 +2,50 @@ import React from 'react'
 import classes from './Modals.module.css'
 import Multiselect from 'multiselect-react-dropdown';
 import { useState } from "react";
-import { useAddMoviesMutation } from '../../features/movie-api-slice';
+import { useAddMoviesMutation, useUpdateMoviesMutation } from '../../features/movie-api-slice';
 import EmptyButton from '../EmptyButton';
 import FullButton from '../FullButton';
 import SuccessModal from './SuccessModal';
+import { useAppDispatch, useAppSelector } from "../../store/hooks";
 
 type Props = {
     close: () => void;
+    name: string;
+    updatable: boolean
 }
 
-const FormModal: React.FC<Props> = ({ close }) => {
+const FormModal: React.FC<Props> = ({ close, name, updatable }) => {
 
-    const [title, setTitle] = useState<string>('');
-    const [thumbnail, setURL] = useState<string>('');
-    const [genre, setGenre] = useState<string[]>([])
+    const oneMovie = useAppSelector((state) => state.movie.oneMovie);
+
+    const [title, setTitle] = useState<string>(oneMovie.title || '');
+    const [thumbnail, setURL] = useState<string>(oneMovie.thumbnail || '');
+    const [genre, setGenre] = useState<string[]>(oneMovie.genre || [])
     const [release, setRelease] = useState<string>('');
-    const [rating, setRating] = useState<number>();
+    const [rating, setRating] = useState<number>(oneMovie.rating || 0);
     const [runtime, setRuntime] = useState<number>();
-    const [overview, setOverview] = useState<string>('');
+    const [overview, setOverview] = useState<string>(oneMovie.overview || '');
     const [isSubmitted, setSubmitted] = useState<boolean>(false);
 
-    const [addMovie, result] = useAddMoviesMutation();
+    const [addMovie, addResult] = useAddMoviesMutation();
+    const [updateMovie, updateResult] = useUpdateMoviesMutation();
+
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         const release_date = release.slice(0, 4)
 
+        const updatedValues = {
+            id: oneMovie.id, title, thumbnail, genre, release_date, rating, runtime, overview
+        }
+
         const movie = {
             id: Math.random(), title, thumbnail, genre, release_date, rating, runtime, overview
         }
         setSubmitted(true)
-        await addMovie(movie);
+
+        updatable ? await updateMovie(updatedValues) : await addMovie(movie);
 
     }
 
@@ -56,7 +68,7 @@ const FormModal: React.FC<Props> = ({ close }) => {
                 <div>
                     <div className={classes.modalClose} onClick={() => close()} >X</div>
                     <div className={classes.modalHeader}>
-                        <h4 className={classes.modalTitle}>Add movie</h4>
+                        <h4 className={classes.modalTitle}>{name}</h4>
                     </div>
                     <div className={classes.modalBody}>
                         <form onSubmit={(e) => handleSubmit(e)} >

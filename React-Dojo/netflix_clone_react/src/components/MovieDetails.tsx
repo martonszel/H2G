@@ -63,7 +63,7 @@ const MovieDetails = () => {
           </div>
         </div>
         <ModalContainer close={() => setShowDeleteModal(false)} show={showDeleteModal}> <DeleteModal close={() => setShowDeleteModal(false)} />    </ModalContainer >
-        <ModalContainer close={() => setShowFormModal(false)} show={showFormModal}> <FormModal close={() => setShowFormModal(false)} />    </ModalContainer >
+        <ModalContainer close={() => setShowFormModal(false)} show={showFormModal}> <FormModal name='Edit movie' updatable={true} close={() => setShowFormModal(false)} />    </ModalContainer >
       </div>
     </div>
   );
