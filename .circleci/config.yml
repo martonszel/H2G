@@ -20,7 +20,7 @@ jobs:
       - run:
           name: test
           working_directory: React-Dojo/netflix_clone_react
-          command: npm run test:ci
+          command: npm run test
 workflows:
   build_and_test:
     jobs:
