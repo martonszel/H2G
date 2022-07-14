@@ -1,11 +1,11 @@
 
 import './App.css';
 import { useState } from "react";
-import Footer from './components/Footer';
-import Header from './components/Header';
-import MainPage from './pages/MainPage';
-import Login from './pages/Login';
 
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+
+import { Routes, Route, Navigate } from "react-router-dom";
 
 const App: React.FC = () => {
 
@@ -14,20 +14,11 @@ const App: React.FC = () => {
 
   return (
     <div className="App" >
-
-      {
-        isLoggedIn ? (
-          <div className="container">
-            <Header />
-            <MainPage />
-            <Footer />
-          </div>
-        ) : (
-          <div className="container">
-            <Login />
-          </div>
-        )
-      }
+      <Routes>
+        <Route path='/' element={<Navigate to="/login" />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/private" element={<Dashboard />} />
+      </Routes>
     </div >
   );
 }

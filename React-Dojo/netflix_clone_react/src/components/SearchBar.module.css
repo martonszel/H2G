@@ -9,7 +9,7 @@
 .searchContainer>h1 {
     font-weight: 200;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: var(--letter-spacing);
     color: var(--text-color);
 }
 

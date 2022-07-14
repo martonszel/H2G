@@ -1,0 +1,88 @@
+.detailsContainer {
+    background: #232323;
+    padding: 3em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.searchButton {
+    padding: 0.5em;
+    font-size: 1em;
+    color: var(--text-color);
+    background-color: var(--primary-button-color);
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    min-height: 25em;
+    padding: 2em 0;
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 5em);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 5 / 2;
+
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+
+.div2 h1 {
+    letter-spacing: var(--letter-spacing);
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div3 p {
+    color: #555555;
+}
+
+.div4 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div4 p span,
+.div4 p {
+    color: var(--primary-button-color);
+    ;
+}
+
+.div4 p span {
+    padding-left: 2em;
+}
+
+.div5 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.div5 p {
+    color: #555555;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+}

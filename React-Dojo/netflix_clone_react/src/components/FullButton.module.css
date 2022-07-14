@@ -1,0 +1,13 @@
+.fullButton {
+    font-size: 1em;
+    padding: 1em;
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--primary-button-color);
+    font-weight: 100;
+    letter-spacing: var(--letter-spacing);
+    border-color: var(--primary-button-color);
+    border-style: solid;
+    cursor: pointer;
+    margin: 0 5px;
+}
