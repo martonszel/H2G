@@ -5,13 +5,30 @@ import { apiSlice } from "./movie-api-slice";
 interface MovieState {
     movies: Movie[]
     filteredMovies: Movie[]
-    oneMovie: Movie
+    oneMovie: Movie,
+    sortOptions: {
+        sortKey: string;
+        sortOrder: string;
+    };
+    filterOptions: {
+        genre: string;
+    };
+    searchedMovie: string,
 }
 
 const initialState: MovieState = {
     movies: [],
     oneMovie: { id: '', title: '', release_date: 0, genre: [], thumbnail: '', movie_url: '', rating: 0, runtime: 0, overview: '' },
-    filteredMovies: []
+    filteredMovies: [],
+    sortOptions: {
+        sortKey: '',
+        sortOrder: ''
+    },
+    filterOptions: {
+        genre: ''
+    },
+    searchedMovie: "",
+
 }
 
 const movieSlice = createSlice({
@@ -20,7 +37,6 @@ const movieSlice = createSlice({
     reducers: {
         getOneMovie(state, action: PayloadAction<Movie>) {
             state.oneMovie = action.payload
-            console.log(state.oneMovie);
         },
 
         reset(state) {
@@ -48,6 +64,18 @@ const movieSlice = createSlice({
             else if (action.payload === 'Crime') {
                 state.filteredMovies = state.movies.filter((e) => e.genre.includes('Crime'))
             }
+        },
+
+        setGenreFilter: (state, action) => {
+            state.filterOptions.genre = action.payload;
+        },
+        setSortParams: (state, action) => {
+            console.log(action.payload);
+            state.sortOptions.sortKey = action.payload;
+        },
+
+        setSearchedMovie: (state, action) => {
+            state.searchedMovie = action.payload;
         },
 
         sortBy(state, action: PayloadAction<string>) {
@@ -99,11 +127,11 @@ const movieSlice = createSlice({
         builder.addMatcher(
             apiSlice.endpoints.fetchMovies.matchFulfilled,
             (state, { payload }) => {
-                state.movies = payload
+                state.movies = payload // mappelni 
             }
         )
     },
 })
 
-export const { getOneMovie, reset, filterByGenre, sortBy, searchMovie } = movieSlice.actions
+export const { getOneMovie, reset, filterByGenre, sortBy, searchMovie, setGenreFilter, setSortParams, setSearchedMovie } = movieSlice.actions
 export default movieSlice.reducer

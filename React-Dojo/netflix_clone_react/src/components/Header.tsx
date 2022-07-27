@@ -18,7 +18,9 @@ const Header = (props: Props) => {
             <div className={classes.content}>
                 <img className={classes.logo} src={logo} alt="Netflix Logo" />
                 <button onClick={() => setShowFormModal(true)} className={classes.button}>+Add Movie</button>
-                <ModalContainer close={() => setShowFormModal(false)} show={showFormModal}> <FormModal name='Add Movie' updatable={false} close={() => setShowFormModal(false)} /></ModalContainer >
+                <ModalContainer show={showFormModal}>
+                    <FormModal name='Add Movie' updatable={false} close={() => setShowFormModal(false)} />
+                </ModalContainer >
             </div>
             <SearchBar />
         </div>

@@ -4,11 +4,10 @@ import ReactDOM from 'react-dom';
 
 type Props = {
     show: boolean;
-    close: () => void;
     children: React.ReactNode;
 }
 
-const ModalContainer: React.FC<Props> = ({ show, close, children }) => {
+const ModalContainer: React.FC<Props> = ({ show,  children }) => {
 
     if (!show) {
         return null

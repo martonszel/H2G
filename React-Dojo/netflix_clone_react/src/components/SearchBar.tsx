@@ -3,6 +3,7 @@ import classes from "./SearchBar.module.css";
 import { useState } from "react";
 import { useAppDispatch } from "../store/hooks";
 import { searchMovie } from "../features/movie-slice";
+import { setSearchedMovie } from "../features/movie-slice";
 type Props = {}
 
 const SearchBar = (props: Props) => {
@@ -11,11 +12,11 @@ const SearchBar = (props: Props) => {
     const dispatch = useAppDispatch();
 
     const searchMovies = (title: string) => {
-        dispatch(searchMovie(title))
+        dispatch(setSearchedMovie(title))
     }
 
     const keyBoardPress = (title: string) => {
-        dispatch(searchMovie(title))
+        dispatch(setSearchedMovie(title))
     }
 
     return (

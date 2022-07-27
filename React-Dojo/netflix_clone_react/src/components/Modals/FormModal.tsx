@@ -155,7 +155,7 @@ const FormModal: React.FC<Props> = ({ close, name, updatable }) => {
                             </div>
 
                             <div className={classes.modalFooter}>
-                                <EmptyButton name='reset' onClick={(e: any) => handleReset(e)} />
+                                <EmptyButton name='reset' onClick={handleReset} />
                                 <FullButton name='submit' />
                             </div>
 
