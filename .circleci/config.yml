@@ -8,19 +8,19 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: v1-deps-{{ checksum "Module-3-Javascript-Coding-Task/package-lock.json" }}
+          key: v1-deps-{{ checksum "React-Dojo/netflix_clone_react/package-lock.json" }}
       - run: 
           name: install
-          working_directory: Module-3-Javascript-Coding-Task
+          working_directory: React-Dojo/netflix_clone_react
           command: npm i
       - save_cache:
-          key: v1-deps-{{ checksum "Module-3-Javascript-Coding-Task/package-lock.json" }}
+          key: v1-deps-{{ checksum "React-Dojo/netflix_clone_react/package-lock.json" }}
           paths:
-            - Module-3-Javascript-Coding-Task/node_modules
+            - React-Dojo/netflix_clone_react//node_modules
       - run:
           name: test
-          working_directory: Module-3-Javascript-Coding-Task
-          command: npm run test:ci
+          working_directory: React-Dojo/netflix_clone_react
+          command: npm run test
 workflows:
   build_and_test:
     jobs:

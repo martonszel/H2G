@@ -19,7 +19,7 @@
     background: var(--content-primary-background-color);
 }
 
-.sort span {
+.sort label {
     color: var(--page-background-color);
     font-size: 1em;
     letter-spacing: var(--letter-spacing);

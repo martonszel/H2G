@@ -36,19 +36,24 @@
 }
 
 .flexRight {
-    width: calc(25% - 10px);
+    width: calc(30% - 10px);
 }
 
-.flexRight input {
-    width: calc(90% - 10px);
-}
 
-.modalTitle {
+.modalClose {
+    float: right;
+    cursor: pointer;
     font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: var(--letter-spacing);
-    margin: 0 0.5em;
-    font-weight: 200;
+}
+
+.contentContainer {
+    padding: 2em;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.contentContainer img {
+    width: 5%;
 }
 
 .modalBody {
@@ -74,7 +79,7 @@
     font-size: 1.5em;
     padding: 0.5em;
     min-height: 2em;
-    width: 60%;
+    width: 75%;
 }
 
 .modalBody label {
@@ -97,45 +102,12 @@
     padding: 10px !important
 }
 
-.modalClose {
-    cursor: pointer;
-    float: right;
-    padding: 0 1em;
-    font-size: 2em;
-}
-
 .modalFooter {
     float: right;
     padding: 1em 1em;
 }
 
-.modalButton {
-    font-size: 1.5em;
-    padding: 1em;
-    margin: 0 1em;
-    background-color: transparent;
-    color: var(--primary-button-color);
-    letter-spacing: var(--letter-spacing);
-    border-color: var(--primary-button-color);
-    text-transform: uppercase;
-    border-style: solid;
-}
 
 ::-webkit-calendar-picker-indicator {
     filter: invert(1);
-}
-
-.succesful {
-    padding: 2em;
-    text-align: center;
-}
-
-.succesful img {
-    width: 5%;
-}
-
-.modalCloseSuccess {
-    float: right;
-    cursor: pointer;
-    font-size: 2em;
 }

@@ -1,0 +1,13 @@
+.emptyButton {
+    font-size: 1em;
+    padding: 1em;
+    color: var(--primary-button-color);
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 100;
+    letter-spacing: var(--letter-spacing);
+    border-color: var(--primary-button-color);
+    border-style: solid;
+    cursor: pointer;
+    margin: 0 5px;
+}
