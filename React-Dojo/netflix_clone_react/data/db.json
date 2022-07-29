@@ -4,6 +4,11 @@
       "email": "binghidread@gmail.com",
       "password": "121212",
       "id": 1
+    },
+    {
+      "email": "binghidread@gmail.com",
+      "password": "123123",
+      "id": 2
     }
   ],
   "movies": [

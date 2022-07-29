@@ -6,10 +6,12 @@ import { useAppDispatch } from '../store/hooks'
 import { setUser } from '../features/user-slice';
 import { useNavigate } from "react-router-dom";
 
-const Login: React.FC = () => {
+const Login = () => {
+
 
     const [email, setEmail] = useState<string>('');
     const [password, setPassword] = useState<string>('');
+
     const [addUser, result] = useLoginUserMutation();
     const dispatch = useAppDispatch()
     const navigate = useNavigate();
@@ -62,7 +64,7 @@ const Login: React.FC = () => {
 
     )
 
-
 }
+
 
 export default Login
